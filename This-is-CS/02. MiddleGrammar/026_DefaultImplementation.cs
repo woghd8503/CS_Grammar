@@ -46,7 +46,7 @@ namespace DefaultImplementation
 {
     interface ILogger
     {
-        void WriteLog(string message);
+        void WriteLog(string message); 
 
         void WriteError(string error) // 새로운 메소드 추가
         {
@@ -72,7 +72,7 @@ namespace DefaultImplementation
 
             ConsoleLogger clogger = new ConsoleLogger();
             clogger.WriteLog("System Up");  // OK
-            //clogger.WriteError("System Fail"); // 컴파일 에러
+            // clogger.WriteError("System Fail"); // 컴파일 에러
         }
     }
 
