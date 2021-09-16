@@ -46,6 +46,8 @@ namespace _0002.MiddleGrammar
         // URL : www.microsoft.com
 
         // Hashtable ht = new Hashtable();
+
+        // /* 1) */ = "Microsoft";
         // ht["URL"] = /* 2) */;
         
         // Console.WriteLine("회사 : {0}", /* 3) */  );
