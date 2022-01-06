@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yOa9WswWp+tcRKua4Bcw+CAit5D23IHNf648VKHtFRGcK/Dc9a8/edK2sXtmWBL1q9T9DoebB1aZ3tDJcTzeuw==",
+  "dgSpecHash": "qW5EwMf+wmwYRHao9F/sOQStJ3arx5g5XzfmuIQUVlDhNfwpoKitTh+4AlFgYBC7acK4O5Hmm3WplD4E2Q3WXg==",
   "success": true,
   "projectFilePath": "D:\\01.Coding_study\\CS_ThisIsCS\\CS_Grammar\\CS_Grammar\\This-is-CS\\03.AdvanceGrammar\\0003. AdvanceGrammar.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\dynamiclanguageruntime\\1.3.3\\dynamiclanguageruntime.1.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
