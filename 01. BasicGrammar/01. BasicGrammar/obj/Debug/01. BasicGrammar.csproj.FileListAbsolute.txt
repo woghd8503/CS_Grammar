@@ -1,0 +1,7 @@
+D:\ParkJaeHong\CodingStudy\This_is_CS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.exe.config
+D:\ParkJaeHong\CodingStudy\This_is_CS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.exe
+D:\ParkJaeHong\CodingStudy\This_is_CS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.pdb
+D:\ParkJaeHong\CodingStudy\This_is_CS\01. BasicGrammar\01. BasicGrammar\obj\Debug\01. BasicGrammar.csproj.AssemblyReference.cache
+D:\ParkJaeHong\CodingStudy\This_is_CS\01. BasicGrammar\01. BasicGrammar\obj\Debug\01. BasicGrammar.csproj.CoreCompileInputs.cache
+D:\ParkJaeHong\CodingStudy\This_is_CS\01. BasicGrammar\01. BasicGrammar\obj\Debug\_01.BasicGrammar.exe
+D:\ParkJaeHong\CodingStudy\This_is_CS\01. BasicGrammar\01. BasicGrammar\obj\Debug\_01.BasicGrammar.pdb
