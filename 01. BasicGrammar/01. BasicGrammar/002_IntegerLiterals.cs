@@ -13,7 +13,10 @@ namespace _01.BasicGrammar
             byte a = 240;       // 10진수 리터럴
             Console.WriteLine($"a={a}");
 
-            by
+            byte b = 0b1111_0000; // 2진수 리터럴
+            Console.WriteLine($"b={b}");
+
+            byte c = 0 
         }
     }
 }
