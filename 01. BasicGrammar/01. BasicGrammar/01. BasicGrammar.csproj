@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="001_IntegralType.cs" />
     <Compile Include="002_IntegerLiterals.cs" />
+    <Compile Include="003_SignedUsigned.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
