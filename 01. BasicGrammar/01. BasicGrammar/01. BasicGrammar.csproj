@@ -49,6 +49,7 @@
     <None Include="004_Overflow.cs" />
     <None Include="005_FloatingPoint.cs" />
     <Compile Include="006_Decimal.cs" />
+    <Compile Include="Char.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
