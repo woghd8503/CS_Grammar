@@ -47,7 +47,8 @@
     <None Include="002_IntegerLiterals.cs" />
     <None Include="003_SignedUsigned.cs" />
     <None Include="004_Overflow.cs" />
-    <Compile Include="005_FloatingPoint.cs" />
+    <None Include="005_FloatingPoint.cs" />
+    <Compile Include="006_Decimal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
