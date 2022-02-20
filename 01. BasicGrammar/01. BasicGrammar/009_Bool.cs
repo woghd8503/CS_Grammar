@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class Bool
+    class String
     {
         static void Main(string[] args)
         {
-            string a = "안녕하세요?";
-            string b = "백상현입니다.";
+            bool a = true;
+            bool b = false;
 
             Console.WriteLine(a);
             Console.WriteLine(b);
