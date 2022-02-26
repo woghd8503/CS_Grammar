@@ -56,8 +56,7 @@
     <None Include="011_BoxingUnboxing.cs" />
     <None Include="012_InterralConversion.cs" />
     <None Include="013_FloatConversion.cs" />
-    <None Include="014_SignedUnsignedConversion.cs" />
-    <Compile Include="Char.cs" />
+    <Compile Include="014_SignedUnsignedConversion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
