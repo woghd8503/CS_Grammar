@@ -10,7 +10,7 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-
+            int a = 500;
 
         }
     }
