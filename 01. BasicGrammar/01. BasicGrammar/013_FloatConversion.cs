@@ -22,6 +22,8 @@ namespace _01.BasicGrammar
 
             double y = (double)x;
             Console.WriteLine("y : {0}", y);
+
+            Console.WriteLine("0.1 == y : {0}", 0.1 == y);
         }
     }
 }
