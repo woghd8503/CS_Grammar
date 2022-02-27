@@ -56,7 +56,8 @@
     <None Include="011_BoxingUnboxing.cs" />
     <None Include="012_InteralConversion.cs" />
     <None Include="013_FloatConversion.cs" />
-    <Compile Include="018_Enum.cs" />
+    <None Include="018_Enum.cs" />
+    <Compile Include="019_Enum2.cs" />
     <None Include="017_Constant.cs" />
     <None Include="016_StringNumberConversion.cs" />
     <None Include="015_FloatToIntegral.cs" />
