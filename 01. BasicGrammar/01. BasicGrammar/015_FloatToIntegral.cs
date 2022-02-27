@@ -10,21 +10,13 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-            int a = 123;
-            string b = a.ToString();
+            float a = 0.9f;
+            int b = (int)a;
             Console.WriteLine(b);
 
-            float c = 3.14f;
-            string d = c.ToString();
+            float c = 1.1f;
+            int d = (int)c;
             Console.WriteLine(d);
-
-            string e = "123456";
-            int f = Convert.ToInt32(e);
-            Console.WriteLine(f);
-
-            string g = "1.2345";
-            float h = float.Parse(g);
-            Console.WriteLine(h);
         }
     }
 }
