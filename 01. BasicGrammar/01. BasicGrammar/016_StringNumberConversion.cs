@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class FloatConversion
+    class StringNumberConversion
     {
         static void Main(string[] args)
         {
