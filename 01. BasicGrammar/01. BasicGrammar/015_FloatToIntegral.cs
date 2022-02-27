@@ -10,18 +10,13 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-            int a = 500;
-            Console.WriteLine(a);
-
-            uint b = (uint)a;
+            float a = 0.9f;
+            int b = (int)a;
             Console.WriteLine(b);
 
-            int x = -30;
-            Console.WriteLine(x);
-
-            uint y = (uint)x;
-            Console.WriteLine(y);  // 언더플로우
-
+            float c = 1.1f;
+            int d = (int)c;
+            Console.WriteLine(d);
         }
     }
 }
