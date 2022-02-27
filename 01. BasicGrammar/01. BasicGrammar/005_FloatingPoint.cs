@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class _005_FloatingPoint
+    class FloatingPoint
     {
         static void Main(string[] args)
         {

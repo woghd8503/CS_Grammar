@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class _006_Decimal
+    class Decimal
     {
         static void Main(string[] args)
         {

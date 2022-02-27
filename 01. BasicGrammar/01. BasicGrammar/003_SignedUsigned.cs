@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class _003_SignedUsigned
+    class SignedUsigned
     {
         static void Main(string[] args)
         {

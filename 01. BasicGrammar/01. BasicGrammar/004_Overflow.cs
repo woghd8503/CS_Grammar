@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class _Overflow
+    class Overflow
     {
         static void Main(string[] args)
         {

@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class BoxingUnboxing
+    class FloatConversion
     {
         static void Main(string[] args)
         {
-            int a = 123;
-            object b = (object)a;   // a에 담긴 값을 박싱해서 힙에 저장
-            int c = (int)b;         // b에 담긴 값을 언박싱해서 스택에 저장
-
+            int a = 500;
             Console.WriteLine(a);
+
+            uint b = (uint)a;
             Console.WriteLine(b);
-            Console.WriteLine(c);
+
+            int x = -30;
+            Console.WriteLine(x);
+
+            uint y = (uint)x;
+            Console.WriteLine(y);  // 언더플로우
+
         }
     }
 }

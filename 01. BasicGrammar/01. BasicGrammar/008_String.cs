@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class Bool
+    class String
     {
         static void Main(string[] args)
         {

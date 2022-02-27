@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class SignedUnsignedConversion
+    class FloatConversion
     {
         static void Main(string[] args)
         {

@@ -54,9 +54,10 @@
     <None Include="009_Bool.cs" />
     <None Include="010_Object.cs" />
     <None Include="011_BoxingUnboxing.cs" />
-    <None Include="012_InterralConversion.cs" />
+    <None Include="012_InteralConversion.cs" />
     <None Include="013_FloatConversion.cs" />
-    <Compile Include="014_SignedUnsignedConversion.cs" />
+    <Compile Include="015_FloatToIntegral.cs" />
+    <None Include="014_SignedUnsignedConversion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
