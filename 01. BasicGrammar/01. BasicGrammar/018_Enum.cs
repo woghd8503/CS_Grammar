@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace _01.BasicGrammar
 {
-    class FloatConversion
+    class Enum
     {
+        enum DialogResult { YES, NO, CANCEL, CONFIRM, OK }
         static void Main(string[] args)
         {
-            const int MAX_INT = 2147483647;
-            const int MIN_INT = -2147483648;
+            Console.WriteLine((int)DialogResult.YES);
+            Console.WriteLine((int)DialogResult.NO);
+            Console.WriteLine((int)DialogResult.CANCEL);
+            Console.WriteLine((int)DialogResult.CONFIRM);
+            Console.WriteLine((int)DialogResult.OK);
 
-            Console.WriteLine(MAX_INT);
-            Console.WriteLine(MIN_INT);
         }
     }
 }
