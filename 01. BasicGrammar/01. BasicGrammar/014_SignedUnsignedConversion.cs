@@ -10,6 +10,10 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
+            int a = 500;
+            Console.WriteLine(a);
+
+            uint b = (uint)a;
 
         }
     }
