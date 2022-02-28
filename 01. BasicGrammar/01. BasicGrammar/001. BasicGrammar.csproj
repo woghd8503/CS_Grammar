@@ -57,13 +57,14 @@
     <None Include="012_InteralConversion.cs" />
     <None Include="013_FloatConversion.cs" />
     <None Include="018_Enum.cs" />
-    <Compile Include="021_Nullable.cs" />
+    <None Include="021_Nullable.cs" />
     <None Include="020_Enum3.cs" />
     <None Include="019_Enum2.cs" />
     <None Include="017_Constant.cs" />
     <None Include="016_StringNumberConversion.cs" />
     <None Include="015_FloatToIntegral.cs" />
     <None Include="014_SignedUnsignedConversion.cs" />
+    <Compile Include="022_UsingVar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
