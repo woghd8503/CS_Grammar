@@ -21,7 +21,8 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-
+            var a = 20;
+            Console.WriteLine("Type: {0}, Value: {1}", a.GetType(), a);
         }
     }
 }
