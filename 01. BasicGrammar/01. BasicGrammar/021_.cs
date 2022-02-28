@@ -8,7 +8,7 @@ namespace _01.BasicGrammar
 {
     class Enum3
     {
-        enum DialogResult { YES = 10, NO, CANCEL, CONFIRM = 50, OK }
+        enum DialogResult { YES, NO, CANCEL, CONFIRM, OK }
         static void Main(string[] args)
         {
 
