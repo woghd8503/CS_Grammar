@@ -17,7 +17,8 @@ namespace _01.BasicGrammar
             WriteLine();
 
             // IndexOf()
-            WriteLine("IndexOf 'Good' : {0}", greeting.IndexOf("Good")); 
+            WriteLine("IndexOf 'Good' : {0}", greeting.IndexOf("Good"));
+            WriteLine("IndexOf 'o' : {0}", greeting.IndexOf("o"));
 
         }
     }
