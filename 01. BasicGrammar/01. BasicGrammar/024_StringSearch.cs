@@ -36,6 +36,8 @@ namespace _01.BasicGrammar
             WriteLine("Contains 'Evening' : {0}", greeting.Contains("Evening"));
             WriteLine("Contains 'Morning' : {0}", greeting.Contains("Morning"));
 
+            // Replace()
+            WriteLine("Replaced 'Morning' with 'Evening': {0}", greeting.Replace("Morning", "Evening"));
         }
     }
 }
