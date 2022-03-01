@@ -65,7 +65,8 @@
     <None Include="015_FloatToIntegral.cs" />
     <None Include="014_SignedUnsignedConversion.cs" />
     <None Include="022_UsingVar.cs" />
-    <Compile Include="023_CTS.cs" />
+    <None Include="023_CTS.cs" />
+    <Compile Include="024_StringSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
