@@ -21,7 +21,12 @@ namespace _01.BasicGrammar
             WriteLine("IndexOf 'o' : {0}", greeting.IndexOf("o"));
 
             // LastIndexOf()
-            WriteLine("LastIndexOf()")
+            WriteLine("LastIndexOf 'Good' : {0}", greeting.LastIndexOf("Good"));
+            WriteLine("LastIndexOf 'o' : {0}", greeting.LastIndexOf("o"));
+
+            // StartWith()
+            WriteLine("StartsWith 'Good' : {0}", greeting.StartsWith("Good"));
+            WriteLine("StartsWith 'o' : {0}", greeting.StartsWith("o"));
 
         }
     }
