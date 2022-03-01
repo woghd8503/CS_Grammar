@@ -20,6 +20,9 @@ namespace _01.BasicGrammar
             WriteLine("IndexOf 'Good' : {0}", greeting.IndexOf("Good"));
             WriteLine("IndexOf 'o' : {0}", greeting.IndexOf("o"));
 
+            // LastIndexOf()
+            WriteLine("LastIndexOf()")
+
         }
     }
 }
