@@ -26,7 +26,15 @@ namespace _01.BasicGrammar
 
             // StartWith()
             WriteLine("StartsWith 'Good' : {0}", greeting.StartsWith("Good"));
-            WriteLine("StartsWith 'o' : {0}", greeting.StartsWith("o"));
+            WriteLine("StartsWith 'Morning' : {0}", greeting.StartsWith("Morning"));
+
+            // EndWith()
+            WriteLine("EndWith 'Good' : {0}", greeting.StartsWith("Good"));
+            WriteLine("EndWith 'Morning' : {0}", greeting.StartsWith("Morning"));
+
+            // Contains()
+            WriteLine("Contains 'Evening' : {0}", greeting.Contains("Evening"));
+            WriteLine("Contains 'Morning' : {0}", greeting.Contains("Morning"));
 
         }
     }
