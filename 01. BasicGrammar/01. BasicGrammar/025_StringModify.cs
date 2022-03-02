@@ -13,6 +13,8 @@ namespace _01.BasicGrammar
         {
             WriteLine("ToLower() : '{0}'", "ABC".ToLower());
             WriteLine("ToUpper() : '{0}'", "abc".ToUpper());
+
+            WriteLine("Insert() : '{0}'", "Happy Friday!".Insert(5, " Sunny"));
         }
     }
 }
