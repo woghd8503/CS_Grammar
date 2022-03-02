@@ -12,6 +12,7 @@ namespace _01.BasicGrammar
         static void Main(string[] args)
         {
             WriteLine("ToLower() : '{0}'", "ABC".ToLower());
+            WriteLine("ToUpper() : '{0}'", "abc".ToUpper());
         }
     }
 }
