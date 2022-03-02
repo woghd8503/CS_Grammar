@@ -66,8 +66,9 @@
     <None Include="014_SignedUnsignedConversion.cs" />
     <None Include="022_UsingVar.cs" />
     <None Include="023_CTS.cs" />
-    <Compile Include="025_StringModify.cs" />
+    <None Include="025_StringModify.cs" />
     <None Include="024_StringSearch.cs" />
+    <Compile Include="026_StringSlice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
