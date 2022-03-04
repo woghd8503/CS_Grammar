@@ -7,22 +7,16 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class StringSlice
+    class MainApp
     {
         static void Main(string[] args)
         {
-            string greeting = "Good morning";
+            string fmt = "{0,-20}{1,-15}{2, 30}";
 
-            WriteLine(greeting.Substring(0, 5)); // "Good"
-            WriteLine(greeting.Substring(5));   // "morning"
-            WriteLine();
-
-            string[] arr = greeting.Split(
-                new string[] { " " }, StringSplitOptions.None);
-            WriteLine("World Count : {0}", arr.Length);
-
-            foreach (string element in arr)
-                WriteLine("{0}", element);
+            WriteLine(fmt, "Publisher", "Autor", "Title");
+            WriteLine(fmt, "Marvel", "Stan Lee", "Iron Man");
+            WriteLine(fmt, )
         }
+        
     }
 }
