@@ -68,7 +68,8 @@
     <None Include="023_CTS.cs" />
     <None Include="025_StringModify.cs" />
     <None Include="024_StringSearch.cs" />
-    <Compile Include="026_StringSlice.cs" />
+    <Compile Include="027_StringFormatBasic.cs" />
+    <None Include="026_StringSlice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
