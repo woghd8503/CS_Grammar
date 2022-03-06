@@ -69,7 +69,8 @@
     <None Include="025_StringModify.cs" />
     <None Include="024_StringSearch.cs" />
     <None Include="029_StringFormatDatetime.cs" />
-    <Compile Include="030_StringInterpolation.cs" />
+    <Compile Include="031_Test1.cs" />
+    <None Include="030_StringInterpolation.cs" />
     <None Include="028_StringFormatNumber.cs" />
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
