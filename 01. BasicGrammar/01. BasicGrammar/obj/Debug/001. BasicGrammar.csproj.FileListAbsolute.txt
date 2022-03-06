@@ -5,3 +5,10 @@ D:\01.Coding_study\ThisIsCS\01. BasicGrammar\01. BasicGrammar\obj\Debug\_01.Basi
 D:\01.Coding_study\ThisIsCS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.exe.config
 D:\01.Coding_study\ThisIsCS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.exe
 D:\01.Coding_study\ThisIsCS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.pdb
+C:\Project\This_is_Cs\This-is-CS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.exe.config
+C:\Project\This_is_Cs\This-is-CS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.exe
+C:\Project\This_is_Cs\This-is-CS\01. BasicGrammar\01. BasicGrammar\bin\Debug\_01.BasicGrammar.pdb
+C:\Project\This_is_Cs\This-is-CS\01. BasicGrammar\01. BasicGrammar\obj\Debug\001. BasicGrammar.csproj.AssemblyReference.cache
+C:\Project\This_is_Cs\This-is-CS\01. BasicGrammar\01. BasicGrammar\obj\Debug\001. BasicGrammar.csproj.CoreCompileInputs.cache
+C:\Project\This_is_Cs\This-is-CS\01. BasicGrammar\01. BasicGrammar\obj\Debug\_01.BasicGrammar.exe
+C:\Project\This_is_Cs\This-is-CS\01. BasicGrammar\01. BasicGrammar\obj\Debug\_01.BasicGrammar.pdb

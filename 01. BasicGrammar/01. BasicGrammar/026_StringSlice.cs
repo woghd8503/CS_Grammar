@@ -7,7 +7,7 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class MainApp
+    class StringFormatBasic
     {
         static void Main(string[] args)
         {
@@ -15,7 +15,9 @@ namespace _01.BasicGrammar
 
             WriteLine(fmt, "Publisher", "Autor", "Title");
             WriteLine(fmt, "Marvel", "Stan Lee", "Iron Man");
-            WriteLine(fmt, )
+            WriteLine(fmt, "Hanbit", "Sanghyn Park", "This is C#");
+            WriteLine(fmt, "Pretice Hall", "K&R", "The C Programming Languate");
+
         }
         
     }
