@@ -28,3 +28,5 @@ namespace _01.BasicGrammar
         }
     }
 }
+
+// 연산자 우선순위 *, /, %, +, - 순으로 처리
