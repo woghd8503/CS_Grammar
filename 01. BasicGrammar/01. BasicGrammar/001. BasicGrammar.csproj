@@ -75,7 +75,9 @@
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
     <None Include="032_ArithmaticOperators .cs" />
-    <Compile Include="033_InDecOperator.cs" />
+    <None Include="034_StringConcatenate.cs" />
+    <None Include="033_InDecOperator.cs" />
+    <None Include="035_ .cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
