@@ -74,6 +74,7 @@
     <None Include="028_StringFormatNumber.cs" />
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
+    <Compile Include="032_ArithmaticOperators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
