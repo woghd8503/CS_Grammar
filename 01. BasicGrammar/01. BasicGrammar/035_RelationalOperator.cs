@@ -8,15 +8,12 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class StringConcatenate
+    class RelationalOperator
     {
         static void Main(string[] args)
         {
-            string result = "123" + "456";
-            Console.WriteLine(result);
-
-            result = "Hello" + " " + "World!";
-            Console.WriteLine(result);
+            Console.WriteLine($"3 > 4 : {3 > 4}");
+            Console.WriteLine($"3 >= 4 : {3 >= 4}");
         }
     }
 }
