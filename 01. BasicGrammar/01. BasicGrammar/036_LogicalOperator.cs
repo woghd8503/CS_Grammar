@@ -12,7 +12,10 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Testing && ... ");
+            Console.WriteLine($"1 > 0 && 4 < 5 :{1 > 0 && 4 < 5}");
+            Console.WriteLine($"1 > 0 && 4 > 5 :{1 > 0 && 4 > 5}");
+            Console.WriteLine($"1 > 0 && 4 > 5 :{1 > 0 && 4 > 5}");
         }
     }
 }
