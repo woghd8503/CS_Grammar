@@ -20,6 +20,10 @@ namespace _01.BasicGrammar
             Console.WriteLine("a << 1 : {0:D5} (0x{0:X8})", a << 1);
             Console.WriteLine("a << 2 : {0:D5} (0x{0:X8})", a << 2);
             Console.WriteLine("a << 5 : {0:D5} (0x{0:X8})", a << 5);
+            Console.WriteLine("\nTesting >>...");
+
+            int b = 255;
+            Console.WriteLine("b      : {0:D5} (0x{0:X8})", b);
         }
     }
 }
