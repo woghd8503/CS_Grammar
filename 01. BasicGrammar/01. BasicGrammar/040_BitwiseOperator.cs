@@ -20,6 +20,8 @@ namespace _01.BasicGrammar
             Console.WriteLine($"{a} | {b} : {a | b}");
             Console.WriteLine($"{a} ^ {b} : {a ^ b}");
 
+            int c = 255;
+            Console.WriteLine("~{0}(0x{0:x8}) : {1}(0x{1:x8})", c, ~c);
         }
     }
 }
