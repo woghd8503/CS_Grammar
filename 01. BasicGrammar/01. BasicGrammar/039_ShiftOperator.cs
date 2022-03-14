@@ -24,6 +24,11 @@ namespace _01.BasicGrammar
 
             int b = 255;
             Console.WriteLine("b      : {0:D5} (0x{0:X8})", b);
+            Console.WriteLine("b >> 1 : {0:D5} (0x{0:X8})", b >> 1);
+            Console.WriteLine("b << 2 : {0:D5} (0x{0:X8})", b >> 2);
+            Console.WriteLine("b << 5 : {0:D5} (0x{0:X8})", b >> 5);
+
+            Console.WriteLine("\nTesting >> 2...");
         }
     }
 }
