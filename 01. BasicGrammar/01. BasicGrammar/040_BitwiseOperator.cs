@@ -13,15 +13,12 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-            int a = 9;
-            int b = 10;
-
-            Console.WriteLine($"{a} & {b} : {a & b}");
-            Console.WriteLine($"{a} | {b} : {a | b}");
-            Console.WriteLine($"{a} ^ {b} : {a ^ b}");
-
-            int c = 255;
-            Console.WriteLine("~{0}(0x{0:x8}) : {1}(0x{1:x8})", c, ~c);
+            int a;
+            a = 100;
+            Console.WriteLine($"a = 100 : {a}");
+            a += 90;
+            Console.WriteLine($"a += 90 : {a}");
+            a -= 90;
         }
     }
 }
