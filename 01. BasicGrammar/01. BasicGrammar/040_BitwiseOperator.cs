@@ -9,21 +9,19 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class AssignmentOperator
+    class BitwiseOperator
     {
         static void Main(string[] args)
         {
-            int a;
-            a = 100;
-            Console.WriteLine($"a = 100 : {a}");
-            a += 90;
-            Console.WriteLine($"a += 90 : {a}");
-            a -= 80;
-            Console.WriteLine($"a -= 80 : {a}");
-            a *= 70;
-            Console.WriteLine($"a *= 70 : {a}");
-            a /= 60;
-            Console.WriteLine($"a /= 60 : {a}");
+            int a = 9;
+            int b = 10;
+
+            Console.WriteLine($"{a} & {b} : {a & b}");
+            Console.WriteLine($"{a} | {b} : {a | b}");
+            Console.WriteLine($"{a} ^ {b} : {a ^ b}");
+
+            int c = 255;
+            Console.WriteLine("~{0}{0x{0:X8}) : {1}{0x{1:X8})", c, ~c);
         }
     }
 }

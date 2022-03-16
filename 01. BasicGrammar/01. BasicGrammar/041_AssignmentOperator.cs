@@ -9,19 +9,11 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class BitwiseOperator
+    class AssignmentOperator
     {
         static void Main(string[] args)
         {
-            int a = 9;
-            int b = 10;
-
-            Console.WriteLine($"{a} & {b} : {a & b}");
-            Console.WriteLine($"{a} | {b} : {a | b}");
-            Console.WriteLine($"{a} ^ {b} : {a ^ b}");
-
-            int c = 255;
-            Console.WriteLine("~{0}(0x{0:x8}) : {1}(0x{1:x8})", c, ~c);
+            
         }
     }
 }
