@@ -9,7 +9,7 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class IfIf
+    class IfElse
     {
         static void Main(string[] args)
         {
