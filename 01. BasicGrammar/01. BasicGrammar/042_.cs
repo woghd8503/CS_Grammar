@@ -21,6 +21,9 @@ namespace _01.BasicGrammar
 
             string str = null;
             Console.WriteLine($"{str ?? "Default"}");
+
+            str = "Specific";
+            Console.WriteLine($"{str ?? "Default"}");
         }
     }
 }
