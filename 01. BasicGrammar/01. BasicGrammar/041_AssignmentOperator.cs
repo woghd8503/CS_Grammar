@@ -18,6 +18,14 @@ namespace _01.BasicGrammar
             Console.WriteLine($"a = 100 : {a}");
             a += 90;
             Console.WriteLine($"a += 90 : {a}");
+            a -= 80;
+            Console.WriteLine($"a -= 80 : {a}");
+            a *= 70;
+            Console.WriteLine($"a *= 70 : {a}");
+            a /= 60;
+            Console.WriteLine($"a /= 60 : {a}");
+            a += 90;
+            Console.WriteLine($"a += 90 : {a}");
         }
     }
 }
