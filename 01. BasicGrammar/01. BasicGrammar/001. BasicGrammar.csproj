@@ -75,7 +75,7 @@
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
     <None Include="032_ArithmaticOperators .cs" />
-    <Compile Include="042_.cs" />
+    <Compile Include="042_NullCoalescing.cs" />
     <None Include="041_AssignmentOperator.cs" />
     <None Include="040_BitwiseOperator.cs" />
     <None Include="039_ShiftOperator.cs" />
