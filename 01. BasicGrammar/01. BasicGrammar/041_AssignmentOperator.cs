@@ -13,7 +13,11 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-            
+            int a;
+            a = 100;
+            Console.WriteLine($"a = 100 : {a}");
+            a += 90;
+            Console.WriteLine();
         }
     }
 }
