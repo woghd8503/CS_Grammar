@@ -30,6 +30,12 @@ namespace _01.BasicGrammar
             Console.WriteLine($"a &= 40 : {a}");
             a |= 30;
             Console.WriteLine($"a |= 30 : {a}");
+            a ^= 20;
+            Console.WriteLine($"a ^= 20 : {a}");
+            a <<= 10;
+            Console.WriteLine($"a <<= 10 : {a}");
+            a >>= 1;
+            Console.WriteLine($"a >>= 1 : {a}");
         }
     }
 }
