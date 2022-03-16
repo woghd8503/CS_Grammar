@@ -24,8 +24,12 @@ namespace _01.BasicGrammar
             Console.WriteLine($"a *= 70 : {a}");
             a /= 60;
             Console.WriteLine($"a /= 60 : {a}");
-            a += 90;
-            Console.WriteLine($"a += 90 : {a}");
+            a %= 50;
+            Console.WriteLine($"a %= 50 : {a}");
+            a &= 40;
+            Console.WriteLine($"a &= 40 : {a}");
+            a |= 30;
+            Console.WriteLine($"a |= 30 : {a}");
         }
     }
 }
