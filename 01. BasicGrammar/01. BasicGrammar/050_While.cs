@@ -19,6 +19,13 @@ namespace _01.BasicGrammar
             {
                 Console.WriteLine("a) i : {0}", i--);
             }
+            while (i > 0);
+
+            do
+            {
+                Console.WriteLine("b) i : {0}", i--);
+            }
+            while (i > 0);
         }
     }
 }
