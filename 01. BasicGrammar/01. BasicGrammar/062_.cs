@@ -12,7 +12,8 @@ using static System.Console;
 // Console 클래스의 Write()나 WriteLine() 메소드가 그런 예지요. 이런 메소드를 선언할 때는 반환 형식에 void
 // 를 넣어주면 됩니다. 그런데 void, 굉장히 낯이 익지 않습니까? Main 메소드를 선언할 때 항상 사용했잖아요.
 
-// 
+// static 한정자
+// static은 사전적으로 "정적"이라는 뜻을 갖고 있습니다.
 
 namespace _01.BasicGrammar
 {
