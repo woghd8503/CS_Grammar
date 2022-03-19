@@ -41,6 +41,21 @@ namespace _01.BasicGrammar
                 Console.WriteLine();
                 m++;
             } while (m < 5);
+
+            int o = 0;
+
+            do
+            {
+                int p = 5;
+                while (p > o)
+                {
+                    Console.Write("*");
+                    p--;
+                }
+
+                Console.WriteLine();
+                o++;
+            } while (o < 5);
         }
     }
 }
