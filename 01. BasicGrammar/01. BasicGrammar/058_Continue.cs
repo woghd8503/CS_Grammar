@@ -13,11 +13,11 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 10; i++)
             {
-                if( i != 3 )
+                if( i % 2 == 0 )
                 {
-                    Console.WriteLine( i );
+                    Console.WriteLine($"{i} : 홀수");
                 }
             }
         }
