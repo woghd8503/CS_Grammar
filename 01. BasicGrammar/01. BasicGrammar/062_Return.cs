@@ -18,31 +18,41 @@ using static System.Console;
 // 메소드와 Minus() 메소드를 static 한정자에 수식했지요? 이렇게 하면 Calculator의 인스턴스를 만들지 않고도
 // 해당 메소드를 호출할 수 있습니다.
 
+// 재귀 호출
+// 메소드가 자기 자신을 스스로 호출하는 것을 일컬어 재귀 호출 Recursive Call이라고 합니다. 조금 전의 Fibonacci()
+// 메소드가 조건에 따라 또 다시 Fibonacci() 함수 자신을 호출했지요? 이것이 재귀 호출의 예입니다. 재귀 호출은 
+// 코드를 단순하게 구성할 수 있다는 장점이 있는 한편 (재귀 호출이 없었다면 우리는 앞의 코드를 반복문으로) 구성해야
+// 했을 겁니다). 성능에는 나쁜 영향을 주기 때문에 주의해서 사용해야 합니다.
 
 namespace _01.BasicGrammar
 {
-    class Calculator
+    class Return
     {
-        public static int Plus(int a, int b)
+        static int Fibonacci(int n)
         {
-            return a + b;
+            if (n < 2)
+                return n;
+            else
+                return Fibonacci(n - 1) + Fibonacci(n - 2);
         }
 
-        public static int Minus(int a, int b)
+        static void PrintProfile(string name, string phone)
         {
-            return a - b;
+            if (name == "")
+            {
+                Console.WriteLine("이름을 입력해주세요.");
+                return;
+            }
+
+            Console.WriteLine($"Name:{name}, Phone:{phone}");
         }
-    }
 
-    class Method
-    {
-        public static void Main()
+        static void Main(string[] args)
         {
-            int result = Calculator.Plus(3, 4);
-            Console.WriteLine(result);
+            Console.WriteLine($"10번째 피보나치 수 : {Fibonacci(10)}");
 
-            result = Calculator.Minus(5, 2);
-            Console.WriteLine(result);
+            PrintProfile("", "123-4567");
+            PrintProfile("박상현", "456-1230");
         }
     }
 }
