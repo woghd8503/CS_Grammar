@@ -94,7 +94,8 @@
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
     <None Include="032_ArithmaticOperators .cs" />
-    <Compile Include="061_Method.cs" />
+    <Compile Include="062_.cs" />
+    <None Include="061_Method.cs" />
     <None Include="060_Test3.cs" />
     <None Include="059_Goto.cs" />
     <None Include="058_Continue.cs" />
