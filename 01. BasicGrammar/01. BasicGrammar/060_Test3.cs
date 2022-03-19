@@ -27,7 +27,20 @@ namespace _01.BasicGrammar
                 Console.WriteLine();
             }
 
+            int m = 0;
 
+            do
+            {
+                int n = 0;
+                while (n < m + 1)
+                {
+                    Console.Write("*");
+                    n++;
+                }
+
+                Console.WriteLine();
+                m++;
+            } while (m < 5);
         }
     }
 }
