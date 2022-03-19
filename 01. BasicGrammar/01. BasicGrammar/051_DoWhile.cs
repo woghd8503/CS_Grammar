@@ -9,15 +9,15 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class DoWhile
+    class While
     {
         static void Main(string[] args)
         {
             int i = 10;
-
-            do
+            
+            while (i > 0)
             {
-                Console.WriteLine("a) i : {0}", i--);
+                Console.WriteLine($"i : {i--}");
             }
         }
     }

@@ -94,7 +94,8 @@
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
     <None Include="032_ArithmaticOperators .cs" />
-    <Compile Include="050_While.cs" />
+    <Compile Include="051_DoWhile.cs" />
+    <None Include="050_While.cs" />
     <None Include="049_SwitchExp.cs" />
     <None Include="048_ Switch2.cs" />
     <None Include="047_Switch.cs" />
