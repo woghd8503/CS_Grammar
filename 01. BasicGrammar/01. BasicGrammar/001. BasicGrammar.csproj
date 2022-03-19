@@ -94,7 +94,8 @@
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
     <None Include="032_ArithmaticOperators .cs" />
-    <Compile Include="056_InfiniteWhile.cs" />
+    <Compile Include="057_Break.cs" />
+    <None Include="056_InfiniteWhile.cs" />
     <None Include="055_InfiniteFor.cs" />
     <None Include="054_ForEach.cs" />
     <None Include="053_ForFor.cs" />
