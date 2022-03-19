@@ -9,7 +9,7 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class InfiniteFor
+    class InfiniteWhile
     {
         static void Main(string[] args)
         {
