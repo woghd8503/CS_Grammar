@@ -9,17 +9,15 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class For
+    class ForEach
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
+            int[] arr = new int[] { 0, 1, 2, 3, 4 };
+
+            foreach(int a in arr)
             {
-                for (int j = 0; j <= i; j++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
+                Console.WriteLine(a);
             }
         }
     }
