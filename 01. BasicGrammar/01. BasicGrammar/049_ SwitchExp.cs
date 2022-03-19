@@ -9,32 +9,32 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class Switch2
+
+    class SwitchExp
     {
         static void Main(string[] args)
         {
-            object obj = null;
+            Console.WriteLine("점수를 입력하세요");
+            int score = Convert.ToInt32(Console.ReadLine());
 
-            string S = Console.ReadLine();
-            if (int.TryParse(S, out int out_i))
-                obj = out_i;
-            else if (float.TryParse(S, out float out_f))
-                obj = out_f;
-            else
-                obj = S;
+            Console.WriteLine("재수강인가요? (y/n)");
+            string line = Console.ReadLine();
+            bool repeated = line == "y" ? true : false;
 
-            switch (obj)
+            string grade = (int)(Math.Truncate(score / 10.0) * 10) switch
             {
-                case int i:
-                    Console.WriteLine($"{i}는 int 형식입니다.");
-                    break;
-                case float f:
-                    Console.WriteLine($"{f}는 float 형식입니다.");
-                    break;
-                default:
-                    Console.WriteLine($"{obj}(은)는 모르는 형식입니다.");
-                    break;
-            }
+                90 when repeated == true => "B+",
+                90 => "A",
+                80 => "B",
+                70 => "C",
+                60 => "D",
+                _ => "F"
+            };
+
+            Console.WriteLine($"학점 : {grade}");
+        }
+    }
+}
         }
     }
 }
