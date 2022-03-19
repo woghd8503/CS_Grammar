@@ -9,15 +9,13 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class While
+    class For
     {
         static void Main(string[] args)
         {
-            int i = 10;
-            
-            while (i > 0)
+            for (int i = 0; i < 5; i++)
             {
-                Console.WriteLine($"i : {i--}");
+                Console.WriteLine(i);
             }
         }
     }
