@@ -13,9 +13,14 @@ namespace _01.BasicGrammar
     {
         static void Main(string[] args)
         {
-            int i = 0;
             while (true)
-                Console.WriteLine(i++);
+            {
+                Console.WriteLine("계속할까요?(예/아니오) : ");
+                string answer = Console.ReadLine();
+
+                if (answer == "아니오")
+                    break;
+            }
         }
     }
 }
