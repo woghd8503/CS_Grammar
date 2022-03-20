@@ -28,7 +28,9 @@ namespace _01.BasicGrammar
     { 
         static void Main(string[] args)
         {
-            
+            Product carrot = new Product();
+            ref int ref_local_price = ref carrot.GetPrice();
+            int normal_local_price = carrot.GetPrice();
         }
     }
 }
