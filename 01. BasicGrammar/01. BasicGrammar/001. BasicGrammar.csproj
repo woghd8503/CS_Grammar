@@ -94,7 +94,8 @@
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
     <None Include="032_ArithmaticOperators .cs" />
-    <Compile Include="065_ RefReturn.cs" />
+    <Compile Include="066_UsingOut.cs" />
+    <None Include="065_ RefReturn.cs" />
     <None Include="064_ SwapByRef.cs" />
     <None Include="063_SwapByValue.cs" />
     <None Include="062_Return.cs" />
