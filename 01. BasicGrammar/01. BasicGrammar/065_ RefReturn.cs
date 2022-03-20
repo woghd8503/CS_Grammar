@@ -34,6 +34,11 @@ namespace _01.BasicGrammar
 
             carrot.PrintPrice();
             Console.WriteLine($"Ref Local Price :{ref_local_price}");
+            Console.WriteLine($"Normal Local Price :{normal_local_price}");
+
+            ref_local_price = 200;
+
+
         }
     }
 }
