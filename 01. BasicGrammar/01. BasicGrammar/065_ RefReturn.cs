@@ -9,9 +9,15 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class RefReturn
+    class SwapByValue
     {
-        private int price = 100;
+        public static void Swap(ref int a, ref int b)
+        {
+            int temp = b;
+            b = a;
+            a = temp;
+        }
+
         static void Main(string[] args)
         {
             int x = 3;
