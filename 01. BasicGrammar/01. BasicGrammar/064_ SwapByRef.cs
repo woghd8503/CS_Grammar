@@ -12,16 +12,23 @@ namespace _01.BasicGrammar
     class RefReturn
     {
         private int price = 100;
+
+        public ref int GetPrice()
+        {
+            return ref price;
+        }
+
+        public void PrintPrice()
+        {
+            Console.WriteLine($"Price :{price}");
+        }
+    }
+
+    class MainApp
+    { 
         static void Main(string[] args)
         {
-            int x = 3;
-            int y = 4;
-
-            Console.WriteLine($"x:{x}, y:{y}");
-
-            Swap(ref x, ref y);
-
-            Console.WriteLine($"x:{x}, y:{y}");
+            
         }
     }
 }
