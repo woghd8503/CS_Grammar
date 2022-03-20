@@ -9,31 +9,25 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class Product
+    class SwapByValue
     {
-        private int price = 100;
-
-        public ref int GetPrice()
+        public static void Swap(ref int a, ref int b)
         {
-            return ref price;
+            int temp = b;
+            b = a;
+            a = temp;
         }
 
-        public void PrintPrice()
-        {
-            Console.WriteLine($"Price :{price}");
-        }
-    }
-
-    class RefReturn
-    { 
         static void Main(string[] args)
         {
-            Product carrot = new Product();
-            ref int ref_local_price = ref carrot.GetPrice();
-            int normal_local_price = carrot.GetPrice();
+            int x = 3;
+            int y = 4;
 
-            carrot.PrintPrice();
-            Console.WriteLine($"Ref Local Price :{ref_local_price}");
+            Console.WriteLine($"x:{x}, y:{y}");
+
+            Swap(ref x, ref y);
+
+            Console.WriteLine($"x:{x}, y:{y}");
         }
     }
 }
