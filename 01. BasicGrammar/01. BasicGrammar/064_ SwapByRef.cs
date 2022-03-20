@@ -9,7 +9,7 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class RefReturn
+    class Product
     {
         private int price = 100;
 
@@ -24,13 +24,16 @@ namespace _01.BasicGrammar
         }
     }
 
-    class MainApp
+    class RefReturn
     { 
         static void Main(string[] args)
         {
             Product carrot = new Product();
             ref int ref_local_price = ref carrot.GetPrice();
             int normal_local_price = carrot.GetPrice();
+
+            carrot.PrintPrice();
+            Console.WriteLine($"Ref Local Price :{ref_local_price}");
         }
     }
 }
