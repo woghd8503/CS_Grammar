@@ -9,9 +9,9 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class SwapByRef
+    class SwapByValue
     {
-        public static void Swap(int a, int b)
+        public static void Swap(ref int a, ref int b)
         {
             int temp = b;
             b = a;
@@ -25,7 +25,7 @@ namespace _01.BasicGrammar
 
             Console.WriteLine($"x:{x}, y:{y}");
 
-            Swap(x, y);
+            Swap(ref x, ref y);
 
             Console.WriteLine($"x:{x}, y:{y}");
         }
