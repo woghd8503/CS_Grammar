@@ -21,7 +21,7 @@ using static System.Console;
 // total = Sum( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 );
 // ...
 
-// 가변 개수의 인수를 params 키워드와 배열을 이용해서 선언합니다. 다음은 가변 개수의 이누슬 이용해서 모든 인수의
+// 가변 개수의 인수를 params 키워드와 배열을 이용해서 선언합니다. 다음은 가변 개수의 인수를 이용해서 모든 인수의
 // 합을 구해 반환하는 Sum() 메소드의 구현입니다. 이렇게 구현한 메소드는 앞에서 본 코드에서처럼 인수의 개수를 달리해서
 // 호출할 수 있습니다.
 
@@ -43,30 +43,18 @@ namespace _01.BasicGrammar
     {
         static int Sum(params int[] args)
         {
-            Console.Write("Summing... ");
+            Console.Write("Summing....");
 
             int sum = 0;
 
-            for(int i = 0; i < args.Length; i++ )
+            for(int i = 0; i < args.Length; i++)
             {
                 if (i > 0)
                     Console.Write(", ");
 
-                Console.Write(args[i]);
-
-
-                sum += args[i];
+                Console.Write();
             }
-            Console.WriteLine();
 
-            return sum;
-        }
-
-        static void Main(string[] args)
-        {
-            int sum = Sum(3, 4, 5, 6, 7, 8, 9, 10);
-
-            Console.WriteLine($"Sum : {sum}");
         }
     }
 }
