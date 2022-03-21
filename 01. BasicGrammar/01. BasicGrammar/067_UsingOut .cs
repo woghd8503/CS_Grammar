@@ -25,6 +25,7 @@ using static System.Console;
 // 실행할 메소드의 버전을 찾는 작업이 컴파일 타임에 이루어지므로 성능 저하는 걱정하지 않아도 됩니다.
 // 다음은 오버로딩된 Plus() 메소드를 호출하는 예제입니다. 여느 메소드 호출 코드와 다를 바가 없지요?
 // int result1 = Plus( 1, 2 ); int Plus( int, int )를 호출합니다.
+// double result2 = Plus( 3.1, 2.4 ); double Plus ( double, double )를 호출합니다.
 
 namespace _01.BasicGrammar
 {
