@@ -94,6 +94,7 @@
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
     <None Include="032_ArithmaticOperators .cs" />
+    <None Include="072_.cs" />
     <Compile Include="071_LocalFunction.cs" />
     <None Include="070_OptionalParameter.cs" />
     <None Include="069_NamedParameter.cs" />

@@ -12,12 +12,11 @@ using static System.Console;
 
 namespace _01.BasicGrammar
 {
-    class LoacalFuction
+    class OptionalParameter
     {
-        static void ToLowerString(string input)
+        static void PrintProfile(string name, string phone = "")
         {
-            var arr = input.ToCharArray();
-            for (int i = 0; i <)
+            Console.WriteLine($"Name:{name}, Phone:{phone}");
         }
 
         static void Main(string[] args)
