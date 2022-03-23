@@ -33,14 +33,11 @@ namespace _01.BasicGrammar
             return new string(arr);
         }
 
-
-
         static void Main(string[] args)
         {
-            PrintProfile("중근");
-            PrintProfile("관순", "010-123-1234");
-            PrintProfile(name: "봉길");
-            PrintProfile(name: "동주", phone: "010-789-7890");
+            Console.WriteLine(ToLowerString("Hello!"));
+            Console.WriteLine(ToLowerString("Good Morning."));
+            Console.WriteLine(ToLowerString("This is C#"));
         }
     }
 }
