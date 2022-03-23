@@ -10,6 +10,7 @@ namespace _002.MiddleGrammar
     {
         static void Main(string[] args)
         {
+            //
         }
     }
 }
