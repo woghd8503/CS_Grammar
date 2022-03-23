@@ -23,7 +23,10 @@ namespace _01.BasicGrammar
             }
         }
 
-
+        char ToLowerChar(int i)
+        {
+            if (Array[])
+        }
 
         static void Main(string[] args)
         {
