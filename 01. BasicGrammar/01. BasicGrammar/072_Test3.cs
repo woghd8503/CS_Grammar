@@ -18,14 +18,30 @@ namespace _01.BasicGrammar
             return result;
         }
 
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        //{
+        //    Console.Write("수를 입력하세요: ");
+
+        //    string input = Console.ReadLine();
+        //    float inputNum = float.Parse(input);
+
+        //    Console.WriteLine("결과 : " + Square(inputNum));
+        //}
+    }
+
+    class Test3_1
+    {
+
+        public static void Main()
         {
-            Console.Write("수를 입력하세요: ");
+            double mean = 0;
+            mean = Mean(1, 2, 3, 4, 5, mean);
 
-            string input = Console.ReadLine();
-            float inputNum = float.Parse(input);
-
-            Console.WriteLine("결과 : " + Square(inputNum));
+            Console.WriteLine("평균 : {0}", mean);
+        }
+        public static double Mean(double a, double b, double c, double d, double e, double mean)
+        {
+            return mean = (a + b + c + d + e) / 5;
         }
     }
 }
