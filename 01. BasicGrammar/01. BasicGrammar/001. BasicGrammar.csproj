@@ -13,6 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -94,7 +94,8 @@
     <None Include="027_StringFormatBasic.cs" />
     <None Include="026_StringSlice.cs" />
     <None Include="032_ArithmaticOperators .cs" />
-    <Compile Include="072_Test3.cs" />
+    <Compile Include="073_.cs" />
+    <None Include="072_Test3.cs" />
     <None Include="071_LocalFunction.cs" />
     <None Include="070_OptionalParameter.cs" />
     <None Include="069_NamedParameter.cs" />
