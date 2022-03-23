@@ -17,8 +17,13 @@ namespace _01.BasicGrammar
         static void ToLowerString(string input)
         {
             var arr = input.ToCharArray();
-            for (int i = 0; i <)
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = ToLowerChar(i);
+            }
         }
+
+
 
         static void Main(string[] args)
         {
