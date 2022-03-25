@@ -1,2 +1,7 @@
 D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\obj\Debug\002.MiddleGrammar.csprojAssemblyReference.cache
 D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\obj\Debug\002.MiddleGrammar.csproj.CoreCompileInputs.cache
+D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\bin\Debug\002.MiddleGrammar.exe.config
+D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\bin\Debug\002.MiddleGrammar.exe
+D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\bin\Debug\002.MiddleGrammar.pdb
+D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\obj\Debug\002.MiddleGrammar.exe
+D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\obj\Debug\002.MiddleGrammar.pdb
