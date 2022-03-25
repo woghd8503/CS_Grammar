@@ -13,11 +13,14 @@ namespace _002.MiddleGrammar
 
         public void Neow()
         {
-            Console.WriteLine($"");
+            Console.WriteLine($"{Name} : 야옹");
         }
     }
     class BasicClass
     {
+        static void Main(string[] args)
+        {
 
+        }
     }
 }
