@@ -10,6 +10,11 @@ namespace _002.MiddleGrammar
     {
         public string Name;
         public string Color;
+
+        public void Neow()
+        {
+            Console.WriteLine($"");
+        }
     }
     class BasicClass
     {
