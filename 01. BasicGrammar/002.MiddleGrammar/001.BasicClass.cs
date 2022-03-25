@@ -8,7 +8,8 @@ namespace _002.MiddleGrammar
 {
     class Cat
     {
-
+        public string Name;
+        public string Color;
     }
     class BasicClass
     {

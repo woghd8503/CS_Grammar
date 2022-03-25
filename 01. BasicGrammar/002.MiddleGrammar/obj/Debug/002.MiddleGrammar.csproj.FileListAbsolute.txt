@@ -1,0 +1,2 @@
+D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\obj\Debug\002.MiddleGrammar.csprojAssemblyReference.cache
+D:\01.Coding_study\ThisIsCS\01. BasicGrammar\002.MiddleGrammar\obj\Debug\002.MiddleGrammar.csproj.CoreCompileInputs.cache
