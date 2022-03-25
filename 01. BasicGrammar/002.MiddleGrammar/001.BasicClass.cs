@@ -30,7 +30,7 @@ namespace _002.MiddleGrammar
             nero.Color = "검은색";
             nero.Name = "네로";
             nero.Meow();
-
+            Console.WriteLine($"{nero.Name} : {nero.Color}");
         }
     }
 }
