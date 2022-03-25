@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace _002.MiddleGrammar
 {
-    class Program
+    class Cat
     {
-        static void Main(string[] args)
-        {
-            //
-        }
+
+    }
+    class BasicClass
+    {
+
     }
 }
