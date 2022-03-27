@@ -40,15 +40,9 @@ namespace _002.MiddleGrammar
         {
             Cat kitty = new Cat("키티", "하얀색");
             kitty.Meow();
-            Console.WriteLine($"{kitty.Name}");
-            kitty.Color = "하얀색";
-            kitty.Name = "키티";
-            kitty.Meow();
             Console.WriteLine($"{kitty.Name} : {kitty.Color}");
 
-            Cat nero = new Cat();
-            nero.Color = "검은색";
-            nero.Name = "네로";
+            Cat nero = new Cat("네로", "검은색");
             nero.Meow();
             Console.WriteLine($"{nero.Name} : {nero.Color}");
         }
