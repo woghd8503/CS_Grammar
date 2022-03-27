@@ -22,7 +22,9 @@ namespace _002.MiddleGrammar
 
         ~Cat()
         {
-            Console.WriteLine($"{Name} : 잘가" };
+            Console.WriteLine($"{Name} : 잘가");
+        }
+
         public string Name;
         public string Color;
 
