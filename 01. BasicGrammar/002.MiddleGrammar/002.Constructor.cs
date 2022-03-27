@@ -33,11 +33,14 @@ namespace _002.MiddleGrammar
             Console.WriteLine($"{Name} : 야옹");
         }
     }
-    class BasicClass
+
+    class MainApp
     {
         static void Main(string[] args)
         {
-            Cat kitty = new Cat();
+            Cat kitty = new Cat("키티", "하얀색");
+            kitty.Meow();
+            Console.WriteLine($"{kitty.Name}");
             kitty.Color = "하얀색";
             kitty.Name = "키티";
             kitty.Meow();
