@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="003.BasicClass.cs" />
-    <None Include="002.BasicClass.cs" />
+    <None Include="002.Constructor.cs" />
     <None Include="001.BasicClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
