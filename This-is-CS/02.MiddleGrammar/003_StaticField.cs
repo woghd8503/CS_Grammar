@@ -40,7 +40,7 @@ namespace _002.MiddleGrammar
             new ClassB();
             new ClassB();
 
-            Console.WriteLine();
+            Console.WriteLine($"Global.Count : {Global.Count}");
         }
     }
 }
