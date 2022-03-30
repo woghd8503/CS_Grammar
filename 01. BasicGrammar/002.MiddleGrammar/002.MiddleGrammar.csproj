@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="003.StaticField.cs" />
+    <Compile Include="003.StaticField.cs" />
     <None Include="002.Constructor.cs" />
     <None Include="001.BasicClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

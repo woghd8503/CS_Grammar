@@ -26,7 +26,18 @@ namespace _002.MiddleGrammar
     {
         public ClassB()
         {
-            //G
+            Global.Count++;
+        }
+    }
+
+    class StaticFiled
+    {
+        static void Main()
+        {
+            Console.WriteLine($"Global.Count : {Global.Count}");
+
+            new ClassA();
+
         }
     }
 }
