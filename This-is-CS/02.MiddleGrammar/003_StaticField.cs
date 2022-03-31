@@ -37,7 +37,10 @@ namespace _002.MiddleGrammar
             Console.WriteLine($"Global.Count : {Global.Count}");
 
             new ClassA();
+            new ClassB();
+            new ClassB();
 
+            Console.WriteLine();
         }
     }
 }
