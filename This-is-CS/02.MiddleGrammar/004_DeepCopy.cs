@@ -17,12 +17,6 @@ namespace _002.MiddleGrammar
         }
         static void Main()
         {
-            Console.WriteLine($"Global.Count : {Global.Count}");
-
-            new ClassA();
-            new ClassA();
-            new ClassB();
-            new ClassB();
 
             Console.WriteLine($"Global.Count : {Global.Count}");
         }
