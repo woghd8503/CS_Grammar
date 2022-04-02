@@ -20,12 +20,4 @@ namespace _002.MiddleGrammar
             return newCopy;
         }
     }
-
-    claSS MainApp
-    {
-        static void Main(string[] args)
-    {
-
-
-    }
 }
