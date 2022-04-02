@@ -30,7 +30,7 @@ namespace _002.MiddleGrammar
         }
     }
 
-    class StaticFiled
+    class DeepCopy
     {
         static void Main()
         {
