@@ -13,10 +13,7 @@ namespace _002.MiddleGrammar
 
         public DeepCopy MyClass()
         {
-
-        }
-        static void Main()
-        {
+            MyClass newCopy = new DeepCopy();
 
             Console.WriteLine($"Global.Count : {Global.Count}");
         }
