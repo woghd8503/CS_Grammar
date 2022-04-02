@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace _002.MiddleGrammar
 {
-    class DeepCopy
+    class MyClass
     {
         public int MyField1;
         public int MyField2;
 
-        public DeepCopy MyClass()
+        public MyClass DeepCopy()
         {
             MyClass newCopy = new DeepCopy();
-
+            new
             Console.WriteLine($"Global.Count : {Global.Count}");
         }
     }
