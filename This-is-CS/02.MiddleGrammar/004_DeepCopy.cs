@@ -13,9 +13,11 @@ namespace _002.MiddleGrammar
 
         public MyClass DeepCopy()
         {
-            MyClass newCopy = new DeepCopy();
-            new
-            Console.WriteLine($"Global.Count : {Global.Count}");
+            MyClass newCopy = new MyClass();
+            newCopy.MyField1 = this.MyField1;
+            newCopy.MyField2 = this.MyField2;
+
+            return newCopy;
         }
     }
 }
