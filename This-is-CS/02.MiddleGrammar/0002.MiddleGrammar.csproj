@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="003.StaticField.cs" />
-    <None Include="002.Constructor.cs" />
-    <None Include="001.BasicClass.cs" />
+    <None Include="001_BasicClass.cs" />
+    <Compile Include="002_Constructor.cs" />
+    <None Include="003_StaticField.cs" />
+    <None Include="004_DeepCopy.cs" />
+    <None Include="005_.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
