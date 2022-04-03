@@ -46,7 +46,7 @@ namespace _002.MiddleGrammar
                 target.MyField2 = 30;
 
                 Console.WriteLine($"{source.MyField1} {source.MyField2}");
-                Console.WriteLine($"{target.MyField1} {source.MyField2}");
+                Console.WriteLine($"{target.MyField1} {target.MyField2}");
             }
         }
     }
