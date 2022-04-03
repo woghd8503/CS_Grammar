@@ -46,8 +46,9 @@
     <None Include="001_BasicClass.cs" />
     <None Include="002_Constructor.cs" />
     <None Include="003_StaticField.cs" />
-    <Compile Include="004_DeepCopy.cs" />
-    <None Include="005_.cs" />
+    <None Include="004_DeepCopy.cs" />
+    <Compile Include="006_ThisConstructor.cs" />
+    <None Include="005_This.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
