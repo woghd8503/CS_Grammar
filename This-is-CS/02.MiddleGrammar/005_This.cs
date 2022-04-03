@@ -41,7 +41,12 @@ namespace _002.MiddleGrammar
         static void Main(string[] args)
         {
             Employee pooh = new Employee();
-            pooh.SetName
+            pooh.SetName("Pooh");
+            pooh.SetPosition("Waiter");
+            Console.WriteLine($"{pooh.GetName()} {pooh.GetPosition()}");
+
+            Employee tigger = nwe Employee();
+            tigger.SetName
         }
     }
 }
