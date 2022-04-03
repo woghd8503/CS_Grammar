@@ -46,7 +46,9 @@ namespace _002.MiddleGrammar
             Console.WriteLine($"{pooh.GetName()} {pooh.GetPosition()}");
 
             Employee tigger = nwe Employee();
-            tigger.SetName
+            tigger.SetName("Tigger");
+            tigger.SetPosition("Cleaner");
+            Console.WriteLine($"{tigger.GetName()} {tigger.GetPosition()}");
         }
     }
 }
