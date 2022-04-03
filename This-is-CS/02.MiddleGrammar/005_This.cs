@@ -4,20 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 우리 자신을 지칭할 때 "나"라고 합니다. this는 객체가 자신을 지칭할 때 사용하는 키워드입니다.
+// 객체 외부에서는 객체의 필드나 메소드에 접근할 때 객체의 이름(변수 또는 식별자)을 사용한다면, 객체 내부에서는 자신의 필드나
+// 메소드에 접근할 때 this 키워드를 사용한다는 것입니다.
+
 namespace _002.MiddleGrammar
 {
-    class MyClass
+    class Employee
     {
-        public int MyField1;
-        public int MyField2;
+        private string Name;
+        private string Position;
 
-        public MyClass DeepCopy()
+        public void SetName(string Name)
         {
-            MyClass newCopy = new MyClass();
-            newCopy.MyField1 = this.MyField1;
-            newCopy.MyField2 = this.MyField2;
-
-            return newCopy;
+            this.Name = Name;
         }
+
+        public string 
     }
 }

@@ -11,7 +11,6 @@
 // 기능을 가질 클래스가 .NET의 다른 유틸리티 클래스나 다른 프로그래머가 작성한 코드와 호환되도록 하고 싶다면 ICloneable을 상속하는 것이 좋습니다. ICloneable
 // 인터페이스는 Clone()메소드 하나만 갖고 있습니다.
 
-
 namespace _002.MiddleGrammar
 {
     class MyClass
