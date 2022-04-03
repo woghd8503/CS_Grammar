@@ -20,6 +20,14 @@ namespace _002.MiddleGrammar
             this.Name = Name;
         }
 
-        public string 
+        public string GetName()
+        {
+            return Name;
+        }
+
+        public void SetPosition(string Position)
+        {
+            this.Position = Position;
+        }
     }
 }
