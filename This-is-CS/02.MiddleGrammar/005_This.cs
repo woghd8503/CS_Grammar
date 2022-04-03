@@ -29,5 +29,19 @@ namespace _002.MiddleGrammar
         {
             this.Position = Position;
         }
+
+        public string GetPosition()
+        {
+            return this.Position;
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Employee pooh = new Employee();
+            pooh.SetName
+        }
     }
 }
