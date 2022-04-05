@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// 생성자를 오버로딩하는 클래스의 코드. 이 클래스는 int 형식의 필드 a, b, c를 갖고 있으며 세 개의 생성자는 입력받는 매개변수에 따라 이들 필드를 초기화한다.
-
 namespace _002.MiddleGrammar
 {
     class MyClass
