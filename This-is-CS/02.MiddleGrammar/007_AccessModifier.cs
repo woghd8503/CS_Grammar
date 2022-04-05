@@ -37,13 +37,19 @@ namespace _002.MiddleGrammar
             Console.WriteLine($"Turn on water : {temperature}");
         }
     }
+
     class MainApp
     {
-        try
+        static void Main(string[] args)
         {
-            WaterHeater heater = new WaterHeater();
+            try
+            {
+                WaterHeater heater = new WaterHeater();
+
+            }
+            catch (Exception e)
+            {
+            }
         }
-
-
     }
 }
