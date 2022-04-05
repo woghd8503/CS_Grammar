@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 객체지향 프로그래밍의 3대 특성
 namespace _002.MiddleGrammar
 {
     class MyClass
