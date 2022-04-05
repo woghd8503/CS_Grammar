@@ -10,7 +10,8 @@ using System.Threading.Tasks;
 
 // public            클래스의 내부/외부 모든 곳에서 접근할 수 있습니다.
 // protected         클래스의 외부에서는 접근할 수 없지만, 파생 클래스에서는 접근이 가능합니다.
-// private           클래스의 내부에서만 접근할 수 있습니다. 파생 클래
+// private           클래스의 내부에서만 접근할 수 있습니다. 파생 클래스에서도 접근이 불가능합니다.
+// internal          같은 어셈블리에 있는 코드에서만 public으로 접근할 수 있습니다. 다른 어셈블리에 있는 코드에서는 private과 같은 수준의 접근성을 가집니다.
 namespace _002.MiddleGrammar
 {
     class MyClass
