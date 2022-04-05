@@ -15,10 +15,20 @@ using System.Threading.Tasks;
 // internal            같은 어셈블리에 있는 코드에서만 public으로 접근할 수 있습니다. 다른 어셈블리에 있는 코드에서는 private과 같은 수준의 접근성을 가집니다.
 // protected internal  같은 어셈블리에 있는 코드에서만 protected로 접근할 수 있습니다. 다른 어셈블리에 있는 코드에서는 private과 같은 수준의 접근성을 가집니다.
 // private protected   같은 어셈블리에 있는 코드에서만 protected로 접근할 수 있습니다. 다른 어셈블리에 있는 코드에서는 private과 같은 수준의 접근성을 가집니다.
+
 namespace _002.MiddleGrammar
 {
-    class MyClass
+    class WeaterHeater
     {
+        protected int temperature;
+
+        public void SetTemperature(int temperature)
+        {
+            if (temperature < -5 || temperature > 42)
+            {
+                throw new Exception("Out of temperature range");
+            }
+        }
         int a, b, c;
 
         public MyClass()
