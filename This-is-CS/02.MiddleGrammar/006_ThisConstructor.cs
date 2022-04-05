@@ -10,9 +10,8 @@ using System.Threading.Tasks;
 
 namespace _002.MiddleGrammar
 {
-    class Employee
+    class MyClass
     {
-        private string Name;
         private string Position;
 
         public void SetName(string Name)
