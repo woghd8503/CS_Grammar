@@ -28,8 +28,14 @@ namespace _002.MiddleGrammar
             {
                 throw new Exception("Out of temperature range");
             }
+
+            this.temperature = temperature;
         }
-        int a, b, c;
+
+        internal void TurnOnWater()
+        {
+            Console.WriteLine($"Turn on water : {temperature}");
+        }
 
         public MyClass()
         {
