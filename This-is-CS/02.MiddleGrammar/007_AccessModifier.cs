@@ -18,7 +18,7 @@ using System.Threading.Tasks;
 
 namespace _002.MiddleGrammar
 {
-    class WeaterHeater
+    class WaterHeater
     {
         protected int temperature;
 
@@ -36,45 +36,14 @@ namespace _002.MiddleGrammar
         {
             Console.WriteLine($"Turn on water : {temperature}");
         }
-
-        public MyClass()
-        {
-            this.a = 5425;
-            Console.WriteLine("MyClass()");
-        }
-
-        public MyClass(int b) : this()
-        {
-            this.b = b;
-            Console.WriteLine($"MyClass({b})");
-        }
-
-        public MyClass(int b, int c) : this(b)
-        {
-            this.c = c;
-            Console.WriteLine($"MyClass({b}), {c}");
-        }
-
-        public void PrintFields()
-        {
-            Console.WriteLine($"a:{a}, b:{b}, c:{c}");
-        }
     }
-
     class MainApp
     {
-        static void Main(string[] args)
+        try
         {
-            MyClass a = new MyClass();
-            a.PrintFields();
-            Console.WriteLine();
-
-            MyClass b = new MyClass(1);
-            b.PrintFields();
-            Console.WriteLine();
-
-            MyClass c = new MyClass(10, 20);
-            c.PrintFields();
+            WaterHeater heater = new WaterHeater();
         }
+
+
     }
 }
