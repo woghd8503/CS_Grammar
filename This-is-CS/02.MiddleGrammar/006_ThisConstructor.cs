@@ -12,26 +12,29 @@ namespace _002.MiddleGrammar
 {
     class MyClass
     {
-        private string Position;
+        int a, b, c;
 
-        public void SetName(string Name)
+        public MyClass()
         {
-            this.Name = Name;
+            this.a = 5425;
+            Console.WriteLine("MyClass()");
         }
 
-        public string GetName()
+        public MyClass(int b) : this()
         {
-            return Name;
+            this.b = b;
+            Console.WriteLine($"MyClass({b})");
         }
 
-        public void SetPosition(string Position)
+        public MyClass(int b, int c) : this(b)
         {
-            this.Position = Position;
+            this.c = c;
+            Console.WriteLine($"MyClass({b}), {c}");
         }
 
-        public string GetPosition()
+        public void PrintFields()
         {
-            return this.Position;
+            Console.WriteLine($"a:{a}, b:{b}, c:{c}");
         }
     }
 
@@ -39,15 +42,16 @@ namespace _002.MiddleGrammar
     {
         static void Main(string[] args)
         {
-            Employee pooh = new Employee();
-            pooh.SetName("Pooh");
-            pooh.SetPosition("Waiter");
-            Console.WriteLine($"{pooh.GetName()} {pooh.GetPosition()}");
+            MyClass a = new MyClass();
+            a.PrintFields();
+            Console.WriteLine();
 
-            Employee tigger = new Employee();
-            tigger.SetName("Tigger");
-            tigger.SetPosition("Cleaner");
-            Console.WriteLine($"{tigger.GetName()} {tigger.GetPosition()}");
+            MyClass b = new MyClass(1);
+            b.PrintFields();
+            Console.WriteLine();
+
+            MyClass c = new MyClass(10, 20);
+            c.PrintFields();
         }
     }
 }
