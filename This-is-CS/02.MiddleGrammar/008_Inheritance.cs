@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// 
+// 자식이 달라고 하면 부모는 무조건 물러줘야 하나요?
 namespace _002.MiddleGrammar
 {
     class Base
