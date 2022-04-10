@@ -39,6 +39,9 @@ namespace _002.MiddleGrammar
             Console.WriteLine($"{this.Name}.~Derived()");
         }
 
-        public void D
+        public void DerivedMethod()
+        {
+            Console.WriteLine($"{Name}.DerivedMethod()");
+        }
     }
 }
