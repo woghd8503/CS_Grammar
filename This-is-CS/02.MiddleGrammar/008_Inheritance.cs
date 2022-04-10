@@ -29,6 +29,12 @@ namespace _002.MiddleGrammar
 
     class Derived : Base
     {
-        public Derived(string Name) : base
+        public Derived(string Name) : base(Name)
+        {
+
+        }
+            
+
+        
     }
 }
