@@ -31,10 +31,14 @@ namespace _002.MiddleGrammar
     {
         public Derived(string Name) : base(Name)
         {
-
+            Console.WriteLine($"{this.Name}.Derived()");
         }
-            
 
-        
+        ~Derived()
+        {
+            Console.WriteLine($"{this.Name}.~Derived()");
+        }
+
+        public void D
     }
 }
