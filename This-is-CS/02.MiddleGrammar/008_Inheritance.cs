@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // 자식이 달라고 하면 부모는 무조건 물러줘야 하나요?
+// 그렇지 않습니다. 기반 클래스의 작성자는 의도하지 않은 상속이나 파생 클래스의 구현을 막기 위해 상속이 불가능하도록 클
 namespace _002.MiddleGrammar
 {
     class Base
