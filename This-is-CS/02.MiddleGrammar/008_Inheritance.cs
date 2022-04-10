@@ -44,4 +44,17 @@ namespace _002.MiddleGrammar
             Console.WriteLine($"{Name}.DerivedMethod()");
         }
     }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Base a = new Base("a");
+            a.BaseMethod();
+
+            Derived b = new Derived("b");
+            b.BaseMethod();
+            b.DerivedMethod();
+        }
+    }
 }
