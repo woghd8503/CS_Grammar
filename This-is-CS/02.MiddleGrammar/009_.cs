@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// 
+// 자식이 달라고 하면 부모는 무조건 물려눠야 하나요?
+// 그렇지 않습니다.
 namespace _002.MiddleGrammar
 {
     class Base
