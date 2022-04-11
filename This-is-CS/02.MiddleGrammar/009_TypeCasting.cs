@@ -44,5 +44,13 @@ namespace _002.MiddleGrammar
         }
     }
     
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Mammal mammal = new Dog();
+            Dog dog;
 
+        }
+    }
 }
