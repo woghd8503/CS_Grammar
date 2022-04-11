@@ -64,7 +64,10 @@ namespace _002.MiddleGrammar
                 cat.Meow();
 
             Cat cat2 = mammal as Cat;
-            if ()
+            if (cat2 != null)
+                cat2.Meow();
+            else
+                Console.WriteLine("cat2 is not a Cat");
         }
     }
 }
