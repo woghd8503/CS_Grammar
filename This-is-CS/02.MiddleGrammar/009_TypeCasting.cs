@@ -35,5 +35,14 @@ namespace _002.MiddleGrammar
             Console.WriteLine("Bark()");
         }
     }
+
+    class Cat : Mammal
+    {
+        public void Meow()
+        {
+            Console.WriteLine("Meow()");
+        }
+    }
     
+
 }
