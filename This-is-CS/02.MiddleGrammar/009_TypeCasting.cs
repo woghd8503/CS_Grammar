@@ -51,6 +51,20 @@ namespace _002.MiddleGrammar
             Mammal mammal = new Dog();
             Dog dog;
 
+            if(mammal is Dog)
+            {
+                dog = (Dog)mammal;
+                dog.Bark();
+            }
+
+            Mammal mammal2 = new Cat();
+
+            Cat cat = mammal2 as Cat;
+            if (cat != null)
+                cat.Meow();
+
+            Cat cat2 = mammal as Cat;
+            if ()
         }
     }
 }
