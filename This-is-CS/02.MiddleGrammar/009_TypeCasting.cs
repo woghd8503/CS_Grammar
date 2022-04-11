@@ -28,5 +28,12 @@ namespace _002.MiddleGrammar
         }
     }
 
+    class Dog : Mammal
+    {
+        public void Bark()
+        {
+            Console.WriteLine("Bark()");
+        }
+    }
     
 }
