@@ -14,7 +14,16 @@ using System.Threading.Tasks;
 //          Console.WriteLine("Armored");
 //      }
 // }
+// 토니는 이 ArmorSuite를 업그레이드하기로 했습니다. 이때 장갑 수트는 수중 전투용, 비행용 등의 배리에이션이 나올 수 있으므로 ArmorSuite 자체를
+// 뜯어고치기보다 (클래스는 실체가 아닌 설계도 역할을 합니다. ArmorSuite 클래스도 마찬가지고요) 다음과 같이 ArmorSuite를 상속하는 파생 클래스를 만들기로
+// 했습니다.
 
+// class IronMan : ArmorSuite
+//{
+//      //...
+//}
+
+class WarMachine : A
 namespace _002.MiddleGrammar
 {
     class Mammal
