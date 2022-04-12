@@ -70,7 +70,10 @@ namespace _002.MiddleGrammar
             ArmorSuite armorsuite = new ArmorSuite();
             armorsuite.Initialise();
 
-            Console.WriteLine("");
+            Console.WriteLine("\nCreatig IronMan...");
+            ArmorSuite ironman = new ArmorSuite IronMan();
+            ironman.Initialise();
+
         }
     }
 }
