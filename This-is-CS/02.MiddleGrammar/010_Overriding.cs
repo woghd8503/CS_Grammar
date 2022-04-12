@@ -52,5 +52,25 @@ namespace _002.MiddleGrammar
         }
     }
 
-    class WarMachine
+    class WarMachine : ArmorSuite
+    {
+        public override void Initialise()
+        {
+            base.Initialise();
+            Console.WriteLine("Double-Barrel Cannons Armed");
+            Console.WriteLine("Micro-Rocket Launcher Armed");
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Creating ArmorSuite...");
+            ArmorSuite armorsuite = new ArmorSuite();
+            armorsuite.Initialise();
+
+            Console.WriteLine("");
+        }
+    }
 }
