@@ -47,7 +47,8 @@
     <None Include="002_Constructor.cs" />
     <None Include="003_StaticField.cs" />
     <None Include="004_DeepCopy.cs" />
-    <Compile Include="010_Overriding.cs" />
+    <Compile Include="011_MethodHiding.cs" />
+    <None Include="010_Overriding.cs" />
     <None Include="009_TypeCasting.cs" />
     <None Include="008_Inheritance.cs" />
     <None Include="007_AccessModifier.cs" />
