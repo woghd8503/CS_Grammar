@@ -77,9 +77,6 @@ namespace _002.MiddleGrammar
             Console.WriteLine("\nCreating WarMachine...");
             ArmorSuite warmachine = new WarMachine();
             warmachine.Initialise();
-
-
-            // test
         }
     }
 }
