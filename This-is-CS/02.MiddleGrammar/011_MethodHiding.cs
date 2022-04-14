@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// 토니는 장갑 수트 ArmorSuite를 개발할 때 차후에 업그레이드가 있을 것을 고려해서 
+// 토니는 장갑 수트 ArmorSuite를 개발할 때 차후에 업그레이드가 있을 것을 고려해서 Initialise() 메소드를 virtual로 선언했습니다. 
 
 namespace _002.MiddleGrammar
 {
