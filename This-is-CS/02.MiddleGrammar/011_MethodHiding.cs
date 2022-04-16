@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 // 오버라이딩을 통해 재정의할 수 있도록 말입니다. 어떤 메소드가 향후 오버라이딩이 될지 안 될지를 판단하는 것은 깊이 생각할수록, 
 // 또 많이 경험할수록 좋은 답을 얻기는 하지만 공식은 없습니다. 
 
+
+
 namespace _002.MiddleGrammar
 {
     class ArmorSuite
