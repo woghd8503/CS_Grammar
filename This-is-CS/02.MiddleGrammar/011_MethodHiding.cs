@@ -8,52 +8,9 @@ using System.Threading.Tasks;
 // 오버라이딩을 통해 재정의할 수 있도록 말입니다. 어떤 메소드가 향후 오버라이딩이 될지 안 될지를 판단하는 것은 깊이 생각할수록, 
 // 또 많이 경험할수록 좋은 답을 얻기는 하지만 공식은 없습니다. 
 
-
+// 세상에는 토니 스타크 같은 천재가 있는가 하면, 저 같이 약간은 결핍된 사람도 있는 법입니다. 그래서 마이크로소프트의 C# 
 
 namespace _002.MiddleGrammar
 {
-    class ArmorSuite
-    {
-        public virtual void Initialise()
-        {
-            Console.WriteLine("Armored");
-        }
-    }
-
-    class IronMan : ArmorSuite
-    {
-        public override void Initialise()
-        {
-            base.Initialise();
-            Console.WriteLine("Repulsor Rays Armed");
-        }
-    }
-
-    class WarMachine : ArmorSuite
-    {
-        public override void Initialise()
-        {
-            base.Initialise();
-            Console.WriteLine("Double-Barrel Cannons Armed");
-            Console.WriteLine("Micro-Rocket Launcher Armed");
-        }
-    }
-
-    class MainApp
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Creating ArmorSuite...");
-            ArmorSuite armorsuite = new ArmorSuite();
-            armorsuite.Initialise();
-
-            Console.WriteLine("\nCreatig IronMan...");
-            ArmorSuite ironman = new IronMan();
-            ironman.Initialise();
-
-            Console.WriteLine("\nCreating WarMachine...");
-            ArmorSuite warmachine = new WarMachine();
-            warmachine.Initialise();
-        }
-    }
+    
 }
