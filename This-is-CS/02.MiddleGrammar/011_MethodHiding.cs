@@ -41,7 +41,7 @@ namespace _002.MiddleGrammar
             derivedObj.MyMethod();
 
             Base baseOrDerived = new Derived();
+            baseOrDerived.MyMethod();
         }
     }
-        
 }
