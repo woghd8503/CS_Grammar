@@ -11,9 +11,8 @@ namespace _002.MiddleGrammar
 {
     class Base
     {
-        public void MyMethod()
+        public virtual void SealMe()
         {
-            Console.WriteLine("Base.MyMethod()");
         }
     }
 
