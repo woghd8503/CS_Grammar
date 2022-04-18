@@ -25,9 +25,9 @@ namespace _002.MiddleGrammar
 
     class WantToOverride : Derived
     {
-         public override void SealMe()
+        /*public override void SealMe() // 에러 발생
         {
-        }
+        }*/
     }
 
     class MainApp
