@@ -18,9 +18,15 @@ namespace _002.MiddleGrammar
 
     class Derived : Base
     {
-        public new void MyMethod()
+        public sealed override void SealMe()
         {
-            Console.WriteLine("Derived.MyMethod()");
+        }
+    }
+
+    class WantToOverride : Derived
+    {
+         public override void SealMe()
+        {
         }
     }
 
@@ -28,14 +34,7 @@ namespace _002.MiddleGrammar
     {
         static void Main(string[] args)
         {
-            Base baseObj = new Base();
-            baseObj.MyMethod();
 
-            Derived derivedObj = new Derived();
-            derivedObj.MyMethod();
-
-            Base baseOrDerived = new Derived();
-            baseOrDerived.MyMethod();
         }
     }
 }
