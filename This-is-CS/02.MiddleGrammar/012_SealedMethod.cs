@@ -9,31 +9,17 @@ using System.Threading.Tasks;
 // 1. 클래스 외부에 공개하고 싶지 않은 형식을 만들고자 할 때
 // 2. 현재클래스의 일부분처럼 표현할 수 있는 클래스를 만들고자 할 때
 
+// 다른 클래스의 private 멤버에도 마구 접근할 수 있는 중첩 클래스는 은닉성을 무너뜨리기는 하지만, 보다 유연한 표현력을 프로그래머에게 가져다준다는 장점이 있습니다.
 
 namespace _002.MiddleGrammar
 {
-   class Configuration
+   class NestedClass
     {
-        private readonly int min; // readonly를 이용해서 읽기 전용 필드를 선언합니다.
-        private readonly int max;
+        List<ItemValue> listConfig = new List<ItemValue>();
 
-        public Configuration(int v1, int v2)
+        public void SetConfig(string item, string value)
         {
-            min = v1;
-            min = v2; // 읽기 전용 필드는 생성자 안에서만 초기화 가능합니다.
-        }
-
-        public void ChangeMax(int newMax)
-        {
-            max = newMax;  //  생성자가 아닌 다른 곳에서 값을 수정하려하면 컴파일 에러가 발생합니다.
-        }
-    }
-
-    class MainApp
-    {
-        static void Main(string[] args)
-        {
-            Configuration c = new Configuration(100, 10);
+            ItemValu
         }
     }
 }
