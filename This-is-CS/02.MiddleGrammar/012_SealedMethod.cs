@@ -38,6 +38,17 @@ namespace _002.MiddleGrammar
         {
             private string item;
             private string value;
+
+            public void SetValue(Configuration config, string item, string value)
+            {
+                this.item = item;
+                this.value = value;
+
+                bool found = false;
+                for (int i = 0; i < config.listConfig.Count; i++) // 
+                {
+
+                }
         }
     }
 }
