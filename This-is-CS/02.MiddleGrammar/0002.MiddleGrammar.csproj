@@ -47,8 +47,8 @@
     <None Include="002_Constructor.cs" />
     <None Include="003_StaticField.cs" />
     <None Include="004_DeepCopy.cs" />
-    <Compile Include="013_ReadOnly.cs" />
-    <Compile Include="012_SealedMethod.cs" />
+    <None Include="013_ReadOnly.cs" />
+    <None Include="012_SealedMethod.cs" />
     <None Include="011_MethodHiding.cs" />
     <None Include="010_Overriding.cs" />
     <None Include="009_TypeCasting.cs" />
@@ -56,6 +56,7 @@
     <None Include="007_AccessModifier.cs" />
     <None Include="006_ThisConstructor.cs" />
     <None Include="005_This.cs" />
+    <None Include="014_NestedClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
