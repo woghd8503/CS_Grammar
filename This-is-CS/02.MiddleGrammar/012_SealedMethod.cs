@@ -14,7 +14,7 @@ namespace _002.MiddleGrammar
 {
    class Configuration
     {
-        private readonly int min; // read
+        private readonly int min; // readonly를 이용해서 읽기 전용 필드를 선언합니다.
         private readonly int max;
 
         public Configuration(int v1, int v2)
@@ -26,6 +26,14 @@ namespace _002.MiddleGrammar
         public void ChangeMax(int newMax)
         {
             max = newMax;  //  생성자가 아닌 다른 곳에서 값을 수정하려하면 컴파일 에러가 발생합니다.
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Configuration c = new Configuration(100, 10);
         }
     }
 
