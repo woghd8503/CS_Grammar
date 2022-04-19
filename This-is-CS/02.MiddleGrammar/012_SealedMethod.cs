@@ -77,6 +77,9 @@ namespace _002.MiddleGrammar
 
             Console.WriteLine(config.GetConfig("Version"));
             Console.WriteLine(config.GetConfig("Size"));
+
+            config.SetConfig("Version", "V 5.0.1");
+            Console.WriteLine(config.GetConfig("Version"));
         }
     }
 }
