@@ -19,7 +19,25 @@ namespace _002.MiddleGrammar
 
         public void SetConfig(string item, string value)
         {
-            ItemValu
+            ItemValue iv = new ItemValue();
+            iv.SetValue(this, item, value);
+        }
+
+        public string GetConfig(string item)
+        {
+            foreach(ItemValue iv in listConfig)
+            {
+                if (iv.GetItem() == item)
+                    return iv.GetValue();
+            }
+
+            return "";
+        }
+            
+        private class ItemValue
+        {
+            private string item;
+            private string value;
         }
     }
 }
