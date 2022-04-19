@@ -74,6 +74,9 @@ namespace _002.MiddleGrammar
             configuration config = new configuration();
             config.SetConfig("Version", "V 5.0");
             config.SetConfig("Size", "655.324 KB");
+
+            Console.WriteLine(config.GetConfig("Version"));
+            Console.WriteLine(config.GetConfig("Size"));
         }
     }
 }
