@@ -34,7 +34,7 @@ namespace _002.MiddleGrammar
             return "";
         }
             
-        private class ItemValue
+        private class ItemValue // Configuration 클래스 안에 선언된 중첩 클래스이빈다. private으로 선언했기 때문에 Configuration 클래스 밖에서 보이지 않습니다.
         {
             private string item;
             private string value;
