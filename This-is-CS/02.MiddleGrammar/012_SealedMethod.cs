@@ -60,7 +60,20 @@ namespace _002.MiddleGrammar
                     config.listConfig.Add(this);
             }
 
-            public string Get
+            public string GetItem()
+            { return item; }
+            public string GetValue()
+            { return value;  }
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            configuration config = new configuration();
+            config.SetConfig("Version", "V 5.0");
+            config.SetConfig("Size", "655.324 KB");
         }
     }
 }
