@@ -45,7 +45,7 @@ namespace _002.MiddleGrammar
                 this.value = value;
 
                 bool found = false;
-                for (int i = 0; i < config.listConfig.Count; i++) // 
+                for (int i = 0; i < config.listConfig.Count; i++) // 중첩 클래스는 상위 클래스의 멤버에 자유롭게 접근할 수 있습니다.
                 {
 
                 }
