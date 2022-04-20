@@ -32,6 +32,15 @@ namespace _002.MiddleGrammar
             return "";
         }
 
+        private class ItemValue
+        {
+            private string item;
+            private string value;
 
+            public void SetValue(Configuraion config, string item, string value)
+            {
+
+            }
+        }
     }
 }
