@@ -39,7 +39,20 @@ namespace _002.MiddleGrammar
 
             public void SetValue(Configuraion config, string item, string value)
             {
+                this.item = item;
+                this.value = value;
 
+                bool found = false;
+                for (int i = 0; i < config.listConfig.Count; i++)
+                {
+                    if (config.listConfig[i] == item)
+                    {
+                        config.listConfig[i] = this;
+                        found = true;
+                        break; 45
+                    }
+                }
+               
             }
         }
     }
