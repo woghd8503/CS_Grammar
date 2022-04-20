@@ -51,9 +51,19 @@ namespace _002.MiddleGrammar
                         found = true;
                         break; 45
                     }
+
+                    if (found == false)
+                        config.listConfig[i] = this;
                 }
+
+                public string GetItem()
+                { return item;  }
+                public string GetValue()
+                { return value; }
                
             }
         }
+
+        class MainApp
     }
 }
