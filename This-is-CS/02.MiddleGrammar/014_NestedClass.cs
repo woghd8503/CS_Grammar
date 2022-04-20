@@ -25,8 +25,13 @@ namespace _002.MiddleGrammar
         {
             foreach (ItemValue iv in listConfig)
             {
-                if
+                if (iv.GetItem() == item)
+                    return iv.GetValue();
             }
+
+            return "";
         }
+
+
     }
 }
