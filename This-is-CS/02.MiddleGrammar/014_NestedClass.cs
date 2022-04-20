@@ -4,37 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// 클래스를 (상속이 안 되도록) 봉인하는 것처럼 메소드도 (오버라이딩되지 않도록) sealed 키워드를 이용해서 봉인할 수 있습니다. 그렇다고 모든 메소드를 봉인할 수 있는
-// 것은 아니고, virtual로 선언된 가상 메소드를 오버라이딩한 버전의 메소드만 가능합니다. 예를 들어 다음과 같이 Base 클래스와 Derived 클래스가 있다고 하면, Derived의
-// SealMe()만 봉인할 수 있습니다.
+// 프로그래머마다 중첩 클래스를 이용하는 이유가 다양하지만, 기본적으로는 다음 두 가지 때문입니다. 
+// 1. 클래스 외부에 공개하고 싶지 않은 형식을 만들고자 할 때
+// 2. 현재 클래스의 일부분처럼 표현할 수 있는 클래스를 만들고자 할 때
+
+
 namespace _002.MiddleGrammar
 {
-    class Base
-    {
-        public virtual void SealMe()
-        {
-        }
-    }
-
-    class Derived : Base
-    {
-        public sealed override void SealMe()
-        {
-        }
-    }
-
-    class WantToOverride : Derived
-    {
-        /*public override void SealMe() // 에러 발생
-        {
-        }*/
-    }
-
-    class MainApp
-    {
-        static void Main(string[] args)
-        {
-
-        }
-    }
+   
 }
