@@ -65,5 +65,13 @@ namespace _002.MiddleGrammar
         }
 
         class MainApp
+        {
+            static void Main(string[] args)
+            {
+                configuration config = new configuration();
+                config.SetConfig("Version", "V 5.0");
+                config.SetConfig("Size", "655,324 KB");
+            }
+        }
     }
 }
