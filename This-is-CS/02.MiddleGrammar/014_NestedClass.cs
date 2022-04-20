@@ -11,5 +11,22 @@ using System.Threading.Tasks;
 
 namespace _002.MiddleGrammar
 {
-   
+   class Configuraion
+    {
+        List<ItemValue> listConfig = new List<ItemValue>();
+
+        public void SetConfig(string item, string value)
+        {
+            ItemValue iv = new ItemValue();
+            iv.SetValue(this, item, value);
+        }
+
+        public string GetConfig(string item)
+        {
+            foreach (ItemValue iv in listConfig)
+            {
+                if
+            }
+        }
+    }
 }
