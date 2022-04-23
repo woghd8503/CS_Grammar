@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace _002.MiddleGrammar
 {
-   class Configuraion
+    class Configuraion
     {
         List<ItemValue> listConfig = new List<ItemValue>();
 
@@ -57,10 +57,10 @@ namespace _002.MiddleGrammar
                 }
 
                 public string GetItem()
-                { return item;  }
+                { return item; }
                 public string GetValue()
                 { return value; }
-               
+
             }
         }
 
@@ -72,6 +72,15 @@ namespace _002.MiddleGrammar
                 config.SetConfig("Version", "V 5.0");
                 config.SetConfig("Size", "655,324 KB");
             }
+            Console.WriteLine(Configuraion.GetConfig("Version"));
+            Console.WriteLine(Configuraion.GetConfig("Size"));
+
+                config.SetConfig("Version", "V 5.0.1");
+                Console.WriteLine(config.GetConfig("Version"));
+
+
+
+               
         }
     }
 }
