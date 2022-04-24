@@ -28,5 +28,22 @@ namespace _002.MiddleGrammar
         {
             Console.WriteLine("Method3");
         }
+
+        public void Method2()
+        {
+            Console.WriteLine("Method4");
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            MyClass obj = new MyClass();
+            obj.Method1();
+            obj.Method2();
+            obj.Method3();
+            obj.Method4();
+        }
     }
 }
