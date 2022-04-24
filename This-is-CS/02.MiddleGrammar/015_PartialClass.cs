@@ -18,7 +18,15 @@ namespace _002.MiddleGrammar
 
         public void Method2()
         {
-            Console.WriteLine();
+            Console.WriteLine("Method2");
+        }
+    }
+
+    partial class MyClass
+    {
+        public void Method3()
+        {
+            Console.WriteLine("Method3");
         }
     }
 }
