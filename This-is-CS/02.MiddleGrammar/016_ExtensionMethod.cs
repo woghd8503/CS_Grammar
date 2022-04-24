@@ -8,7 +8,7 @@ using MyExtension;
 namespace MyExtension
 {
     public static class IntegerExtension
-    {
+    { 
         public static int Square(this int myInt)
         {
             return myInt * myInt;
