@@ -15,6 +15,12 @@ namespace _002.MiddleGrammar
         public Configuration(int v1, int v2)
         {
             min = v1;
+            min = v2;
+        }
+
+        public void ChangeMin(int newMax)
+        {
+            max = newMax;      // 
         }
     }
    
