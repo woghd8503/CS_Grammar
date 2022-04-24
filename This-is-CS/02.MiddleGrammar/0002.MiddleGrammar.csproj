@@ -56,7 +56,7 @@
     <None Include="007_AccessModifier.cs" />
     <None Include="006_ThisConstructor.cs" />
     <None Include="005_This.cs" />
-    <Compile Include="013_ReadonlyFields.cs" />
+    <None Include="013_ReadonlyFields.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
