@@ -29,7 +29,7 @@ namespace _002.MiddleGrammar
             Console.WriteLine("Method3");
         }
 
-        public void Method2()
+        public void Method4()
         {
             Console.WriteLine("Method4");
         }

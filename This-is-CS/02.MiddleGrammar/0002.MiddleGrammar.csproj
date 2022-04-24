@@ -57,7 +57,7 @@
     <None Include="006_ThisConstructor.cs" />
     <None Include="005_This.cs" />
     <None Include="013_ReadonlyFields.cs" />
-    <None Include="015_PartialClass.cs" />
+    <Compile Include="015_PartialClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
