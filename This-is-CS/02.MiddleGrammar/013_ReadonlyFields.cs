@@ -20,7 +20,7 @@ namespace _002.MiddleGrammar
 
         public void ChangeMin(int newMax)
         {
-            max = newMax;      // 생성자가 아닌 다른 곳에서 값을 수정하려 하면 컴파일 에러가 발생합니다.
+            // max = newMax;      // 생성자가 아닌 다른 곳에서 값을 수정하려 하면 컴파일 에러가 발생합니다.
         }
     }
    
