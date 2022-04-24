@@ -47,8 +47,8 @@
     <None Include="002_Constructor.cs" />
     <None Include="003_StaticField.cs" />
     <None Include="004_DeepCopy.cs" />
-    <None Include="013_ReadOnly.cs" />
-    <None Include="012_SealedMethod.cs" />
+    <None Include="012_SealedMethod_.cs" />
+    <None Include="014_NestedClass_.cs" />
     <None Include="011_MethodHiding.cs" />
     <None Include="010_Overriding.cs" />
     <None Include="009_TypeCasting.cs" />
