@@ -19,8 +19,23 @@ using System.Threading.Tasks;
 // 생성자         매개변수 없는 생성자 선언가능  매개변수 없는 생성자 선언 불가능
 // 상속           가능                         값 형식이므로 상속 불가능
 
-namespace MyExtension
+namespace Struct
 {
+    struct Point3D
+    {
+        public int X;
+        public int Y;
+        public int Z;
+
+        public Point3D(int X, int Y, int Z)
+        {
+            this.X = X;
+            this.Y = Y;
+            this.Z = Z;
+        }
+
+        public 
+    }
     public static class IntegerExtension
     { 
         public static int Square(this int myInt)
