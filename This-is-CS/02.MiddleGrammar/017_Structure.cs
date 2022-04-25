@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// public 필드가 보이네요?
+// 은닉성을 운운하며 모든 필드는 반드시 private으로 만들어야 한다고 했던 제가 왜 이렇게 했을까요?
+
 namespace MyExtension
 {
     public static class IntegerExtension
