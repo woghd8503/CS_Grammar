@@ -57,7 +57,8 @@
     <None Include="006_ThisConstructor.cs" />
     <None Include="005_This.cs" />
     <None Include="013_ReadonlyFields.cs" />
-    <Compile Include="019_ReadonlyMethod.cs" />
+    <Compile Include="020_Tuple.cs" />
+    <None Include="019_ReadonlyMethod.cs" />
     <None Include="018_ReadonlyStruct.cs" />
     <None Include="017_Structure.cs" />
     <None Include="016_ExtensionMethod.cs" />
