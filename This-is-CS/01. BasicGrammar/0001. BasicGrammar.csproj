@@ -62,6 +62,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="001_IntegralType.cs" />
     <None Include="002_IntegerLiterals.cs" />
     <None Include="003_SignedUsigned.cs" />

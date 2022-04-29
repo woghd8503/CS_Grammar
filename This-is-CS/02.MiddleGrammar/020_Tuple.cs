@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 // 석에서 사용할 복합 데이터 형식을 선언할 때 적합합니다. 튜플은 구조체이므로 값 형식입니다. 값
 // 형식은 생성된 지역을 벗어나면 스택에서 소멸되기 때문에 프로그램에 장기적인 부담을 주지 않는 
 // 다는 장점이 있죠.
+
 namespace Tuple
 {
     class MainApp
@@ -17,6 +18,18 @@ namespace Tuple
         {
             // 명명되지 않은 튜플
             var a = { "슈펴맨", 9999 };
+            Console.WriteLine($"{a.Item1}, {a.Item2}");
+
+            // 명명된 튜플
+            var b = (Name: "박상현", Age: 17);
+            Console.WriteLine($"{b.Name}, {b.Age}");
+
+            // 분해
+            var (name, age) = b; // (var name, var age) = b;
+            Console.WriteLine($"{name}, {age}");
+
+            // 분해2
+            var (name, age) 
         }
     }
 }

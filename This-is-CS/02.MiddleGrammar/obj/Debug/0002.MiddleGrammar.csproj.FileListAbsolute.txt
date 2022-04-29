@@ -5,3 +5,5 @@ D:\01.Coding_study\This-is-CS\This-is-CS\02.MiddleGrammar\obj\Debug\0002.MiddleG
 D:\01.Coding_study\This-is-CS\This-is-CS\02.MiddleGrammar\obj\Debug\0002.MiddleGrammar.csproj.CoreCompileInputs.cache
 D:\01.Coding_study\This-is-CS\This-is-CS\02.MiddleGrammar\obj\Debug\002.MiddleGrammar.exe
 D:\01.Coding_study\This-is-CS\This-is-CS\02.MiddleGrammar\obj\Debug\002.MiddleGrammar.pdb
+D:\01.Coding_study\This-is-CS\This-is-CS\02.MiddleGrammar\obj\Debug\0002.MiddleGrammar.csproj.AssemblyReference.cache
+D:\01.Coding_study\This-is-CS\This-is-CS\02.MiddleGrammar\obj\Debug\0002.MiddleGrammar.csproj.SuggestedBindingRedirects.cache
