@@ -29,7 +29,8 @@ namespace Tuple
             Console.WriteLine($"{name}, {age}");
 
             // 분해2
-            var (name, age) 
+            var (name2, age2) = { "박문수", 34};
+            Console.WriteLine($"{name2}, {age2}");
         }
     }
 }
