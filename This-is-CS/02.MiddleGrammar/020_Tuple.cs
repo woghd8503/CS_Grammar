@@ -33,6 +33,8 @@ namespace Tuple
             Console.WriteLine($"{name2}, {age2}");
 
             // 명명된 튜플 = 명명되지 않은 튜플
+            b = a;
+            Console.WriteLine($"{b.Name}, {b,Age}");
         }
     }
 }
