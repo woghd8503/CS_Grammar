@@ -31,6 +31,8 @@ namespace Tuple
             // 분해2
             var (name2, age2) = { "박문수", 34};
             Console.WriteLine($"{name2}, {age2}");
+
+            // 명명된 튜플 = 명명되지 않은 튜플
         }
     }
 }
