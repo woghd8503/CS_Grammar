@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\This-is-CS",
-    "\\This-is-CS\\02.MiddleGrammar"
+    "\\This-is-CS\\01. BasicGrammar",
+    "\\This-is-CS\\02. MiddleGrammar"
   ],
-  "SelectedNode": "\\This-is-CS\\02.MiddleGrammar\\002_Constructor.cs",
+  "SelectedNode": "\\This-is-CS\\02. MiddleGrammar\\Properties",
   "PreviewInSolutionExplorer": false
 }
