@@ -12,27 +12,13 @@ namespace PositionalPattern
 {
     class MainApp
     {
-        static void Main(string[] args)
+        private static double GetDiscountRate(object client)
         {
-            // 명명되지 않은 튜플
-            var a = ( "슈펴맨", 9999 );
-            Console.WriteLine($"{a.Item1}, {a.Item2}");
-
-            // 명명된 튜플
-            var b = (Name: "박상현", Age: 17);
-            Console.WriteLine($"{b.Name}, {b.Age}");
-
-            // 분해
-            var (name, age) = b; // (var name, var age) = b;
-            Console.WriteLine($"{name}, {age}");
-
-            // 분해2
-            var (name2, age2) = ( "박문수", 34);
-            Console.WriteLine($"{name2}, {age2}");
-
-            // 명명된 튜플 = 명명되지 않은 튜플
-            b = a;
-            Console.WriteLine($"{b.Name}, {b.Age}");
-        }
+            return client switch
+            {
+                ("학생", int n) when n < 18 => 0.2, // 학생 & 18세 미만
+                ("학생", _) => 0.1, // 학생 & 18세 이상
+                ("일반", int n) when n < 18 => 0.1, // 일반 & 
+}
     }
 }
