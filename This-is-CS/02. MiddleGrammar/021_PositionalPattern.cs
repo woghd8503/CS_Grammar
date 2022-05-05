@@ -27,7 +27,14 @@ namespace PositionalPattern
         static void Main(string[] args)
         {
             var alice = (job: "학생", age: 17);
-            var bob   = (job: "") 
+            var bob = (job: "학생", age: 23);
+            var charlie = (job: "일반", age: 15);
+            var dave = (job: "일반", age: 21);
+
+            Console.WriteLine($"alice : {GetDiscountRate(alice)}");
+            Console.WriteLine($"bob : {GetDiscountRate(bob)}");
+            Console.WriteLine($"charlie : {GetDiscountRate(charlie)}");
+            Console.WriteLine($"dave : {GetDiscountRate(dave)}");
         }
     }
 }
