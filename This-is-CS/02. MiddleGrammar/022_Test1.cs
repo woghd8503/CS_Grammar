@@ -30,6 +30,7 @@ namespace Test1
             public readonly double GetFahrenheit()
             {
                 target = currentInCelsius * 1.8 + 32; // 화씨 ( F) 계산 결과를 target에 저장
+                return target; // target 반환
             }
         }
     }
