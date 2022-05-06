@@ -24,7 +24,7 @@ namespace Test1
         // Q5. 다음 코드를 컴파일 및 실행이 가능하도록 수정하세요.
         struct ACSetting
         {
-            public double 
+            public double CurrentInCelsius; // 현재 온도 ( 도시)
         }
     }
 }
