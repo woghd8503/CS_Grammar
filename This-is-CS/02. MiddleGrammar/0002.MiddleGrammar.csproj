@@ -75,7 +75,8 @@
     <None Include="006_ThisConstructor.cs" />
     <None Include="005_This.cs" />
     <None Include="013_ReadonlyFields.cs" />
-    <Compile Include="021_PositionalPattern.cs" />
+    <Compile Include="022_Test1.cs" />
+    <None Include="021_PositionalPattern.cs" />
     <None Include="020_Tuple.cs" />
     <None Include="019_ReadonlyMethod.cs" />
     <None Include="018_ReadonlyStruct.cs" />
