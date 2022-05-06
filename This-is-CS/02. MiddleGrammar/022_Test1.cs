@@ -21,17 +21,19 @@ namespace Test1
         //    3. 참조 형식이다.
         //    4. 메소드를 가질 수 있다.
 
-        // Q5. 다음 코드를 컴파일 및 실행이 가능하도록 수정하세요.
-        struct ACSetting
-        {
-            public double currentInCelsius; // 현재 온도 ( 도시)
-            public double target;           // 희망 온도
 
-            public readonly double GetFahrenheit()
-            {
-                target = currentInCelsius * 1.8 + 32; // 화씨 ( F) 계산 결과를 target에 저장
-                return target; // target 반환
-            }
+    }
+
+    // Q5. 다음 코드를 컴파일 및 실행이 가능하도록 수정하세요.
+    struct ACSetting
+    {
+        public double currentInCelsius; // 현재 온도 ( 도시)
+        public double target;           // 희망 온도
+
+        public readonly double GetFahrenheit()
+        {
+            target = currentInCelsius * 1.8 + 32; // 화씨 ( F) 계산 결과를 target에 저장
+            return target; // target 반환
         }
     }
 }

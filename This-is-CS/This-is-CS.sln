@@ -8,9 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0002.MiddleGrammar", "02. MiddleGrammar\0002.MiddleGrammar.csproj", "{D903DFAE-3439-41F6-8035-AB0EEE943BFA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0001. BasicGrammar", "..\..\ThisIsCS\This-is-CS\01. BasicGrammar\0001. BasicGrammar.csproj", "{11729584-8F23-4F1D-9290-EA66112D855B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0002.MiddleGrammar", "02. MiddleGrammar\0002.MiddleGrammar.csproj", "{D903DFAE-3439-41F6-8035-AB0EEE943BFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,17 +18,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D903DFAE-3439-41F6-8035-AB0EEE943BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D903DFAE-3439-41F6-8035-AB0EEE943BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D903DFAE-3439-41F6-8035-AB0EEE943BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D903DFAE-3439-41F6-8035-AB0EEE943BFA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{11729584-8F23-4F1D-9290-EA66112D855B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{11729584-8F23-4F1D-9290-EA66112D855B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11729584-8F23-4F1D-9290-EA66112D855B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11729584-8F23-4F1D-9290-EA66112D855B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D903DFAE-3439-41F6-8035-AB0EEE943BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D903DFAE-3439-41F6-8035-AB0EEE943BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D903DFAE-3439-41F6-8035-AB0EEE943BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D903DFAE-3439-41F6-8035-AB0EEE943BFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11729584-8F23-4F1D-9290-EA66112D855B} = {5B804938-050F-4461-8997-64103F7AB365}
+		{D903DFAE-3439-41F6-8035-AB0EEE943BFA} = {5B804938-050F-4461-8997-64103F7AB365}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C08A82B-2CC5-4A0D-B764-F8B6E347BF1C}

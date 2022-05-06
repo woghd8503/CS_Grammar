@@ -10,9 +10,10 @@
     <AssemblyName>002.MiddleGrammar</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -75,7 +76,7 @@
     <None Include="006_ThisConstructor.cs" />
     <None Include="005_This.cs" />
     <None Include="013_ReadonlyFields.cs" />
-    <Compile Include="022_Test1.cs" />
+    <None Include="022_Test1.cs" />
     <None Include="021_PositionalPattern.cs" />
     <None Include="020_Tuple.cs" />
     <None Include="019_ReadonlyMethod.cs" />
