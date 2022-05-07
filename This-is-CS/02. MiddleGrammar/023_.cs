@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 //     // ...
 // }
 
+// 인터페이스는 메소드, 이벤트, 인덱서, 프로퍼티만 가질 수 있는데 그나마도 구현부가 없습니다.
 namespace Test1
 {
     class MainApp
