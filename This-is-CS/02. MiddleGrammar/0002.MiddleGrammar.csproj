@@ -84,6 +84,7 @@
     <None Include="017_Structure.cs" />
     <None Include="016_ExtensionMethod.cs" />
     <None Include="015_PartialClass.cs" />
+    <None Include="023_.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
