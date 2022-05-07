@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 // 인터페이스 interface가 무엇인지 설명하기 전에, 인터페이스가 어떻게 생겼는지 알아보겠습니다. 인터페이스는 다음과 
 // 같이 interface 키워드를 이용해서 선언합니다.
 
+// interface 인터페이스이름
+// {
+//     반환_형식 메소드이름1 ( 매개변수_목록 );
+// 
+
 namespace Test1
 {
     class MainApp
