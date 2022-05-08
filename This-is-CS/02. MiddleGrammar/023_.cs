@@ -44,7 +44,11 @@ namespace Interface
 
     class ConsoleLogger : ILogger
     {
+        public void WriteLog(string message)
+        {
+            Console.WriteLine();
 
+        }
     }
 
 }
