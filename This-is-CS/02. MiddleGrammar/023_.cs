@@ -21,6 +21,10 @@ using System.Threading.Tasks;
 
 // 인터페이스 작명법
 // 이름이야 엿장수 마음대로 붙여도 상관은 없는데, 대개 C# 프로그래머들 사이에서는 인터페이스의 이름 앞에 'I'를 붙이는 것이 관례입니다.
+
+// 인터페이스는 약속이다
+// 여러분이 사용하고 있는 PC에 혹시 USB Universal Serial Bus 포트가 있습니까? 이 USB 포트는 참으로 신통한 녀석입니다. 
+
 namespace Test1
 {
     class MainApp
