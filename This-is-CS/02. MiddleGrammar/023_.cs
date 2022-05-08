@@ -46,8 +46,19 @@ namespace Interface
     {
         public void WriteLog(string message)
         {
-            Console.WriteLine();
+            Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
 
+        }
+    }
+
+    class FileLogger : ILogger
+    {
+        private StreamWriter writer;
+
+        public FileLogger(string path)
+        {
+            writer = File.CreateText(path);
+            writer.AutoFlush = true;
         }
     }
 
