@@ -31,7 +31,8 @@ using System.Threading.Tasks;
 // 파생될 클래스가 어떤 메소드를 구현해야 할지를 정의합니다.
 
 // 가령 앞에서 예로 들었던 ILogger 인터페이스는 자신으로부터 파생될 클래스가 반드시 WriteLog()메소드를 구현하도록 강제합니다. 어떤 클래스든
-// ILogger를 상속받아 IL
+// ILogger를 상속받아 ILogger에 선언되어 있는 WriteLog() 메소드를 구현하면 ILogger를 상속받는 새로운 클래스를 선언해서 파일에 르그를 출력
+// 하도록 할 수 있고 네트워크 너머에 있는 서버에 저장하도록 패킷을 보낼 수도 있습니다.
 
 namespace Test1
 {
