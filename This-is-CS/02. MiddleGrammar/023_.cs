@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 // 인터페이스 interface가 무엇인지 설명하기 전에, 인터페이스가 어떻게 생겼는지 알아보겠습니다. 인터페이스는 다음과 
 // 같이 interface 키워드를 이용해서 선언합니다.
@@ -36,23 +37,14 @@ using System.Threading.Tasks;
 
 namespace Interface
 {
-    class MainApp
+    interface ILogger
     {
-
-
+        void WriteLog(string message);
     }
 
-    // Q5. 다음 코드를 컴파일 및 실행이 가능하도록 수정하세요.
-    struct ACSetting
+    class ConsoleLogger : ILogger
     {
-        public double currentInCelsius; // 현재 온도 ( 도시)
-        public double target;           // 희망 온도
 
-        public readonly double GetFahrenheit()
-        {
-            target = currentInCelsius * 1.8 + 32; // 화씨 ( F) 계산 결과를 target에 저장
-            return target; // target 반환
-        }
     }
 
 }
