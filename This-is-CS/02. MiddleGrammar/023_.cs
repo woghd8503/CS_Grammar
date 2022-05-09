@@ -68,5 +68,7 @@ namespace Interface
         }
     }
 
+    class ClimateMonitor
+    { }
 }
 
