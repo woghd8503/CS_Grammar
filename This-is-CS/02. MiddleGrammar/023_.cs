@@ -75,6 +75,11 @@ namespace Interface
         {
             this.logger = logger;
         }
+
+        public void Start()
+        {
+            while(true)
+        }
     }
 }
 
