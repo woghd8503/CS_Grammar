@@ -69,6 +69,12 @@ namespace Interface
     }
 
     class ClimateMonitor
-    { }
+    {
+        private ILogger logger;
+        public ClimateMonitor(ILooger logger)
+        {
+            this.logger = logger;
+        }
+    }
 }
 
