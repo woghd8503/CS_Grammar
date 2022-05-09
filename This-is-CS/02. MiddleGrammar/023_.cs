@@ -64,7 +64,7 @@ namespace Interface
 
         public void WriteLog(string message)
         {
-            writer.WriteLine("");
+            writer.WriteLine("{1} {1}", DateTime.Now.ToShortTimeString(), message);
         }
     }
 
