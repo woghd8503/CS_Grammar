@@ -85,7 +85,7 @@ namespace Interface
                 if (temperature == "")
                     break;
 
-                logger.WriteLog()
+                logger.WriteLog("현재 온도 : " + temperature);
             }
         }
     }
