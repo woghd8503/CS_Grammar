@@ -35,6 +35,7 @@ using System.IO;
 // ILogger를 상속받아 ILogger에 선언되어 있는 WriteLog() 메소드를 구현하면 ILogger를 상속받는 새로운 클래스를 선언해서 파일에 르그를 출력
 // 하도록 할 수 있고 네트워크 너머에 있는 서버에 저장하도록 패킷을 보낼 수도 있습니다.
 
+
 namespace Interface
 {
     interface ILogger
