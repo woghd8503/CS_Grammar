@@ -64,7 +64,7 @@ namespace Interface
 
         public void WriteLog(string message)
         {
-            writer.WriteLine
+            writer.WriteLine();
         }
     }
 
