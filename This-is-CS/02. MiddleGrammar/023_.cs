@@ -81,6 +81,7 @@ namespace Interface
             while(true)
             {
                 Console.Write("온도를 입력해주세요.:");
+                string temperature = Console.ReadLine();
             }
         }
     }
