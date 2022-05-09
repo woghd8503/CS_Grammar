@@ -79,6 +79,9 @@ namespace Interface
         public void Start()
         {
             while(true)
+            {
+                Console.Write("온도를 입력해주세요.:");
+            }
         }
     }
 }
