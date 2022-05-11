@@ -94,7 +94,12 @@ namespace Interface
     {
         static void Main(string[] args)
         {
-            static void 
+            static void Main(string[] args)
+            {
+                ClimateMonitor monitor = new ClimateMonitor(new FileLogger("MyLog.txt"));
+
+                monitor.Start();
+            }
         }
     }
 }
