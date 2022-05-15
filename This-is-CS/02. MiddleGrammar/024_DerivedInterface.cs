@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-// 
+// 인터페이스를 상속할 수 있는 것은 클래스뿐이 아닙니다.
 
 
 namespace Interface
