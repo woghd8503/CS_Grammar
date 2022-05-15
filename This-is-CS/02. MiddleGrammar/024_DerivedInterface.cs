@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-// 인터페이스를 상속할 수 있는 것은 클래스뿐이 아닙니다.
+// 인터페이스를 상속할 수 있는 것은 클래스뿐이 아닙니다. 클래스의 사촌인 구조체는 물론이고, 인터페이스도 인터페이스를 상속할 수 있습니다. 기존의 인터페이스에
+// 새로운 기능을 추가한 인터페이스를 만들고 싶을 때 
 
 
 namespace Interface
