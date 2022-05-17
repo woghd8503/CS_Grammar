@@ -49,6 +49,7 @@ namespace DerivedInterface
         {
             IFormattableLogger logger = new ConsoleLogger2();
             Iogger.WriteLog("The world is not flat.");
+            logger.WriteLog("{0} + {1} = {2}", 1, 1, 2);
         }
     }
 }
