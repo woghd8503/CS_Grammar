@@ -39,8 +39,13 @@ namespace DerivedInterface
         public void WriteLog(string format, params object[] args)
         {
             string message = string.Format(format, args);
-            Console.WriteLine("{0} {1}", DateTime.Now);
+            Console.WriteLine("{0} {1}", DateTime.Now.LocalTime(), message);
         }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
     }
 }
 
