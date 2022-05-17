@@ -33,7 +33,8 @@ namespace DerivedInterface
     {
         public void WriteLog(string message)
         {
-            ConsoleLogger2.
+            Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
+
         }
     }
 }
