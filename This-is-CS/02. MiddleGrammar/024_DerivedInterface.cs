@@ -26,7 +26,15 @@ namespace DerivedInterface
 
     interface IFormattableLogger : ILogger
     {
+        void WriteLog(string format, params object[] args);
+    }
 
+    class ConsoleLogger2 : IFormattableLogger
+    {
+        public void WriteLog(string message)
+        {
+            ConsoleLogger2.
+        }
     }
 }
 
