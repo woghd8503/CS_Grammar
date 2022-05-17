@@ -46,6 +46,10 @@ namespace DerivedInterface
     class MainApp
     {
         static void Main(string[] args)
+        {
+            IFormattableLogger logger = new ConsoleLogger2();
+            Iogger.WriteLog("The world is not flat.");
+        }
     }
 }
 
