@@ -17,7 +17,7 @@ using System.IO;
 // 코드에 영향을 주지 않고 새로운 기능을 추가하기 위해서는 인터페이스를 상속하는 인터페이스를 이용하는 편이 좋습니다.
 
 
-namespace Interface
+namespace DerivedInterface
 {
     interface ILogger
     {
@@ -26,11 +26,7 @@ namespace Interface
 
     class ConsoleLogger : ILogger
     {
-        public void WriteLog(string message)
-        {
-            Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
-
-        }
+        void WriteLog(string message);
     }
 
     class FileLogger : ILogger
