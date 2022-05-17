@@ -85,7 +85,7 @@
     <None Include="016_ExtensionMethod.cs" />
     <None Include="015_PartialClass.cs" />
     <None Include="023_Interface.cs" />
-    <None Include="024_DerivedInterface.cs" />
+    <Compile Include="024_DerivedInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

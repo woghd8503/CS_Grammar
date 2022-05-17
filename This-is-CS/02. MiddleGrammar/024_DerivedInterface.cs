@@ -39,7 +39,7 @@ namespace DerivedInterface
         public void WriteLog(string format, params object[] args)
         {
             string message = string.Format(format, args);
-            Console.WriteLine("{0} {1}", DateTime.Now.LocalTime(), message);
+            Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
         }
     }
 
@@ -48,7 +48,7 @@ namespace DerivedInterface
         static void Main(string[] args)
         {
             IFormattableLogger logger = new ConsoleLogger2();
-            Iogger.WriteLog("The world is not flat.");
+            logger.WriteLog("The world is not flat.");
             logger.WriteLog("{0} + {1} = {2}", 1, 1, 2);
         }
     }
