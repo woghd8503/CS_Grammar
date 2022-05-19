@@ -45,6 +45,10 @@ namespace MultiInterfaceInheritance
     {
         static void Main(string[] args)
         {
+            FlyingCar Car = new FlyingCar();
+            Car.Run();
+            Car.Fly();
+
 
         }
     }
