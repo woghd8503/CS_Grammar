@@ -49,7 +49,8 @@ namespace MultiInterfaceInheritance
             Car.Run();
             Car.Fly();
 
-
+            IRunnable runnable = Car as IRunnable;
+            runnable.Run();
         }
     }
 
