@@ -23,6 +23,9 @@ using System.IO;
 //     }
 //}
 
+// ILogger는 평범한 인터페이스이며, ConsoleLogger는 ILogger를 상속하는 평범한 클래스입니다. ILogger에는 WriteLog()라는
+// 메소드가 선언되어 있기 때문에 ILogger를 상속하는 ConsoleLogger는 이 메소드를 오버라이딩해야 합니다. 여기까지는 우리가
+// 잘 이해하고 있는 내용입니다.
 
 namespace MultiInterfaceInheritance
 {
