@@ -28,8 +28,12 @@ namespace MultiInterfaceInheritance
         void Fly();
     }
 
-    class ConsoleLogger2 : IFormattableLogger
+    class FlyingCar : IRunnable, IFlyable
     {
+        public void Run()
+        {
+            Console.WriteLine("Run! Run!");
+        }
         public void WriteLog(string message)
         {
             Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
