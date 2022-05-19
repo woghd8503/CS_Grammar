@@ -23,9 +23,9 @@ namespace MultiInterfaceInheritance
         void Run();
     }
 
-    interface IFormattableLogger : ILogger
+    interface IFlyable
     {
-        void WriteLog(string format, params object[] args);
+        void Fly();
     }
 
     class ConsoleLogger2 : IFormattableLogger
