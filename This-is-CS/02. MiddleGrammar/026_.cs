@@ -10,6 +10,14 @@ using System.IO;
 // 메소드와는 역할이 약간 다릅니다. 기본 구현 메소드를 자세히 설명하기 전에, 다음 코드를 같이 보시죠.
 
 
+// interface ILogger
+//{
+//   void WriteLog(string message);
+//}
+
+
+
+
 namespace MultiInterfaceInheritance
 {
     interface IRunnable
