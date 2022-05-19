@@ -15,7 +15,13 @@ using System.IO;
 //   void WriteLog(string message);
 //}
 
-
+// class ConsoleLogger : ILogger
+//{
+//     public void WriteLog(string message)
+//     {
+//          Console.WriteLine( $"{DateTime.Now.ToLocalTime()}, {message}");
+//     }
+//}
 
 
 namespace MultiInterfaceInheritance
