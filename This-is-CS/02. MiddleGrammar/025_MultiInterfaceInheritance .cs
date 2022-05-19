@@ -16,11 +16,11 @@ using System.IO;
 // 있지면 정말 좋겠죠? 그래서 C#은 클래스의 다중 상속을 허용하지 않습니다.
 
 
-namespace DerivedInterface
+namespace MultiInterfaceInheritance
 {
-    interface ILogger
+    interface IRunnable
     {
-        void WriteLog(string message);
+        void Run();
     }
 
     interface IFormattableLogger : ILogger
