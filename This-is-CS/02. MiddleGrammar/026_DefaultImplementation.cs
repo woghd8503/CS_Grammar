@@ -44,8 +44,11 @@ using System.IO;
 
 namespace DefaultImplementation
 {
-    interface IRunnable
+    interface ILogger
     {
+        void WriteLog(string message);
+
+        void
         void Run();
     }
 
