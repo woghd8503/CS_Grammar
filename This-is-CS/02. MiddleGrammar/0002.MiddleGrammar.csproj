@@ -85,7 +85,7 @@
     <None Include="016_ExtensionMethod.cs" />
     <None Include="015_PartialClass.cs" />
     <None Include="023_Interface.cs" />
-    <Compile Include="026_.cs" />
+    <Compile Include="026_DefaultImplementation.cs" />
     <None Include="025_MultiInterfaceInheritance .cs" />
     <None Include="024_DerivedInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
