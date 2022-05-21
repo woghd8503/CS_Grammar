@@ -34,7 +34,7 @@ using System.IO;
 // interface ILogger
 //{
 //      void WriteLog(string message);
-//
+//      void WriteError(stringh error);  // 새로운 메소드 추가
 //}
 
 namespace MultiInterfaceInheritance
