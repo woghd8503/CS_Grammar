@@ -37,6 +37,8 @@ using System.IO;
 //      void WriteError(stringh error);  // 새로운 메소드 추가
 //}
 
+// 그 결과, ConsoleLogger를 비롯해서 ILogger를 상속하는 모든 클래스에 대해 다음과 같은 컴파일 에러가 발생합니다. 
+
 namespace MultiInterfaceInheritance
 {
     interface IRunnable
