@@ -31,6 +31,12 @@ using System.IO;
 // 이와 같은 상황에서 초기 버전을 설계할 때 놓친 메소드를 인터페이스에 안전하게 추가할 수 있을까요? 다음과 같이 무작정 ILobber에
 // 새 메소드를 추가한다고 해보죠.
 
+// interface ILogger
+//{
+//      void WriteLog(string message);
+//
+//}
+
 namespace MultiInterfaceInheritance
 {
     interface IRunnable
