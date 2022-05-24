@@ -66,15 +66,12 @@ namespace DefaultImplementation
     {
         static void Main(string[] args)
         {
-            FlyingCar Car = new FlyingCar();
-            Car.Run();
-            Car.Fly();
+            ILogger logger = new ConsoleLogger();
+            logger.WriteLog("System Up");
+            logger.WriteError("System Fail");
 
-            IRunnable runnable = Car as IRunnable;
-            runnable.Run();
-
-            IFlyable flyable = Car as IFlyable;
-            flyable.Fly();
+            ConsoleLogger cologger = new ConsoleLogger();
+            ConsoleLogger.
         }
     }
 
