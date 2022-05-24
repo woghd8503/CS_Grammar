@@ -62,24 +62,6 @@ namespace DefaultImplementation
         }
     }
 
-    interface IFlyable
-    {
-        void Fly();
-    }
-
-    class FlyingCar : IRunnable, IFlyable
-    {
-        public void Run()
-        {
-            Console.WriteLine("Run! Run!");
-        }
-
-        public void Fly()
-        {
-            Console.WriteLine("Fly! Fly!");
-        }
-    }
-
     class MainApp
     {
         static void Main(string[] args)
