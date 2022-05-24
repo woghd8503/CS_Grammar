@@ -58,7 +58,7 @@ namespace DefaultImplementation
     {
         public void WriteLog(string message)
         {
-            Console.WriteLine();
+            Console.WriteLine($"{DateTime.Now.ToLocalTime()}, {message}");
         }
     }
 
