@@ -54,6 +54,14 @@ namespace DefaultImplementation
         }
     }
 
+    class ConsoleLogger : ILogger
+    {
+        public void WriteLog(string message)
+        {
+            Console.WriteLine();
+        }
+    }
+
     interface IFlyable
     {
         void Fly();
