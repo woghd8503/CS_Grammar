@@ -70,9 +70,9 @@ namespace DefaultImplementation
             logger.WriteLog("System Up");
             logger.WriteError("System Fail");
 
-            ConsoleLogger cologger = new ConsoleLogger();
+            ConsoleLogger clogger = new ConsoleLogger();
             clogger.WriteLog("System Up");  // OK
-            // clogger.WriteError("System )
+            //clogger.WriteError("System Fail"); // 컴파일 에러
         }
     }
 
