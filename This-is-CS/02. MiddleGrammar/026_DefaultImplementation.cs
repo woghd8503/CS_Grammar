@@ -48,7 +48,12 @@ namespace DefaultImplementation
     {
         void WriteLog(string message);
 
-        void
+        void WriteError(string message);
+
+        void writeError(string error) // 새로운 메소드 추가
+        {
+            write
+        }
         void Run();
     }
 
