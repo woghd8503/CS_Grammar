@@ -48,13 +48,10 @@ namespace DefaultImplementation
     {
         void WriteLog(string message);
 
-        void WriteError(string message);
-
         void WriteError(string error) // 새로운 메소드 추가
         {
             WriteLog($"Error: {error}");
         }
-        void Run();
     }
 
     interface IFlyable
