@@ -50,9 +50,9 @@ namespace DefaultImplementation
 
         void WriteError(string message);
 
-        void writeError(string error) // 새로운 메소드 추가
+        void WriteError(string error) // 새로운 메소드 추가
         {
-            write
+            WriteLog($"Error: {error}");
         }
         void Run();
     }
