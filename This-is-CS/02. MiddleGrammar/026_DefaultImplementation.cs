@@ -72,7 +72,7 @@ namespace DefaultImplementation
 
             ConsoleLogger cologger = new ConsoleLogger();
             clogger.WriteLog("System Up");  // OK
-            // clogger.Write
+            // clogger.WriteError("System )
         }
     }
 
