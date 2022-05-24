@@ -71,7 +71,8 @@ namespace DefaultImplementation
             logger.WriteError("System Fail");
 
             ConsoleLogger cologger = new ConsoleLogger();
-            ConsoleLogger.
+            clogger.WriteLog("System Up");  // OK
+            //
         }
     }
 
