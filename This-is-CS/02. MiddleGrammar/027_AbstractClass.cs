@@ -23,7 +23,15 @@ namespace AbstractClass
 {
     abstract class AbstractBase
     {
-        void WriteLog(string message); 
+        protected void PrivateMethodA()
+        {
+            Console.WriteLine("AbstractBase.PrivateMethodA()");
+        }
+
+        public void PublicMethodA()
+        {
+            Console.WriteLine("AbstractBase.PrivateMehtodA()");
+        }
 
         void WriteError(string error) // 새로운 메소드 추가
         {
