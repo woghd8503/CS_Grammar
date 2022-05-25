@@ -14,13 +14,14 @@ using System.IO;
 
 // 한편, 추상 클래스에는 인스턴스를 만들 수 없다는 점 외에도 클래스와 다른 점이 또 하나 있습니다. 그것은 바로 추상 메소드 Abstract Method를 가질 수 있다는
 // 사실입니다. 추상 메소드는 추상 클래스가 한편으로 인터페이스의 역할도 할 수 있게 해주는 장치입니다. 구현을 갖지는 못하지만 파생 클래스에서 반드시 구현하도록
-// 강제하거든요. 다시 말해, 추상 클래스를 상속하는 클래스들이 반드시 이 메소드를 갖고 있을 거라는 "약속"인 것입니다.
+// 강제하거든요. 다시 말해, 추상 클래스를 상속하는 클래스들이 반드시 이 메소드를 갖고 있을 거라는 "약속"인 것입니다. 그럼 이 추상 메소드의 기본 접근성은 어떻게
+// 될까요? 인터페이스에서 처럼 public 일까요? 아니면 클래스에서처럼 private일까요? 답은 "둘 다" 입니다. 
 
 
 
-namespace DefaultImplementation
+namespace AbstractClass
 {
-    interface ILogger
+    abstract class AbstractBase
     {
         void WriteLog(string message); 
 
