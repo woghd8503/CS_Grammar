@@ -57,3 +57,5 @@ namespace AbstractClass
 
 }
 
+// 지금까지는 추상 클래스가 무엇인지에 대해 이야기 했습니다. 
+
