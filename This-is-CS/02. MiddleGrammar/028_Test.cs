@@ -18,7 +18,8 @@ namespace Test
     // 어떤 기능을 하는지 유추할 수 있다.
 
     // 인터페이스와 추상 클래스가 다른 점은 무엇입니까?
-
+    
+    // 추상클래스는 인터페이스와 기본적으로 역할
     class MainApp
     {
         static void Main(string[] args)
