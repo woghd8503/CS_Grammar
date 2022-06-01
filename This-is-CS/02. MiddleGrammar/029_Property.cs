@@ -44,10 +44,12 @@ namespace Property
         {
             get
             {
-                return 
+                return new DateTime(DateTime.Now.Subtract(birthday).Ticks).Year;
             }
         }
+
     }
+
 
 }
 
