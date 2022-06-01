@@ -12,45 +12,20 @@ using System.IO;
 // 한 가지 더, C# 7.0부터는 다음과 같이 자동 구현 프로퍼티를 선언함과 동시에 초기화를 수행할 수 있습니다. 덕분에 자동 구현 프로퍼티에 초깃값이 필요할 때 생성자에
 // 코드를 작성하는 수고를 덜게 되었습니다.
 
-namespace A
+namespace AutoImplementedProperty
 {
     class BirthdayInfo
     {
-        private string name;
-        private DateTime birthday;
-
-        public string Name
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                name = value;
-            }
-        }
-
-        public DateTime Birthday
-        {
-            get
-            {
-                return birthday;
-            }
-            set
-            {
-                birthday = value;
-            }
-        }
-
+        public string Name { get; set; } = "Unknown";
+        public DateTime Birthday { get; set; } = new DateTime(1, 1, 1);
         public int Age
         {
             get
             {
-                return new DateTime(DateTime.Now.Subtract(birthday).Ticks).Year;
+                return new DateTime(DateTime.Now.Subtract())
             }
         }
-        
+
     }
 
     class MainApp
