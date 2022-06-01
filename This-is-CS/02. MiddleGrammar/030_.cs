@@ -9,6 +9,9 @@ using System.IO;
 // 다음 코드의 NameCard클래스를 보세요. Name과 PhoneNumber 프로퍼티는 단순히 name과 phoneNumber 필드를 읽고 쓰기만 합니다. 여기에는 아무 논리도 섞여 있지 않습니다. 
 // 마이크로소프트의 C#팀은 이런 경우에 사용해서 코드를 더 단순하게 만드는 자동 구현 프로퍼티 Auto-Implemented Property를 C#3.0부터 도입했습니다.
 
+// 한 가지 더, C# 7.0부터는 다음과 같이 자동 구현 프로퍼티를 선언함과 동시에 초기화를 수행할 수 있습니다. 덕분에 자동 구현 프로퍼티에 초깃값이 필요할 때 생성자에
+// 코드를 작성하는 수고를 덜게 되었습니다.
+
 namespace Property
 {
     class BirthdayInfo
