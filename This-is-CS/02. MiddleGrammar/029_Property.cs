@@ -11,7 +11,19 @@ using System.IO;
 
 namespace Property
 {
+    class BirthdayInfo
+    {
+        private string name;
+        private DateTime birthday;
 
+        public string Name
+        {
+            get
+            {
+
+            }
+        }
+    }
 
 }
 
