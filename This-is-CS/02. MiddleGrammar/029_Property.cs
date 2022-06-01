@@ -20,7 +20,31 @@ namespace Property
         {
             get
             {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
 
+        public DateTime Birthday
+        {
+            get
+            {
+                return birthday;
+            }
+            set
+            {
+                birthday = value;
+            }
+        }
+
+        public int Age
+        {
+            get
+            {
+                return 
             }
         }
     }
