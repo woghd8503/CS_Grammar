@@ -47,4 +47,5 @@ namespace AutoImplementedProperty
     }
 }
 
+// 자동
 
