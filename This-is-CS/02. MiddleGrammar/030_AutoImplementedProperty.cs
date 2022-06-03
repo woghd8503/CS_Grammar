@@ -47,5 +47,5 @@ namespace AutoImplementedProperty
     }
 }
 
-// 자동 구현
+// 자동 구현 프로퍼티가 편하다는 건 이제
 
