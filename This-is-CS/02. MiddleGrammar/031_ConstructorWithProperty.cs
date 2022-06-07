@@ -40,6 +40,8 @@ namespace ConstructorWithProperty
               Birthday = new DateTime(1991, 6, 28)
             };
 
+            Console.WriteLine($"Name : {birth.Name}");
+            Console.WriteLine($"BirthDay : {birth.Name}");
         }
     }
 
