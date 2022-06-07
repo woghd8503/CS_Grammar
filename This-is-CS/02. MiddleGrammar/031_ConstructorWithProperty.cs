@@ -36,8 +36,8 @@ namespace ConstructorWithProperty
         static void Main(string[] args)
         {
             BirthdayInfo birth = new BirthdayInfo()
-            { Name = "서현";
-              Birthday = new 
+            { Name = "서현",
+              Birthday = new DateTime(1991, 6, 28)
             };
 
         }
