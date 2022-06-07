@@ -33,7 +33,12 @@ namespace ConstructorWithProperty
 
     class MainApp
     {
+        static void Main(string[] args)
+        {
+            BirthdayInfo birth = new BirthdayInfo()
+            { Birthday};
 
+        }
     }
 
 }
