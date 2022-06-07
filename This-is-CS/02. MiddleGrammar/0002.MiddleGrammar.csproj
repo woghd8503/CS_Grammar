@@ -85,6 +85,7 @@
     <None Include="016_ExtensionMethod.cs" />
     <None Include="015_PartialClass.cs" />
     <None Include="023_Interface.cs" />
+    <Compile Include="031_ConstructorWithProperty.cs" />
     <Compile Include="030_AutoImplementedProperty.cs" />
     <None Include="029_Property.cs" />
     <None Include="028_Test.cs" />
