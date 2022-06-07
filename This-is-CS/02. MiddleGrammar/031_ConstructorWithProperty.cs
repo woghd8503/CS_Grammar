@@ -42,6 +42,7 @@ namespace ConstructorWithProperty
 
             Console.WriteLine($"Name : {birth.Name}");
             Console.WriteLine($"BirthDay : {birth.Name}");
+            Console.WriteLine($"Age : {birth.Age}");
         }
     }
 
