@@ -8,7 +8,14 @@ using System.IO;
 
 namespace ConstructorWithProperty
 {
-    
+    class BirthdayInfo
+    {
+        public string Name
+        {
+            get;
+            set;
+        }
+    }
 
 }
 
