@@ -15,6 +15,20 @@ namespace ConstructorWithProperty
             get;
             set;
         }
+
+        public DateTime Birthday
+        {
+            get;
+            set;
+        }
+
+        public int Age
+        {
+            get
+            {
+                return new DateTime(DateTime.)
+            }
+        }
     }
 
 }
