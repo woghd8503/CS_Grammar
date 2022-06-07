@@ -26,7 +26,7 @@ namespace ConstructorWithProperty
         {
             get
             {
-                return new DateTime(DateTime.)
+                return new DateTime(DateTime.Now.Subtract(Birthday))
             }
         }
     }
