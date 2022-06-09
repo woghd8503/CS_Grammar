@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-// 
+// 초기화하고 싶은 프로퍼티만 넣어서 초기화하면 됩니다.
 
 namespace ConstructorWithProperty
 {
