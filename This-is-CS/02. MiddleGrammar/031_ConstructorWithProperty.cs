@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-// 초기화하고 싶은 프로퍼티만 넣어서 초기화하면 됩니다. 매개변수가 있는 생성자를 작성할 때와 달리 어떤 필드를 
+// 초기화하고 싶은 프로퍼티만 넣어서 초기화하면 됩니다. 매개변수가 있는 생성자를 작성할 때와 달리 어떤 필드를 생성자 안에서 
 
 namespace ConstructorWithProperty
 {
