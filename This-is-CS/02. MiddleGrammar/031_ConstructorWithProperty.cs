@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 
 // 초기화하고 싶은 프로퍼티만 넣어서 초기화하면 됩니다. 매개변수가 있는 생성자를 작성할 때와 달리 어떤 필드를 생성자 안에서 초기화할지 미리 고민할 필요가 없습니다.
-// 
+// 앞에서 만들었던 BirthdayInfo 클래스를 예로 들어 프로퍼티를 이용한 객체를 생성하고 초기화해보겠습니다.
 
 namespace ConstructorWithProperty
 {
