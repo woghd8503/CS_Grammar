@@ -9,6 +9,7 @@ using System.IO;
 // 그 예죠. 하지만 프로퍼티를 읽기 전용으로 선언하는 방법이 불편했는데요. 다음과 같이 생성자를 통해 필드를 초기화하고 그 필드에 접근하는 프로퍼티는 get 접근자만 갖도록 해야 했습니다.
 // 
 
+
 namespace InitOnly
 {
     class Transaction
