@@ -22,35 +22,14 @@ namespace InitOnly
         {
             return $"{From,-10} -> {To,-10} : ${Amount}";
         }
-        public string Name
-        {
-            get;
-            set;
-        }
-
-        public DateTime Birthday
-        {
-            get;
-            set;
-        }
-
-        public int Age
-        {
-            get
-            {
-                return new DateTime(DateTime.Now.Subtract(Birthday).Ticks).Year;
-            }
-        }
     }
 
     class MainApp
     {
         static void Main(string[] args)
         {
-            BirthdayInfo birth = new BirthdayInfo()
-            { Name = "서현",
-              Birthday = new DateTime(1991, 6, 28)
-            };
+            Transaction tr1 = new Transaction {From="Alice", To="Bob", Amount=100};
+            Transaction tr2 = new 
 
             Console.WriteLine($"Name : {birth.Name}");
             Console.WriteLine($"BirthDay : {birth.Name}");
