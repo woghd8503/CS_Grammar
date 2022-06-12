@@ -20,7 +20,7 @@ namespace InitOnly
 
         public override string ToString()
         {
-            return $"{From,-10}"
+            return $"{From,-10} -> {To,-10} : ${Amount}";
         }
         public string Name
         {
