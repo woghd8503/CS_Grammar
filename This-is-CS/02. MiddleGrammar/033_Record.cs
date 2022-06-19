@@ -30,7 +30,7 @@ namespace Record
             };
             RTransaction tr2 = new RTransaction
             { 
-                From = "Bob", To = "Charlie", Amount = 50
+                From = "Bob", To = "Charlie", Amount = 100
             };
 
             Console.WriteLine(tr1);
