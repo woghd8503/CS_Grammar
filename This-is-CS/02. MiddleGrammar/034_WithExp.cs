@@ -30,6 +30,7 @@ namespace WithExp
 
             Console.WriteLine(tr1);
             Console.WriteLine(tr2);
+            Console.WriteLine(tr3);
         }
     }
 
