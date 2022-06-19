@@ -5,7 +5,6 @@ using System.Runtime.CompilerServices;
 // 많이 이뤄집니다. 새로운 상태를 표현하려고 기존 상태를 복사한 뒤 이 중 일부를 수정해서 새로운 객체를 만들고, 상태를 확인하기 위해 객체내용을 작주 비교합니다.
 
 
-
 namespace WithExp
 {
     record RTransaction
