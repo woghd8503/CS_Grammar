@@ -24,13 +24,17 @@ namespace Record
     {
         static void Main(string[] args)
         {
-            RTransaction tr1 = new RTransaction { From = "Alice", To = "Bob", Amount = 100 };
-            RTransaction tr2 = new RTransaction { From = "Bob", To = "Charlie", Amount = 50 };
-            RTransaction tr3 = new RTransaction { From = "Charlie", To = "Alice", Amount = 50 };
+            RTransaction tr1 = new RTransaction
+            {
+                From = "Alice", To = "Bob", Amount = 100 
+            };
+            RTransaction tr2 = new RTransaction
+            { 
+                From = "Bob", To = "Charlie", Amount = 50
+            };
 
             Console.WriteLine(tr1);
             Console.WriteLine(tr2);
-            Console.WriteLine(tr3);
         }
     }
 
