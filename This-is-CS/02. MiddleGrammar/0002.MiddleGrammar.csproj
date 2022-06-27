@@ -85,7 +85,8 @@
     <None Include="016_ExtensionMethod.cs" />
     <None Include="015_PartialClass.cs" />
     <None Include="023_Interface.cs" />
-    <Compile Include="034_WithExp.cs" />
+    <Compile Include="035_RecordComp.cs" />
+    <None Include="034_WithExp.cs" />
     <None Include="033_Record.cs" />
     <None Include="032_InitOnly.cs" />
     <None Include="031_ConstructorWithProperty.cs" />
