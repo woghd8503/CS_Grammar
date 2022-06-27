@@ -6,7 +6,8 @@ namespace RecordComp
     class CTransaction
     {
         public string From { get; init; }
-
+        public string To { get; init; }
+        public int Amount { get; init;]}
 
         public override string ToString()
         {
@@ -14,8 +15,10 @@ namespace RecordComp
         }
     }
 
-    class MainApp
+    class RTransaction
     {
+        public string From { get; init; }
+        public string To { get; init; }
         static void Main(string[] args)
         {
             RTransaction tr1 = new RTransaction{From = "Alice", To = "Bob", Amount = 100};
