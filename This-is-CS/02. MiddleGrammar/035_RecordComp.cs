@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace RecordComp
 {
-    record RTransaction
+    class CTransaction
     {
         public string From { get; init; }
         public string To { get; init; }
