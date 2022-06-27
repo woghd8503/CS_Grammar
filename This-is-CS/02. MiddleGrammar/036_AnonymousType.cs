@@ -17,6 +17,7 @@ namespace AnonymousType
                 Console.Write($"{score}");
 
             Console.WriteLine();
+
         }
     }
 }
