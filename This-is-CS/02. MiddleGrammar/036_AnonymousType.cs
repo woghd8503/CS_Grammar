@@ -7,41 +7,16 @@ namespace AnonymousType
     {
         static void Main(string[] args)
         {
+            var a = new { Name = "박상현", Age = 123 };
+            Console.WriteLine($"Name:{a.Name}, Age:{a.Age}");
 
-        }
-    }
+            var b = new { Subject = "수학", Scores = new int[] { 90, 80, 70, 60 } };
 
-    class RTransaction
-    {
-        public string From { get; init; }
-        public string To { get; init; }
-        public int Amount { get; init; }
+            Console.Write($"Subject:{b.Subject}, Scores: ");
+            foreach(var score in b.Scores)
+                Console.Write($"{score}");
 
-        public override string ToString()
-        {
-            return $"{From,-10} -> {To,-10} : ${Amount}";
-        }
-    }
-
-    class MainApp
-    {
-        static void Main(string[] args)
-        {
-            CTransaction trA = new CTransaction { From = "Alice", To = "Bob", Amount = 100 };
-
-            CTransaction trB = new CTransaction { From = "Alice", To = "Bob", Amount = 100 };
-
-            Console.WriteLine(trA);
-            Console.WriteLine(trB);
-            Console.WriteLine($"trA equals to trB : {trA.Equals(trB)}");
-
-            RTransaction tr1 = new RTransaction { From = "Alice", To = "Bob", Amount = 100 };
-
-            RTransaction tr2 = new RTransaction { From = "Alice", To = "Bob", Amount = 100 };
-
-            Console.WriteLine(tr1);
-            Console.WriteLine(tr2);
-            Console.WriteLine($"tr1 equals to tr2 : {tr1.Equals(tr2)}");
+            Console.WriteLine();
         }
     }
 }
