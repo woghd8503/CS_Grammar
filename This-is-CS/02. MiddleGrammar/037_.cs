@@ -3,6 +3,10 @@ using System.Runtime.CompilerServices;
 
 namespace PropertiesInInerface
 {
+    interface INamedValue
+    {
+        string 
+    }
     class MainApp
     {
         static void Main(string[] args)
