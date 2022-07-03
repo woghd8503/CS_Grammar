@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 
 namespace PropertiesInInerface
 {
@@ -17,6 +16,7 @@ namespace PropertiesInInerface
             set;
         }
     }
+
     class NamedValue : INamedValue
     {
         public string Name
@@ -36,18 +36,18 @@ namespace PropertiesInInerface
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                NamedValue name = new NamedValue();
-                { Name = "이름", Value = "박상현"};
+            NamedValue name = new NamedValue();
+            { Name = "이름", Value = "박상현" };
 
-                NamedValue height = new NamedValue();
-                { Name = "키", Value = "177Cm"};
+            NamedValue height = new NamedValue();
+            { Name = "키", Value = "177Cm" };
 
-                NamedValue weight = new NamedValue();
-                { Name = "몸무게", Value = "90Kg"};
-            }
+            NamedValue weight = new NamedValue();
+            { Name = "몸무게", Value = "90Kg" };
+
+            Console.WriteLine($"{name.Name} : {name.Value}");
+            Console.WriteLine($"{height.Name} : {height.Value}");
+            Console.WriteLine($"{weight.Name} : {weight.Value}");
         }
     }
 }
-
