@@ -5,9 +5,19 @@ namespace PropertiesInInerface
 {
     interface INamedValue
     {
-        string 
+        string Name
+        {
+            get;
+            set;
+        }
+
+        string Value
+        {
+            get;
+            set;
+        }
     }
-    class MainApp
+    class NamedValue : INamedValue
     {
         static void Main(string[] args)
         {
