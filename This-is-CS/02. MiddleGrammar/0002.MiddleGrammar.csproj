@@ -85,7 +85,8 @@
     <None Include="016_ExtensionMethod.cs" />
     <None Include="015_PartialClass.cs" />
     <None Include="023_Interface.cs" />
-    <Compile Include="036_AnonymousType.cs" />
+    <Compile Include="037_.cs" />
+    <None Include="036_AnonymousType.cs" />
     <None Include="035_RecordComp.cs" />
     <None Include="034_WithExp.cs" />
     <None Include="033_Record.cs" />
