@@ -19,20 +19,13 @@ namespace PropertiesInInerface
     }
     class NamedValue : INamedValue
     {
-        static void Main(string[] args)
+        public string Name
         {
-            var a = new { Name = "박상현", Age = 123 };
-            Console.WriteLine($"Name:{a.Name}, Age:{a.Age}");
-
-            var b = new { Subject = "수학", Scores = new int[] { 90, 80, 70, 60 } };
-             
-            Console.Write($"Subject:{b.Subject}, Scores: ");
-            foreach(var score in b.Scores)
-                Console.Write($"{score}");
-
-            Console.WriteLine();
-
+            get;
+            set;
         }
+
+        public string Value
     }
 }
 
