@@ -26,6 +26,10 @@ namespace PropertiesInInerface
         }
 
         public string Value
+        {
+            get;
+            set;
+        }
     }
 }
 
