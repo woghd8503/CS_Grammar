@@ -36,13 +36,13 @@ namespace PropertiesInInerface
     {
         static void Main(string[] args)
         {
-            NamedValue name = new NamedValue();
+            NamedValue name = new NamedValue()
             { Name = "이름", Value = "박상현" };
 
-            NamedValue height = new NamedValue();
+            NamedValue height = new NamedValue()
             { Name = "키", Value = "177Cm" };
 
-            NamedValue weight = new NamedValue();
+            NamedValue weight = new NamedValue()
             { Name = "몸무게", Value = "90Kg" };
 
             Console.WriteLine($"{name.Name} : {name.Value}");
