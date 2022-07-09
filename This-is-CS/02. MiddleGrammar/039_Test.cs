@@ -4,7 +4,8 @@ namespace Test
 {
     class NameCard
     {
-        private int 
+        private int age;
+        private string name;
     }
 
 }
