@@ -31,7 +31,9 @@ namespace PropertiesInAbstractClass
         static void Main(string[] args)
         {
             Product product_1 = new MyProduct()
-            { }
+            { ProductDate = new DateTime(2018, 1, 10) };
+
+            Console.WriteLine("Product:{0}, Product Date :{1}", product_1.SerialID, product_1.ProductDate);
         }
     }
 
