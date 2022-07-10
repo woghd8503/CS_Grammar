@@ -4,7 +4,7 @@ namespace Test
 {
     class NameCard
     {
-
+        private int 
     }
 
 }
