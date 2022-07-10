@@ -15,7 +15,15 @@ namespace PropertiesInAbstractClass
             get;
             set;
         }
+    }
 
+    class MyProduct : Product
+    {
+        public override DateTime ProductDate
+        {
+            get;
+            set;
+        }
     }
 
 }
