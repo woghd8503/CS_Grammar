@@ -26,4 +26,13 @@ namespace PropertiesInAbstractClass
         }
     }
 
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Product product_1 = new MyProduct()
+            { }
+        }
+    }
+
 }
