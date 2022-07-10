@@ -2,6 +2,9 @@
 
 namespace Test
 {
+    class NameCard
+    {
 
+    }
 
 }
