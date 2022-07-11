@@ -7,6 +7,9 @@ namespace Test
         private int age;
         private string name;
 
+        public int GetAge()
+        { return age; }
+
 
     }
 
