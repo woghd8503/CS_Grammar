@@ -2,7 +2,7 @@
 
 namespace Test
 {
-    // 다음 코드에서 NameCard 클래스의 GetAge(), SetAge(), 
+    // 다음 코드에서 NameCard 클래스의 GetAge(), SetAge(), GetName(), SetName() 메소드들을 프로퍼티로 변경해 작성하세요.
     class NameCard
     {
         private int age;
