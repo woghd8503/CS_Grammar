@@ -2,6 +2,7 @@
 
 namespace Test
 {
+    // 다음 코드에서 NameCard 클래스의 GetAge(), SetAge(), 
     class NameCard
     {
         private int age;
