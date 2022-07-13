@@ -32,6 +32,7 @@ namespace Test
 
             Console.WriteLine("나이 : {0}", MyCard.GetAge());
             Console.WriteLine("이름 : {0}", MyCard.GetName());
+
         }
     }
 
