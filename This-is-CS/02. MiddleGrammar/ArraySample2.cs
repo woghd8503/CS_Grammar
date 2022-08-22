@@ -8,5 +8,9 @@ namespace _002.MiddleGrammar
 {
     class ArraySample2
     {
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
