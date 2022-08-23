@@ -85,7 +85,7 @@
     <None Include="016_ExtensionMethod.cs" />
     <None Include="015_PartialClass.cs" />
     <None Include="023_Interface.cs" />
-    <Compile Include="039_Test.cs" />
+    <None Include="039_Test.cs" />
     <None Include="038_PropertiesInAbstractClass.cs" />
     <None Include="037_PropertiesInInterface.cs" />
     <None Include="036_AnonymousType.cs" />
@@ -101,6 +101,7 @@
     <None Include="026_DefaultImplementation.cs" />
     <None Include="025_MultiInterfaceInheritance .cs" />
     <None Include="024_DerivedInterface.cs" />
+    <Compile Include="codingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
