@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>_002.MiddleGrammar</RootNamespace>
     <AssemblyName>002.MiddleGrammar</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -101,7 +101,12 @@
     <None Include="026_DefaultImplementation.cs" />
     <None Include="025_MultiInterfaceInheritance .cs" />
     <None Include="024_DerivedInterface.cs" />
+<<<<<<< HEAD
     <Compile Include="codingTest.cs" />
+=======
+    <Compile Include="ArraySample.cs" />
+    <Compile Include="ArraySample2.cs" />
+>>>>>>> 4b6f505d87175fb5dfe883544eb9f63fa2f0abed
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
