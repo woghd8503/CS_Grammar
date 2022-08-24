@@ -101,7 +101,7 @@
     <None Include="026_DefaultImplementation.cs" />
     <None Include="025_MultiInterfaceInheritance .cs" />
     <None Include="024_DerivedInterface.cs" />
-    <Compile Include="ArraySample.cs" />
+    <None Include="ArraySample.cs" />
     <Compile Include="ArraySample2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

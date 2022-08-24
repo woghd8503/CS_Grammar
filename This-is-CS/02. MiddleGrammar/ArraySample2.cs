@@ -10,7 +10,11 @@ namespace _002.MiddleGrammar
     {
         static void Main(string[] args)
         {
-
+            int[] scores = new int[5];
+            scores[0] = 80;
+            scores[1] = 74;
+            scores[2] = 81;
+            scores[^2] = 81;
         }
     }
 }
