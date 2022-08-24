@@ -101,8 +101,16 @@
     <None Include="026_DefaultImplementation.cs" />
     <None Include="025_MultiInterfaceInheritance .cs" />
     <None Include="024_DerivedInterface.cs" />
+<<<<<<< HEAD
     <None Include="ArraySample.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="codingTest.cs" />
+=======
+    <Compile Include="ArraySample.cs" />
+>>>>>>> 839c4dc1ea6941e5a78112d188c1dd5f638e2478
     <Compile Include="ArraySample2.cs" />
+>>>>>>> 4b6f505d87175fb5dfe883544eb9f63fa2f0abed
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

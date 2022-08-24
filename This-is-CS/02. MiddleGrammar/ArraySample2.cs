@@ -14,7 +14,7 @@ namespace _002.MiddleGrammar
             scores[0] = 80;
             scores[1] = 74;
             scores[2] = 81;
-            scores[^2] = 81;
+            scores[^2] = 81;  
         }
     }
 }
