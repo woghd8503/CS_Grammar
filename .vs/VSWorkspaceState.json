@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\This-is-CS",
+    "\\This-is-CS\\02. MiddleGrammar"
   ],
-  "SelectedNode": "\\This-is-CS.sln",
+  "SelectedNode": "\\This-is-CS\\This-is-CS.sln",
   "PreviewInSolutionExplorer": false
 }
