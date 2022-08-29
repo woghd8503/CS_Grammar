@@ -5,3 +5,10 @@ D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002.MiddleGrammar\obj\Debu
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002.MiddleGrammar\obj\Debug\0002.MiddleGrammar.csproj.CoreCompileInputs.cache
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002.MiddleGrammar\obj\Debug\0002.MiddleGrammar.exe
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002.MiddleGrammar\obj\Debug\0002.MiddleGrammar.pdb
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\02.MiddleGrammar\bin\Debug\0002.MiddleGrammar.exe.config
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\02.MiddleGrammar\bin\Debug\0002.MiddleGrammar.exe
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\02.MiddleGrammar\bin\Debug\0002.MiddleGrammar.pdb
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\02.MiddleGrammar\obj\Debug\0002.MiddleGrammar.csproj.AssemblyReference.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\02.MiddleGrammar\obj\Debug\0002.MiddleGrammar.csproj.CoreCompileInputs.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\02.MiddleGrammar\obj\Debug\0002.MiddleGrammar.exe
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\02.MiddleGrammar\obj\Debug\0002.MiddleGrammar.pdb
