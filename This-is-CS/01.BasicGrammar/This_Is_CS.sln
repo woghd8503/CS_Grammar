@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0001. BasicGrammar", "0001. BasicGrammar.csproj", "{11729584-8F23-4F1D-9290-EA66112D855B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0002.MiddleGrammar", "..\02.MiddleGrammar\0002.MiddleGrammar.csproj", "{957F7746-07E2-4D63-866F-40862A4B88D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11729584-8F23-4F1D-9290-EA66112D855B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11729584-8F23-4F1D-9290-EA66112D855B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11729584-8F23-4F1D-9290-EA66112D855B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11729584-8F23-4F1D-9290-EA66112D855B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957F7746-07E2-4D63-866F-40862A4B88D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957F7746-07E2-4D63-866F-40862A4B88D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957F7746-07E2-4D63-866F-40862A4B88D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957F7746-07E2-4D63-866F-40862A4B88D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DADB64BD-B9A6-4884-9942-C634596DECD1}
+	EndGlobalSection
+EndGlobal
