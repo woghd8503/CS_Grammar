@@ -80,7 +80,8 @@
     <None Include="040_ArraySample.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="041_ArraySample2.cs" />
+    <None Include="041_ArraySample2.cs" />
+    <Compile Include="042.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
