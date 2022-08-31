@@ -8,5 +8,7 @@ namespace _0002.MiddleGrammar
 {
     class _042
     {
+
+
     }
 }
