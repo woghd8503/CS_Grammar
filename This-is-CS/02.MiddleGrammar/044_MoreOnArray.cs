@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _0002.MiddleGrammar
 {
-    class MoreOnArray
+    class _044_MoreOnArray
     {
         private static bool CheckPassed(int score)
         {
