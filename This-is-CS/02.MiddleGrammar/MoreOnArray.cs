@@ -55,12 +55,15 @@ namespace _0002.MiddleGrammar
             Array.Resize<int>(ref scores, 10); // 5였던 배열의 용량을 10으로 재조정합니다.
             Console.WriteLine($"New length of scores : {scores.Length}");
 
-            Array.ForEach<int>(scores, new Action<int>(Print));
+            Array.ForEach<int>(scores, new Action<int>(Print)); // Action 대리자에 대해서는 14장에서 다시 자세하게 설명하겠습니다.
             Console.WriteLine();
 
             Array.Clear(scores, 3, 7);
-            Array.ForEach<int>(scores, new Action<int>(Print));
+            Array.ForEach<int>(scores, new Action<int>(Print)); 
+            // 이 코드는 scores 배열의 0번째부터 3개 요소를 sliced 배열의 0번째~2번째 요소에 차례대로 복사합니다.
             Console.WriteLine();
+
+
         }
     }
 }
