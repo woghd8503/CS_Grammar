@@ -41,9 +41,23 @@ namespace _0002.MiddleGrammar
             Console.WriteLine($"Everyone passed ? : " +
                 $"{Array.TrueForAll<int>(scores, CheckPassed)}");
 
-            int index = Array.FindIndex<int>(scores, (score) => score < 60); 
-            // FindIndex 메소드는 톡정 조건에 부합하는 메소드를 매개변수로 받습니다.
-                                                                             
+            int index = Array.FindIndex<int>(scores, (score) => score < 60);
+            // FindIndex 메소드는 톡정 조건에 부합하는 메소드를 매개변수로 받습니다. 여기에선 람다식으로 구현해봤습니다.
+
+            scores[index] = 61;
+            Console.WriteLine($"Everyone passed ? : +" +
+                $"{Array.TrueForAll<int>(scores, CheckPassed)}");
+
+            Console.WriteLine("Old length of scores : " +
+                $"{scores.GetLength(0)}");
+
+            Array.Resize<int>(ref scores, 10);
+            Console.WriteLine($"New length of scores : {scores.Length}");
+
+            Array.ForEach<int>(scores, new Action<int>(Print);
+
+
+
         }
     }
 }
