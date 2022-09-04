@@ -36,8 +36,14 @@ namespace _0002.MiddleGrammar
                 $"{Array.BinarySearch<int>(scores, 81)}");
 
             Console.WriteLine($"Linear Search : 90 is at " +
-                $"{Array}");
+                $"{Array.IndexOf(scores, 90)}");
 
+            Console.WriteLine($"Everyone passed ? : " +
+                $"{Array.TrueForAll<int>(scores, CheckPassed)}");
+
+            int index = Array.FindIndex<int>(scores, (score) => score < 60); 
+            // FindIndex 메소드는 톡정 조건에 부합하는 메소드를 매개변수로 받습니다.
+                                                                             
         }
     }
 }
