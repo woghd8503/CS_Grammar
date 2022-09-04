@@ -15,7 +15,7 @@ namespace _0002.MiddleGrammar
 
         private static void Print(int value)
         {
-            Console.Write($"{value}");
+            Console.Write($"{value} ");
         }
 
         static void Main(string[] args)
@@ -63,7 +63,10 @@ namespace _0002.MiddleGrammar
             // 이 코드는 scores 배열의 0번째부터 3개 요소를 sliced 배열의 0번째~2번째 요소에 차례대로 복사합니다.
             Console.WriteLine();
 
-
+            int[] sliced = new int[3];
+            Array.Copy(scores, 0, sliced, 0, 3);
+            Array.ForEach<int>(sliced, new Action<int>(Print));
+            Console.WriteLine();
         }
     }
 }
