@@ -84,7 +84,10 @@
     <None Include="042_InitializingArray.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="043_DerivedFromArray.cs" />
+    <None Include="043_DerivedFromArray.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MoreOnArray.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
