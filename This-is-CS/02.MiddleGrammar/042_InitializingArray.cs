@@ -7,9 +7,13 @@ using System.Threading.Tasks;
 
 namespace _0002.MiddleGrammar
 {
-    class _042
+    class _042_InitializingArray
     {
+        static void Main(string[] args)
+        {
+            string[] array1 = new string[3] { "안녕", "Hello", "Halo" };
 
+        }
 
 
     }
