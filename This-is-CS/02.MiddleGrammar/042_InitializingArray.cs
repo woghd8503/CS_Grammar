@@ -1,5 +1,4 @@
 ﻿using System;
-
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,8 +20,12 @@ namespace _0002.MiddleGrammar
             Console.WriteLine("\narray2...");
             foreach (string greeting in array2)
                 Console.WriteLine($" {greeting}");
+
+            string[] array3 = { "안녕", "Hello", "Halo" };
+
+            Console.WriteLine("\narray3...");
+            foreach(string greeting in array3)
+                Console.WriteLine($" {greeting}");
         }
-
-
     }
 }
