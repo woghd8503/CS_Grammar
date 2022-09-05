@@ -35,6 +35,14 @@ namespace _0002.MiddleGrammar
             Console.WriteLine();
 
             int[,] arr3 = { { 1, 2, 3 }, { 4, 5, 6 } };
+
+            for(int i = 0; i < arr3.GetLength(0); i++)
+            {
+                for(int j = 0; j < arr3.GetLength(1); j++)
+                {
+                    Console.Write($"[{i}, {j}] : {arr3[i, j]}");
+                }
+            }
         }
     }
 }
