@@ -28,7 +28,7 @@ namespace _0002.MiddleGrammar
             {
                 for(int j = 0; j < arr2.GetLength(1); j++)
                 {
-                    Console.Write($"[{i}, {j}]")
+                    Console.Write($"[{i}, {j}] : {arr2[i, j]}")
                 }
             }
         }
