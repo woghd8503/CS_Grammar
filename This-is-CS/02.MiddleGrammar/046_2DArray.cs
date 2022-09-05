@@ -28,9 +28,13 @@ namespace _0002.MiddleGrammar
             {
                 for(int j = 0; j < arr2.GetLength(1); j++)
                 {
-                    Console.Write($"[{i}, {j}] : {arr2[i, j]}")
+                    Console.Write($"[{i}, {j}] : {arr2[i, j]}");
                 }
+                Console.WriteLine();
             }
+            Console.WriteLine();
+
+            int[,] arr3 = { { 1, 2, 3 }, { 4, 5, 6 } };
         }
     }
 }
