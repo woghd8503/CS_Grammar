@@ -8,5 +8,9 @@ namespace _0002.MiddleGrammar
 {
     internal class _046_2DArray
     {
+        static void Main(string[] args)
+        {
+            int[,] arr = new int[2, 3]{ { 1, 2, 3 }, { 4, 5, 6} };
+        }
     }
 }
