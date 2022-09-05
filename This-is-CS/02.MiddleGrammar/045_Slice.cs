@@ -23,6 +23,9 @@ namespace _0002.MiddleGrammar
 
             PrintArray(array[..]);  // 0부터 마지막까지
             PrintArray(array[5..])  // 5부터 끝까지
+
+            Range range_5_10 = 5..10;
+            PrintArray(array[range_5_10]); //
         }
     }
 }
