@@ -29,6 +29,9 @@ namespace _0002.MiddleGrammar
 
             Index last = ^0;
             Range range_5_last = 5..last;
+            PrintArray(array[range_5_last]); // 5번째부터 끝(^)까지
+
+            PrintArray(array[^4..^1]);  // 끝에서 4번째부터 끝(^)에서 2번째까지
         }
     }
 }
