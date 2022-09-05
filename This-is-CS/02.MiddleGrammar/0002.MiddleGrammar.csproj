@@ -87,7 +87,10 @@
     <None Include="043_DerivedFromArray.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="044_MoreOnArray.cs" />
+    <None Include="044_MoreOnArray.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="045_Slice.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

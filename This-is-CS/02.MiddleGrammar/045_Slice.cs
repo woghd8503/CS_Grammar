@@ -8,6 +8,11 @@ namespace _0002.MiddleGrammar
 {
     class _045_Slice
     {
-        static void PrintArray(System.Array)
+        static void PrintArray(System.Array array)
+        {
+            foreach (var e in array)
+                Console.Write(e);
+            Console.WriteLine();
+        }
     }
 }
