@@ -27,7 +27,7 @@ namespace _0002.MiddleGrammar
             Range range_5_10 = 5..10;
             PrintArray(array[range_5_10]); // 5번째부터 9(10-1)번째까지
 
-            Index last = ^0;
+            Index last = ^0;Rdfdfas
         }
     }
 }
