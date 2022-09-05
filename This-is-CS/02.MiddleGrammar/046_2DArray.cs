@@ -42,7 +42,9 @@ namespace _0002.MiddleGrammar
                 {
                     Console.Write($"[{i}, {j}] : {arr3[i, j]}");
                 }
+                Console.WriteLine();
             }
+            Console.WriteLine();
         }
     }
 }
