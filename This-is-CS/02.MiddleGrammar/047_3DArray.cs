@@ -8,5 +8,9 @@ namespace _0002.MiddleGrammar
 {
     class _047_3DArray
     {
+        static void Main()
+        {
+
+        }
     }
 }

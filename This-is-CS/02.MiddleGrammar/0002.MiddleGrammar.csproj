@@ -94,6 +94,7 @@
     <None Include="044_MoreOnArray.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="047_3DArray.cs" />
     <None Include="045_Slice.cs" />
     <Compile Include="046_2DArray.cs" />
   </ItemGroup>
