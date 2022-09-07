@@ -10,7 +10,10 @@ namespace _0002.MiddleGrammar
     {
         static void Main()
         {
+            int[,,] array = new int[4, 3, 2]
+            {
 
+            }
         }
     }
 }
