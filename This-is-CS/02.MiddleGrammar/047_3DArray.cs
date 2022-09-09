@@ -25,7 +25,7 @@ namespace _0002.MiddleGrammar
                     Console.Write("{ ");
                     for(int k = 0; k < array.GetLength(1); k++)
                     {
-
+                        Console.WriteLine();
                     }
                 }
             }
