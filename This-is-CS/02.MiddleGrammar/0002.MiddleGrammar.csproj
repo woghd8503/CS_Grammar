@@ -96,7 +96,7 @@
   <ItemGroup>
     <Compile Include="047_3DArray.cs" />
     <None Include="045_Slice.cs" />
-    <Compile Include="046_2DArray.cs" />
+    <None Include="046_2DArray.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
