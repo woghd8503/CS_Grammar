@@ -27,40 +27,37 @@ using static System.Console;
 // int result1 = Plus( 1, 2 ); int Plus( int, int )를 호출합니다.
 // double result2 = Plus( 3.1, 2.4 ); double Plus ( double, double )를 호출합니다.
 
-namespace _01.BasicGrammar
+using System;
+
+class CodingTest
 {
-    class Overloading
+
+    static void Main()
     {
-        static int Plus(int a, int b)
+        int n = int.Parse(sr.ReadLine());
+        string s = null;
+        string[] fileName = new string[n];
+        for (int x = 0; x < n; x++)
+            fileName[x] = sr.ReadLine();
+
+        for (int y = 0; y < fileName[0].Length; y++)
         {
-            Console.WriteLine("Calling int Plus(int, int)...");
-            return a + b;
+            s = null;
+
+            for (int z = 1; z < n; z++)
+            {
+                if (fileName[0][y] != fileName[z][y])
+                {
+                    s = "?";
+                    break;
+                }
+
+            }
+            if (s == null)
+                s = fileName[0][y].ToString();
+            sb.Append(s);
         }
 
-        static int Plus(int a, int b, int c)
-        {
-            Console.WriteLine("Calling int Plus(int, int, int)...");
-            return a + b + c;
-        }
-
-        static double Plus(double a, double b)
-        {
-            Console.WriteLine("Calling double Plus(double, double)...");
-            return a + b;
-        }
-
-        static double Plus(int a, double b)
-        {
-            Console.WriteLine("Calling double Plus(int, double)...");
-            return a + b;
-        }
-
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Plus(1, 2));
-            Console.WriteLine(Plus(1, 2, 3));
-            Console.WriteLine(Plus(1.0, 2.4));
-            Console.WriteLine(Plus(1, 2.4));
-        }
+        Console.WriteLine(sb);
     }
 }
