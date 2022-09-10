@@ -1,0 +1,8 @@
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\01.BasicGrammar\bin\Debug\_01.BasicGrammar.exe.config
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\01.BasicGrammar\bin\Debug\_01.BasicGrammar.exe
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\01.BasicGrammar\bin\Debug\_01.BasicGrammar.pdb
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\01.BasicGrammar\obj\Debug\0001. BasicGrammar.csproj.AssemblyReference.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\01.BasicGrammar\obj\Debug\0001. BasicGrammar.csproj.SuggestedBindingRedirects.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\01.BasicGrammar\obj\Debug\0001. BasicGrammar.csproj.CoreCompileInputs.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\01.BasicGrammar\obj\Debug\_01.BasicGrammar.exe
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\01.BasicGrammar\obj\Debug\_01.BasicGrammar.pdb
