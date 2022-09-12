@@ -11,24 +11,11 @@ namespace _0002.MiddleGrammar
 
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
-            int[] input = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-
-            int x = input[0];
-            int y = input[1];
-            int w = input[2];
-            int h = input[3];
-
-            int[] NumArray = new int[] { x, y, w - x, h - y };
-
-            int Min = NumArray[0];
-
-            for (int i = 1; i < NumArray.Length; i++)
+            static void PrintArray(System.Array array)
             {
-                if (Min > NumArray[i])
-                    Min = NumArray[i];
+                foreach (var e in array)
+                    Console.Write(e);
             }
-            Console.WriteLine(Min);
         }
     }
 }

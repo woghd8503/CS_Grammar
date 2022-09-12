@@ -34,7 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>_0002.MiddleGrammar._045_Slice</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -94,7 +95,7 @@
     <None Include="044_MoreOnArray.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="047_3DArray.cs" />
+    <Compile Include="047_3DArray.cs" />
     <None Include="046_2DArray.cs" />
   </ItemGroup>
   <ItemGroup>
