@@ -11,6 +11,7 @@ namespace _0002.MiddleGrammar
         static void Main(string[] args)
         {
             Stack stack = new Stack();
+            stack
         }
     }
 }
