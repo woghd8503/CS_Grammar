@@ -15,6 +15,16 @@ namespace _0002.MiddleGrammar
             {
                 foreach (var e in array)
                     Console.Write(e);
+                Console.WriteLine();
+            }
+
+            static void Main(string[] args)
+            {
+                char[] array = new char['Z' - 'A' + 1];
+                for(int i = 0; i < array.Length; i++)
+                {
+
+                }
             }
         }
     }
