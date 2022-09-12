@@ -34,9 +34,9 @@ namespace _0002.MiddleGrammar
             list.Add("abc");
             list.Add("def");
 
-            for(int i = 0;)
-
-
+            for(int i = 0; i < list.Count; i++)
+                Console.Write($"{list[i]} ");
+            Console.WriteLine();
         }
     }
 }
