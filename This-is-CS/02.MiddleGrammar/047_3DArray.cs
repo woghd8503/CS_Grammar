@@ -2,7 +2,7 @@
 
 namespace CodingStudy
 {
-    class B_Diary
+    class 3DArray
     {
         static void Main(string[] args)
         {

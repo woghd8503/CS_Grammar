@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _0002.MiddleGrammar
 {
-    internal class _046_2DArray
+    class _046_2DArray
     {
         static void Main(string[] args)
         {

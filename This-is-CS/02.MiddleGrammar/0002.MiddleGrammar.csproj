@@ -99,7 +99,10 @@
     <None Include="046_2DArray.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="045_Slice.cs" />
+    <None Include="045_Slice.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="048_JaggedArray.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
