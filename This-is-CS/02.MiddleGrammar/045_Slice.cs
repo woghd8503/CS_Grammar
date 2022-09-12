@@ -24,7 +24,11 @@ namespace _0002.MiddleGrammar
                 for(int i = 0; i < array.Length; i++)
                     array[i] = (char)('A' + i);
 
-                PrintArray(array[...]);
+                PrintArray(array[..]);       // 0번째부터 마지막까지
+                PrintArray(array[5..]);      // 5번째부터 끝까지
+
+                Range range_5_10 = 5..10;
+
 
             }
         }
