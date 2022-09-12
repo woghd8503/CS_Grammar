@@ -106,7 +106,8 @@
     <None Include="049_UsingList.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="050_Queue.cs" />
+    <None Include="050_Queue.cs" />
+    <Compile Include="051_Stack.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,6 +8,9 @@ namespace _0002.MiddleGrammar
 {
     internal class _051_Stack
     {
+        static void Main(string[] args)
+        {
 
+        }
     }
 }
