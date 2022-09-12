@@ -21,6 +21,22 @@ namespace _0002.MiddleGrammar
 
             list.RemoveAt(2);
 
+            foreach(object obj in list)
+                Console.Write($"{obj} ");
+            Console.WriteLine();
+
+            list.Insert(2, 2);
+
+            foreach (object obj in list)
+                Console.Write($"{obj} ");
+            Console.WriteLine();
+
+            list.Add("abc");
+            list.Add("def");
+
+            for(int i = 0;)
+
+
         }
     }
 }
