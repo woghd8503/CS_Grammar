@@ -22,9 +22,10 @@ namespace _0002.MiddleGrammar
             {
                 char[] array = new char['Z' - 'A' + 1];
                 for(int i = 0; i < array.Length; i++)
-                {
+                    array[i] = (char)('A' + i);
 
-                }
+                PrintArray(array[...]);
+
             }
         }
     }
