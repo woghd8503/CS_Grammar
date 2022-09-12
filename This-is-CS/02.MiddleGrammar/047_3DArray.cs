@@ -24,6 +24,5 @@ namespace CodingStudy
             }
             Console.WriteLine(Min);
         }
-
     }
 }
