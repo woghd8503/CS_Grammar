@@ -12,6 +12,9 @@ namespace _0002.MiddleGrammar
         {
             Stack stack = new Stack();
             stack.Push(1);
+            stack.Push(1);
+            stack.Push(1);
+            stack.Push(1);
         }
     }
 }
