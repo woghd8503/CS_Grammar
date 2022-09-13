@@ -21,7 +21,11 @@ namespace _0002.MiddleGrammar
             WriteLine();
 
             Queue queue = new Queue(arr);
+            foreach (object item in queue)
+                WriteLine($"Queue : {item}");
+            WriteLine();
 
+            ArrayList list2 = new ArrayList(arr);
 
 
         }
