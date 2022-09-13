@@ -28,9 +28,13 @@ namespace _0002.MiddleGrammar
                 if(index >= array.Length)
                 {
                     Array.Resize<int>(ref array, index + 1);
-                    Console.WriteLine($);
+                    Console.WriteLine($"Array Resized : {array.Length}");
                 }
+
+                array[index] = value;
             }
         }
+
+
     }
 }
