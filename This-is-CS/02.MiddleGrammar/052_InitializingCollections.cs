@@ -17,7 +17,13 @@ namespace _0002.MiddleGrammar
 
             Stack stack = new Stack(arr);
             foreach (object item in stack)
-                
+                WriteLine($"Stack : {item}");
+            WriteLine();
+
+            Queue queue = new Queue(arr);
+
+
+
         }
     }
 }
