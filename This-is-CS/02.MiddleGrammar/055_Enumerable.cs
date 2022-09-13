@@ -35,6 +35,19 @@ namespace _0002.MiddleGrammar
             }
         }
 
+        // IEnumerator 멤버
+        public object Current
+        {
+            get
+            {
+                return array[position];
+            }
+        }
 
+        // IEnumerator 멤버
+        public bool MoveNext()
+        {
+            
+        }
     }
 }
