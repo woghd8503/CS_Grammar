@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace _0002.MiddleGrammar
 {
@@ -17,14 +18,15 @@ namespace _0002.MiddleGrammar
             yield break;
             yield return numbers[3];
         }
-        class MainApp
+    }
+    class MainApp
+    {
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                var obj = new MyEnumerator();
-                foreach (int i in obj)
-                    Console.WriteLine(i);
-            }
+            var obj = new MyEnumerator();
+            foreach (int i in obj)
+                Console.WriteLine(i);
         }
     }
+
 }
