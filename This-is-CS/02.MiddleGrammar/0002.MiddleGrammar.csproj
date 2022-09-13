@@ -112,7 +112,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="053_Indexer.cs" />
-    <Compile Include="054_Yield.cs" />
+    <None Include="054_Yield.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="055_Enumerable.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
