@@ -63,5 +63,24 @@ namespace _0002.MiddleGrammar
         {
             position = -1;
         }
+
+        // IEnumerable 멤버
+        public IEnumerator GetEnumerator()
+        {
+            return this;
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            MyList list = new MyList();
+            for (int i = 0; i < 5; i++)
+                list[i] = i;
+
+            foreach (int e in list)
+                Console.WriteLine(e);
+        }
     }
 }
