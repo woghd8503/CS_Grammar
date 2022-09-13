@@ -46,10 +46,10 @@ namespace _0002.MiddleGrammar
         {
             MyList list = new MyList();
             for (int i = 0; i < 5; i++)
-                list[i] = i;
+                list[i] = i;                      // 배열을 다루듯 인덱스를 통해 데이터를 입력합니다.
 
             for (int i = 0; i < list.Length; i++)
-                Console.WriteLine(list[i]);
+                Console.WriteLine(list[i]);      // 데이터를 얻어올 때도 인덱스를 이용합니다.
         }
     }
 }
