@@ -106,6 +106,7 @@
     <None Include="049_UsingList.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="052_InitializingCollections.cs" />
     <None Include="050_Queue.cs" />
     <Compile Include="051_Stack.cs" />
   </ItemGroup>
