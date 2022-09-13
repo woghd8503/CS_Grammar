@@ -28,5 +28,4 @@ namespace _0002.MiddleGrammar
                 Console.WriteLine(i);
         }
     }
-
 }
