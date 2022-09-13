@@ -45,8 +45,12 @@ namespace _0002.MiddleGrammar
         static void Main(string[] args)
         {
             MyList list = new MyList();
-            for (int)
-                }
+            for (int i = 0; i < 5; i++)
+                list[i] = i;
+
+            for (int i = 0; i < list.Length; i++)
+                Console.WriteLine(list[i]);
+        }
     }
 }
 
