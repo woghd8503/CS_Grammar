@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace _0002.MiddleGrammar
@@ -47,7 +48,20 @@ namespace _0002.MiddleGrammar
         // IEnumerator 멤버
         public bool MoveNext()
         {
-            
+            if (position == array.Length - 1)
+            {
+                Reset();
+                return false;
+            }
+
+            position++;
+            return (position < array.Length);
+        }
+
+        // IEnumerator 멤버
+        public void Reset()
+        {
+            position = -1;
         }
     }
 }
