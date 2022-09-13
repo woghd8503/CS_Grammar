@@ -17,5 +17,14 @@ namespace _0002.MiddleGrammar
             yield break;
             yield return numbers[3];
         }
+        class MainApp
+        {
+            static void Main(string[] args)
+            {
+                var obj = new MyEnumerator();
+                foreach (int i in obj)
+                    Console.WriteLine(i);
+            }
+        }
     }
 }

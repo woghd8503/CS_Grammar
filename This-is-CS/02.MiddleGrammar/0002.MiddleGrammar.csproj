@@ -111,7 +111,8 @@
     <None Include="051_Stack.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="053_Indexer.cs" />
+    <None Include="053_Indexer.cs" />
+    <Compile Include="054_Yield.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
