@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _0002.MiddleGrammar
 {
-    internal class _053_Indexer
+    internal class MyList
     {
         private int[] array;
 
@@ -33,5 +33,20 @@ namespace _0002.MiddleGrammar
                 array[index] = value; 
             }
         }
+
+        public int Length
+        {
+            get { return array.Length; }
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            MyList list = new MyList();
+            for (int)
+                }
     }
 }
+
