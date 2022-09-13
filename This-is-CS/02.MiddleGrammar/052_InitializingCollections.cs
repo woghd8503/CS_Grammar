@@ -25,9 +25,10 @@ namespace _0002.MiddleGrammar
                 WriteLine($"Queue : {item}");
             WriteLine();
 
-            ArrayList list2 = new ArrayList(arr);
-
-
+            ArrayList list2 = new ArrayList() { 11, 22, 33 };
+            foreach (object item in list2)
+                WriteLine($"ArrayList2 : {item}");
+            WriteLine();
         }
     }
 }
