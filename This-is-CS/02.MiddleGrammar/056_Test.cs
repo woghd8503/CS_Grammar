@@ -19,5 +19,12 @@ namespace _0002.MiddleGrammar
         // 다음 두 행렬 A와 B의 곱을 2차원 배열을 이용하여 계산하는 프로그램을 작성하세요.
 
         //3. 다음 코드의 출력 결과는 무엇일까요?
+
+        // Stack stack = new Stack();
+        // stack.Push(1);
+        // stack.Push(2);
+        // stack.Push(3);
+        // stack.Push(4);
+        // stack.Push(5);
     }
 }
