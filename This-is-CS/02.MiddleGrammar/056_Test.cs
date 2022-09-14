@@ -13,5 +13,7 @@ namespace _0002.MiddleGrammar
         // 2. int[] array = new int[3]{ 1, 2, 3 };
         // 3. int[] array = new int[]{ 1, 2, 3 };
         // 4. int[] array = { 1, 2, 3 };
+
+        // 두 행렬의 곱은 다음과 같이 계산합니다.
     }
 }
