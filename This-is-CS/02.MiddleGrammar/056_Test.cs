@@ -26,5 +26,8 @@ namespace _0002.MiddleGrammar
         // stack.Push(3);
         // stack.Push(4);
         // stack.Push(5);
+
+        // while(stack.Count > 0)
+        //     Console.WriteLine(stack.Pop());
     }
 }
