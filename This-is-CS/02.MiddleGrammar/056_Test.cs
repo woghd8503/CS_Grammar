@@ -10,5 +10,8 @@ namespace _0002.MiddleGrammar
     {
         // 다음 배열 선언 문장 중 올바르지 않은 것을 고르세요.
         // 1. int[] array = new string[3]{ "안녕", "Hello", "Halo" };
+        // 2. int[] array = new int[3]{ 1, 2, 3 };
+        // 3. int[] array = new int[]{ 1, 2, 3 };
+        // 4. int[] array = { 1, 2, 3 };
     }
 }
