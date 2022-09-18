@@ -32,6 +32,16 @@ namespace _0002.MiddleGrammar
 
         //4.다음 코드의 출력 결과는 무엇일까요?
         // Queue que = new Queue();
+        // que.Enque(1);
+        // que.Enque(2);
+        // que.Enque(3);
+        // que.Enque(4);
+        // que.Enque(5);
+
+        //while(que.Count > 0)
+        //   Console.WriteLine(que.Dequeue());
+
+        //5.다음과 같은 결과를 출력하도록 아래의 코드를 완성하세요.
         // 
     }
 }
