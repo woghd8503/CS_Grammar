@@ -116,7 +116,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="055_Enumerable.cs" />
-    <Compile Include="056_Test.cs" />
+    <None Include="056_Test.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
