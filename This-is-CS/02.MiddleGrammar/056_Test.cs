@@ -30,6 +30,8 @@ namespace _0002.MiddleGrammar
         // while(stack.Count > 0)
         //     Console.WriteLine(stack.Pop());
 
-        // 4. 
+        //4.다음 코드의 출력 결과는 무엇일까요?
+        // Queue que = new Queue();
+        // 
     }
 }
