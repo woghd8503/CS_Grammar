@@ -42,6 +42,13 @@ namespace _0002.MiddleGrammar
         //   Console.WriteLine(que.Dequeue());
 
         //5.다음과 같은 결과를 출력하도록 아래의 코드를 완성하세요.
-        // 
+        // 회사 : Microsoft
+        // URL : www.microsoft.com
+
+        // Hashtable ht = new Hashtable();
+        // ht["URL"] = /* 2) */;
+        
+        // Console.WriteLine("회사 : {0}", /* 3) */  );
+        // Console.WriteLine("URL : {0}", /4) */ );
     }
 }
