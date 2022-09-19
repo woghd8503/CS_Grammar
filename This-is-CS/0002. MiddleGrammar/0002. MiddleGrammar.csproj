@@ -1,0 +1,129 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_0002._MiddleGrammar</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="001_BasicClass.cs" />
+    <Compile Remove="002_Constructor.cs" />
+    <Compile Remove="003_StaticField.cs" />
+    <Compile Remove="004_DeepCopy.cs" />
+    <Compile Remove="005_This.cs" />
+    <Compile Remove="006_ThisConstructor.cs" />
+    <Compile Remove="007_AccessModifier.cs" />
+    <Compile Remove="008_Inheritance.cs" />
+    <Compile Remove="009_TypeCasting.cs" />
+    <Compile Remove="010_Overriding.cs" />
+    <Compile Remove="011_MethodHiding.cs" />
+    <Compile Remove="012_SealedMethod_.cs" />
+    <Compile Remove="013_ReadonlyFields.cs" />
+    <Compile Remove="014_NestedClass_.cs" />
+    <Compile Remove="015_PartialClass.cs" />
+    <Compile Remove="016_ExtensionMethod.cs" />
+    <Compile Remove="017_Structure.cs" />
+    <Compile Remove="018_ReadonlyStruct.cs" />
+    <Compile Remove="019_ReadonlyMethod.cs" />
+    <Compile Remove="020_Tuple.cs" />
+    <Compile Remove="021_PositionalPattern.cs" />
+    <Compile Remove="022_Test1.cs" />
+    <Compile Remove="023_Interface.cs" />
+    <Compile Remove="024_DerivedInterface.cs" />
+    <Compile Remove="025_MultiInterfaceInheritance .cs" />
+    <Compile Remove="026_DefaultImplementation.cs" />
+    <Compile Remove="027_AbstractClass.cs" />
+    <Compile Remove="028_Test.cs" />
+    <Compile Remove="029_Property.cs" />
+    <Compile Remove="030_AutoImplementedProperty.cs" />
+    <Compile Remove="031_ConstructorWithProperty.cs" />
+    <Compile Remove="032_InitOnly.cs" />
+    <Compile Remove="033_Record.cs" />
+    <Compile Remove="034_WithExp.cs" />
+    <Compile Remove="035_RecordComp.cs" />
+    <Compile Remove="036_AnonymousType.cs" />
+    <Compile Remove="037_PropertiesInInterface.cs" />
+    <Compile Remove="038_PropertiesInAbstractClass.cs" />
+    <Compile Remove="039_Test.cs" />
+    <Compile Remove="040_ArraySample.cs" />
+    <Compile Remove="041_ArraySample2.cs" />
+    <Compile Remove="042_InitializingArray.cs" />
+    <Compile Remove="043_DerivedFromArray.cs" />
+    <Compile Remove="044_MoreOnArray.cs" />
+    <Compile Remove="045_Slice.cs" />
+    <Compile Remove="046_2DArray.cs" />
+    <Compile Remove="047_3DArray.cs" />
+    <Compile Remove="048_JaggedArray.cs" />
+    <Compile Remove="049_UsingList.cs" />
+    <Compile Remove="050_Queue.cs" />
+    <Compile Remove="051_Stack.cs" />
+    <Compile Remove="052_InitializingCollections.cs" />
+    <Compile Remove="053_Indexer.cs" />
+    <Compile Remove="054_Yield.cs" />
+    <Compile Remove="055_Enumerable.cs" />
+    <Compile Remove="056_Test.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="001_BasicClass.cs" />
+    <None Include="002_Constructor.cs" />
+    <None Include="003_StaticField.cs" />
+    <None Include="004_DeepCopy.cs" />
+    <None Include="005_This.cs" />
+    <None Include="006_ThisConstructor.cs" />
+    <None Include="007_AccessModifier.cs" />
+    <None Include="008_Inheritance.cs" />
+    <None Include="009_TypeCasting.cs" />
+    <None Include="010_Overriding.cs" />
+    <None Include="011_MethodHiding.cs" />
+    <None Include="012_SealedMethod_.cs" />
+    <None Include="013_ReadonlyFields.cs" />
+    <None Include="014_NestedClass_.cs" />
+    <None Include="015_PartialClass.cs" />
+    <None Include="016_ExtensionMethod.cs" />
+    <None Include="017_Structure.cs" />
+    <None Include="018_ReadonlyStruct.cs" />
+    <None Include="019_ReadonlyMethod.cs" />
+    <None Include="020_Tuple.cs" />
+    <None Include="021_PositionalPattern.cs" />
+    <None Include="022_Test1.cs" />
+    <None Include="023_Interface.cs" />
+    <None Include="024_DerivedInterface.cs" />
+    <None Include="025_MultiInterfaceInheritance .cs" />
+    <None Include="026_DefaultImplementation.cs" />
+    <None Include="027_AbstractClass.cs" />
+    <None Include="028_Test.cs" />
+    <None Include="029_Property.cs" />
+    <None Include="030_AutoImplementedProperty.cs" />
+    <None Include="031_ConstructorWithProperty.cs" />
+    <None Include="032_InitOnly.cs" />
+    <None Include="033_Record.cs" />
+    <None Include="034_WithExp.cs" />
+    <None Include="035_RecordComp.cs" />
+    <None Include="036_AnonymousType.cs" />
+    <None Include="037_PropertiesInInterface.cs" />
+    <None Include="038_PropertiesInAbstractClass.cs" />
+    <None Include="039_Test.cs" />
+    <None Include="040_ArraySample.cs" />
+    <None Include="041_ArraySample2.cs" />
+    <None Include="042_InitializingArray.cs" />
+    <None Include="043_DerivedFromArray.cs" />
+    <None Include="044_MoreOnArray.cs" />
+    <None Include="045_Slice.cs" />
+    <None Include="046_2DArray.cs" />
+    <None Include="047_3DArray.cs" />
+    <None Include="048_JaggedArray.cs" />
+    <None Include="049_UsingList.cs" />
+    <None Include="050_Queue.cs" />
+    <None Include="051_Stack.cs" />
+    <None Include="052_InitializingCollections.cs" />
+    <None Include="053_Indexer.cs" />
+    <None Include="054_Yield.cs" />
+    <None Include="055_Enumerable.cs" />
+    <None Include="056_Test.cs" />
+  </ItemGroup>
+
+</Project>
