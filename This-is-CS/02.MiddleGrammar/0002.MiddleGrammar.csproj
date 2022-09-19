@@ -118,5 +118,8 @@
     <None Include="055_Enumerable.cs" />
     <None Include="056_Test.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="057_CopyingArray.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
