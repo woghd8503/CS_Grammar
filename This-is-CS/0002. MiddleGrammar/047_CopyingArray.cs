@@ -18,6 +18,11 @@ namespace _0002._MiddleGrammar
         {
             int[] source = { 1, 2, 3, 4, 5 };
             int[] target = new int[source.Length];
+
+            CopyArray<int>(source, target);
+
+            foreach (int element in target)
+                Console.WriteLine(element);
         }
     }
 }
