@@ -1,0 +1,15 @@
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\bin\Debug\net6.0\0002. MiddleGrammar.exe
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\bin\Debug\net6.0\0002. MiddleGrammar.deps.json
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\bin\Debug\net6.0\0002. MiddleGrammar.runtimeconfig.json
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\bin\Debug\net6.0\0002. MiddleGrammar.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\bin\Debug\net6.0\0002. MiddleGrammar.pdb
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\0002. MiddleGrammar.csproj.AssemblyReference.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\0002. MiddleGrammar.GeneratedMSBuildEditorConfig.editorconfig
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\0002. MiddleGrammar.AssemblyInfoInputs.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\0002. MiddleGrammar.AssemblyInfo.cs
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\0002. MiddleGrammar.csproj.CoreCompileInputs.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\0002. MiddleGrammar.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\refint\0002. MiddleGrammar.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\0002. MiddleGrammar.pdb
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\0002. MiddleGrammar.genruntimeconfig.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0002. MiddleGrammar\obj\Debug\net6.0\ref\0002. MiddleGrammar.dll
