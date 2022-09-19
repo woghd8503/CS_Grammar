@@ -118,8 +118,11 @@
     <None Include="055_Enumerable.cs" />
     <None Include="056_Test.cs" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <Compile Include="057_CopyingArray.cs" />
   </ItemGroup>
+=======
+>>>>>>> d10e42091ca92111cb8659243c18c4d71514a81a
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
