@@ -27,7 +27,7 @@ namespace _0002._MiddleGrammar
             string[] source2 = { "하나", "둘", "셋", "넷", "다섯" };
             string[] target2 = new string[source2.Length];
 
-            CopyArray(source2, target2);
+            CopyArray<string>(source2, target2);
 
             foreach (string element in target2)
                 Console.WriteLine(element);
