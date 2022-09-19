@@ -13,5 +13,11 @@ namespace _0002._MiddleGrammar
             for (int i = 0; i < source.Length; i++)
                 target[i] = source[i];
         }
+
+        static void Main(string[] args)
+        {
+            int[] source = { 1, 2, 3, 4, 5 };
+            int[] target = new int[source.Length];
+        }
     }
 }
