@@ -16,6 +16,7 @@
     <Compile Remove="005_AnonymousMethod.cs" />
     <Compile Remove="006_EventTest.cs" />
     <Compile Remove="007_Test.cs" />
+    <Compile Remove="008_SimpleLambda.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
     <None Include="005_AnonymousMethod.cs" />
     <None Include="006_EventTest.cs" />
     <None Include="007_Test.cs" />
+    <None Include="008_SimpleLambda.cs" />
   </ItemGroup>
 
 </Project>

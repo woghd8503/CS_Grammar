@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace _0003._AdvanceGrammar
 {
-    internal class _009_StatementLambda
+    class StatementLambda
     {
+        delegate string Concatenate(string[] args);
+
+        static void Main(string[] args)
+        {
+            Concatenate concat =
+                (arr) =>
+                {
+                    string result = "";
+                    foreach (string s in arr)
+                        result += s;
+
+                    return result;
+                };
+            Console.WriteLine(concat(args));
+        }
     }
 }
