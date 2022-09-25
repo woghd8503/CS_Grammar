@@ -66,6 +66,7 @@
     <Compile Remove="055_Enumerable.cs" />
     <Compile Remove="056_Test.cs" />
     <Compile Remove="057_CopyingArray.cs" />
+    <Compile Remove="058_Generic.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -126,6 +127,7 @@
     <None Include="055_Enumerable.cs" />
     <None Include="056_Test.cs" />
     <None Include="057_CopyingArray.cs" />
+    <None Include="058_Generic.cs" />
   </ItemGroup>
 
 </Project>
