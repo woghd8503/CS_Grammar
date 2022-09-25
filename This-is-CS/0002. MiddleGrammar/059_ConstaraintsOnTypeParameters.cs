@@ -65,9 +65,12 @@ namespace _0002._MiddleGrammar
             c.Array[2] = CreateInstance<Base>();
 
             BaseArray<Derived> d = new BaseArray<Derived>(3);
-            c.Array[0] = new Derived(); // Base 형식은 여기에 할당할 수 없다.
-            c.Array[1] = CreateInstance<Derived>(); // Base 형식은 여기에 할당할 수 없다.
+            d.Array[0] = new Derived(); // Base 형식은 여기에 할당할 수 없다.
+            d.Array[1] = CreateInstance<Derived>(); 
+            d.Array[2] = CreateInstance<Derived>();
 
+            BaseArray<Derived> e = new BaseArray<Derived>(3);
+            e.CopyArray<Derived>(d.Array);
         }
     }
 }
