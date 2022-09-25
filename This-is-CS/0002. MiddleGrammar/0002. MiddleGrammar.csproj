@@ -67,6 +67,7 @@
     <Compile Remove="056_Test.cs" />
     <Compile Remove="057_CopyingArray.cs" />
     <Compile Remove="058_Generic.cs" />
+    <Compile Remove="059_ConstaraintsOnTypeParameters.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -128,6 +129,7 @@
     <None Include="056_Test.cs" />
     <None Include="057_CopyingArray.cs" />
     <None Include="058_Generic.cs" />
+    <None Include="059_ConstaraintsOnTypeParameters.cs" />
   </ItemGroup>
 
 </Project>
