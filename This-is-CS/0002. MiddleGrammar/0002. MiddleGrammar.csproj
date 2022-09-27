@@ -69,6 +69,7 @@
     <Compile Remove="058_Generic.cs" />
     <Compile Remove="059_ConstaraintsOnTypeParameters.cs" />
     <Compile Remove="060_UsingGernericList_.cs" />
+    <Compile Remove="061_UsingGericQueue.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -132,6 +133,7 @@
     <None Include="058_Generic.cs" />
     <None Include="059_ConstaraintsOnTypeParameters.cs" />
     <None Include="060_UsingGernericList_.cs" />
+    <None Include="061_UsingGericQueue.cs" />
   </ItemGroup>
 
 </Project>
