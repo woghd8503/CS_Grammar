@@ -11,6 +11,9 @@ namespace _0002._MiddleGrammar
         static void Main(string[] args)
         {
             Dictionary<string, string> dic = new Dictionary<string, string>();
+
+            dic["하나"] = "one";
+            dic["둘"] = "two";
         }
     }
 }
