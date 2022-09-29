@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _0002._MiddleGrammar
 {
@@ -36,6 +33,19 @@ namespace _0002._MiddleGrammar
         }
 
         public int Length
+        {
+            get { return array.Length; }
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return this;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this;
+        }
 
     }
 }
