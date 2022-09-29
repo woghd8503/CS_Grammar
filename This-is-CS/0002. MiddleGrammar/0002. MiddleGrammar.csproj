@@ -71,6 +71,7 @@
     <Compile Remove="060_UsingGernericList_.cs" />
     <Compile Remove="061_UsingGericQueue.cs" />
     <Compile Remove="062_UsingGenericStack.cs" />
+    <Compile Remove="063_UsingDictionary.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -136,6 +137,7 @@
     <None Include="060_UsingGernericList_.cs" />
     <None Include="061_UsingGericQueue.cs" />
     <None Include="062_UsingGenericStack.cs" />
+    <None Include="063_UsingDictionary.cs" />
   </ItemGroup>
 
 </Project>
