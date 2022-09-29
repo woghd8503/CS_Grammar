@@ -34,5 +34,8 @@ namespace _0002._MiddleGrammar
                 array[index] = value;
             }
         }
+
+        public int Length
+
     }
 }
