@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace _0002._MiddleGrammar
 {
-    internal class MyList<T> : IEnumerable<T>, IEnumerator<T>
+    class MyList<T> : IEnumerable<T>, IEnumerator<T>
     {
         private T[] array;
         int position = -1;
@@ -48,7 +48,7 @@ namespace _0002._MiddleGrammar
             return this;
         }
 
-        public T current
+        public T Current
         {
             get { return array[position]; }
         }
@@ -57,6 +57,7 @@ namespace _0002._MiddleGrammar
         {
             get { return array[position]; }
         }
+
 
         public bool MoveNext()
         {
@@ -74,6 +75,37 @@ namespace _0002._MiddleGrammar
         {
             position = -1;
         }
-        position++;
+
+        public void Dispose()
+        {
+
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            MyList<string> str_list = new MyList<string>();
+            str_list[0] = "abc";
+            str_list[1] = "def";
+            str_list[2] = "ghi";
+            str_list[3] = "mno";
+
+            foreach( string str in str_list)
+                Console.WriteLine( str );
+
+            Console.WriteLine();
+
+            MyList<int> int_list = new MyList<int>();
+            int_list[0] = 0;
+            int_list[1] = 1;
+            int_list[2] = 2;
+            int_list[3] = 3;
+            int_list[4] = 4;
+
+            foreach ( int no in int_list)
+                Console.WriteLine(no);
+        }
     }
 }
