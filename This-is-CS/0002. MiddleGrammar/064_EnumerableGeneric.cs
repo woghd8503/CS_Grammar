@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace _0002._MiddleGrammar
@@ -47,5 +48,14 @@ namespace _0002._MiddleGrammar
             return this;
         }
 
+        public T current
+        {
+            get { return array[position]; }
+        }
+
+        object IEnumerator.Current
+        {
+            get { return array[position]; }
+        }
     }
 }
