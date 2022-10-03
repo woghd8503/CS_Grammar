@@ -57,5 +57,23 @@ namespace _0002._MiddleGrammar
         {
             get { return array[position]; }
         }
+
+        public bool MoveNext()
+        {
+            if(position == array.Length - 1)
+            {
+                Reset();
+                return false;
+            }
+
+            position++;
+            return(position < array.Length);
+        }
+
+        public void Reset()
+        {
+            position = -1;
+        }
+        position++;
     }
 }
