@@ -19,6 +19,20 @@ namespace _0002._MiddleGrammar
             {
                 Console.WriteLine(e);
             }
+
+            try
+            {
+                int[] array = new[] { 1, 2, 3 };
+                int index = 4;
+                int value = array[
+                    index >= 0 && index < 3
+                    ? index : throw new IndexOutOfRangeException()
+                    ];
+            }
+            catch (IndexOutOfRangeException e)
+            {
+                Console.WriteLine(e);
+            }
         }
     }
 }
