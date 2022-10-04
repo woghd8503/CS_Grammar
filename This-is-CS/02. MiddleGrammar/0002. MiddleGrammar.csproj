@@ -74,6 +74,7 @@
     <Compile Remove="063_UsingDictionary.cs" />
     <Compile Remove="064_EnumerableGeneric.cs" />
     <Compile Remove="065_Test.cs" />
+    <Compile Remove="066_KillingProgram.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -141,6 +142,7 @@
     <None Include="062_UsingGenericStack.cs" />
     <None Include="063_UsingDictionary.cs" />
     <None Include="065_Test.cs" />
+    <None Include="066_KillingProgram.cs" />
   </ItemGroup>
 
   <ItemGroup>
