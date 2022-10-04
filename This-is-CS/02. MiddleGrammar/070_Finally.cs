@@ -40,8 +40,18 @@ namespace _0002._MiddleGrammar
 
                 Console.WriteLine("{0}/{1} = {2}",
                     dividend, divisor, Divide(dividend, divisor));
-            
-
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("에러 : " + e.Message);
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("에러 : " + e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("프로그램을 종료합니다.");
             }
         }
     }
