@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _0002._MiddleGrammar
 {
@@ -16,8 +11,24 @@ namespace _0002._MiddleGrammar
         public InvalidEnumArgumentException(string message)
             :base(message)
         {
-
         }
 
+        public object Argument
+        {
+            get;
+            set;
+        }
+
+        public string Range
+        {
+            get;
+            set;
+        }
     }
+
+    class MainApp
+    {
+        static unit MergeARGB(unit alpha, unit red, unit )
+    }
+
 }
