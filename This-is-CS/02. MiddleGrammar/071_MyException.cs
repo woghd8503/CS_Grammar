@@ -29,6 +29,8 @@ namespace _0002._MiddleGrammar
     class MainApp
     {
         static unit MergeARGB(unit alpha, unit red, unit )
+
+
     }
 
 }
