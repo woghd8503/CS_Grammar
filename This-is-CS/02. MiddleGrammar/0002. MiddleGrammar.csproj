@@ -80,6 +80,8 @@
     <Compile Remove="069_ThrowExpression.cs" />
     <Compile Remove="070_Finally.cs" />
     <Compile Remove="071_MyException.cs" />
+    <Compile Remove="072_ExceptionFilterinf.cs" />
+    <Compile Remove="CoidngTest.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -153,6 +155,8 @@
     <None Include="069_ThrowExpression.cs" />
     <None Include="070_Finally.cs" />
     <None Include="071_MyException.cs" />
+    <None Include="072_ExceptionFilterinf.cs" />
+    <None Include="CoidngTest.cs" />
   </ItemGroup>
 
   <ItemGroup>
