@@ -79,6 +79,7 @@
     <Compile Remove="068_Throws.cs" />
     <Compile Remove="069_ThrowExpression.cs" />
     <Compile Remove="070_Finally.cs" />
+    <Compile Remove="071_MyException.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -151,6 +152,7 @@
     <None Include="068_Throws.cs" />
     <None Include="069_ThrowExpression.cs" />
     <None Include="070_Finally.cs" />
+    <None Include="071_MyException.cs" />
   </ItemGroup>
 
   <ItemGroup>
