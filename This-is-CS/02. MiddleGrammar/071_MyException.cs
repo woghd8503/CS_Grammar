@@ -57,8 +57,14 @@ namespace MyException
                 Console.WriteLine("0x{0:X}", MergeARGB(1, 65, 192, 128));
                 Console.WriteLine("0x{0:X}", MergeARGB(0, 255, 255, 300));
             }
-        }
+            catch (InvalidArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.WriteLine($"Argument:{e.Argument}, Range:{e.Range}");
+            
+            }
 
+        }
 
     }
 
