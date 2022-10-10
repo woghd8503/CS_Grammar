@@ -27,7 +27,6 @@ using static System.Console;
 // int result1 = Plus( 1, 2 ); int Plus( int, int )를 호출합니다.
 // double result2 = Plus( 3.1, 2.4 ); double Plus ( double, double )를 호출합니다.
 
-using System;
 
 class CodingTest
 {
