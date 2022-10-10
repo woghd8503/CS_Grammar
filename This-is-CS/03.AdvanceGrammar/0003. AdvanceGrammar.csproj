@@ -8,4 +8,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="001_Delegate.cs" />
+    <Compile Remove="002_UsingCallback.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="001_Delegate.cs" />
+    <None Include="002_UsingCallback.cs" />
+  </ItemGroup>
+
 </Project>
