@@ -10,7 +10,7 @@ namespace _0003._AdvanceGrammar
 
     class Calculator
     {
-        public int Plus(int a, int b) // 대리자는 정적 메소드도 참조할 수 있습니다.
+        public int Plus(int a, int b) // 대리자는 인스턴스 메소드도 참조할 수 있고
         {
             return a + b;
         }
