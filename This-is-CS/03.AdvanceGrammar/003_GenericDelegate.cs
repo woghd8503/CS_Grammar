@@ -39,6 +39,21 @@ namespace _0003._AdvanceGrammar
                 }
             }
         }
+
+        static void Main(string[] args)
+        {
+            int[] array = { 3, 7, 4, 2, 10 };
+
+            Console.WriteLine("Sorting ascending...");
+            BubbleSort<int>(array, new Compare<int>(AscendCompare));
+
+            for(int i = 0; i < array.Length; i++)
+                Console.Write($"{array[i]}");
+
+            string[] array2 = { "abc", "def", "ghi", "jkl", "mno" };
+
+            Console.WriteLine("");
+        }
     }
 
 }
