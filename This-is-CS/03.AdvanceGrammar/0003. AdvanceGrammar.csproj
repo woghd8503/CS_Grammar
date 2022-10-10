@@ -11,11 +11,13 @@
   <ItemGroup>
     <Compile Remove="001_Delegate.cs" />
     <Compile Remove="002_UsingCallback.cs" />
+    <Compile Remove="003_GenericDelegate.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="001_Delegate.cs" />
     <None Include="002_UsingCallback.cs" />
+    <None Include="003_GenericDelegate.cs" />
   </ItemGroup>
 
 </Project>
