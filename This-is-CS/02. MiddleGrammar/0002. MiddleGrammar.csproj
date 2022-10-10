@@ -81,6 +81,7 @@
     <Compile Remove="070_Finally.cs" />
     <Compile Remove="071_MyException.cs" />
     <Compile Remove="072_ExceptionFilterinf.cs" />
+    <Compile Remove="073_StackTrace.cs" />
     <Compile Remove="CoidngTest.cs" />
   </ItemGroup>
 
@@ -156,6 +157,7 @@
     <None Include="070_Finally.cs" />
     <None Include="071_MyException.cs" />
     <None Include="072_ExceptionFilterinf.cs" />
+    <None Include="073_StackTrace.cs" />
     <None Include="CoidngTest.cs" />
   </ItemGroup>
 
