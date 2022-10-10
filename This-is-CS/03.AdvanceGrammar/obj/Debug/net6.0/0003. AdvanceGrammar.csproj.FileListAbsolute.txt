@@ -13,3 +13,18 @@ D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0003. AdvanceGrammar\obj\De
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0003. AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.pdb
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0003. AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.genruntimeconfig.cache
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\0003. AdvanceGrammar\obj\Debug\net6.0\ref\0003. AdvanceGrammar.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\bin\Debug\net6.0\0003. AdvanceGrammar.exe
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\bin\Debug\net6.0\0003. AdvanceGrammar.deps.json
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\bin\Debug\net6.0\0003. AdvanceGrammar.runtimeconfig.json
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\bin\Debug\net6.0\0003. AdvanceGrammar.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\bin\Debug\net6.0\0003. AdvanceGrammar.pdb
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.csproj.AssemblyReference.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.GeneratedMSBuildEditorConfig.editorconfig
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.AssemblyInfoInputs.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.AssemblyInfo.cs
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.csproj.CoreCompileInputs.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\refint\0003. AdvanceGrammar.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.pdb
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.genruntimeconfig.cache
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\ref\0003. AdvanceGrammar.dll
