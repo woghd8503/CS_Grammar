@@ -14,6 +14,11 @@ namespace _0003._AdvanceGrammar
         {
             return a.CompareTo(b);
         }
+
+        static int DescendCompare<T>(T a, T b) where T : IComparable<T>
+        {
+            return a.CompareTo(b) * -1;
+        }
     }
-    }
+
 }
