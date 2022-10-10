@@ -48,13 +48,17 @@ namespace _0003._AdvanceGrammar
             BubbleSort<int>(array, new Compare<int>(AscendCompare));
 
             for(int i = 0; i < array.Length; i++)
-                Console.Write($"{array[i]}");
+                Console.Write($"{array[i]} ");
 
             string[] array2 = { "abc", "def", "ghi", "jkl", "mno" };
 
             Console.WriteLine("\nSorting descending...");
             BubbleSort<string>(array2, new Compare<string>(DescendCompare));
+
+            for(int i = 0; i < array2.Length; i++)
+                Console.Write($"{array2[i]} ");
+
+            Console.WriteLine();
         }
     }
-
 }
