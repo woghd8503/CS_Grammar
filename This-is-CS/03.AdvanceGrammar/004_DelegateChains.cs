@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,42 @@ namespace _0003._AdvanceGrammar
         public Notify EventOccured;
     }
 
-    internal class _004_DelegateChains
+    class EventListener
     {
+        private string name;
+        public EventListener(string name)
+        {
+            this.name = name;
+        }
+
+        public void SomethingHappend(string message)
+        {
+            Console.WriteLine($"{name}.SomthingHappened : {message}");
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Notifier notifier = new Notifier();
+            EventListener listener1 = new EventListener("Listener1");
+            EventListener listener2 = new EventListener("Listener2");
+            EventListener listener3 = new EventListener("Listener3");
+
+            notifier.EventOccured += listener1.SomethingHappend;
+            notifier.EventOccured += listener2.SomethingHappend;
+            notifier.EventOccured += listener3.SomethingHappend;
+            notifier.EventOccured("You've got mail"); // += 연산자를 이용한 체인 만들기
+
+            Console.WriteLine();
+
+            notifier.EventOccured -= listener2.SomethingHappend;
+            notifier.EventOccured("Download complete."); // -= 연산자를 이용한 체인 끊기
+
+            Console.WriteLine();
+
+            notifier. = new Notify(listener1.SomethingHappend);
+        }
     }
 }
