@@ -49,7 +49,24 @@ namespace _0003._AdvanceGrammar
 
             Console.WriteLine();
 
-            notifier. = new Notify(listener1.SomethingHappend);
+            notifier.EventOccured = new Notify(listener2.SomethingHappend)
+                + new Notify(listener3.SomethingHappend);
+            notifier.EventOccured("Nuclear launch detected."); // +, = 연산자를 이용한 체인 만들기
+
+            Console.WriteLine();
+
+            Notify notify1 = new Notify(listener1.SomethingHappend);
+            Notify notify2 = new Notify(listener2.SomethingHappend);
+
+            notifier.EventOccured =
+                (Notify)Delegate.Combine(notify1, notify2); // Delegate.Combine() 메소드를 이용한 체인 만들기
+            notifier.EventOccured("Fire!!");
+
+            Console.WriteLine();
+
+            notifier.EventOccured =
+                (Notify)Delegate.Remove(notifier.EventOccured, notify2);
+            notifier.EventOccured("RPG!");
         }
     }
 }
