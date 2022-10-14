@@ -56,6 +56,16 @@ namespace _0003._AdvanceGrammar
 
             Notify notify1 = new Notify(listener1.SomethingHappend);
             Notify notify2 = new Notify(listener2.SomethingHappend);
+
+            notifier.EventOccured =
+                (Notify)Delegate.Combine(notify1, notify2);
+            notifier.EventOccured("Fire!!");
+
+            Console.WriteLine();
+
+            notifier.EventOccured =
+                (Notify)Delegate.Remove(notifier.EventOccured, notify2);
+            notifier.EventOccured("RPG!");
         }
     }
 }
