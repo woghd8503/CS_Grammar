@@ -49,7 +49,13 @@ namespace _0003._AdvanceGrammar
 
             Console.WriteLine();
 
-            notifier.EventOccured = new Notify(listener1.SomethingHappend);
+            notifier.EventOccured = new Notify(listener2.SomethingHappend)
+                + new Notify(listener3.SomethingHappend);
+
+            Console.WriteLine();
+
+            Notify notify1 = new Notify(listener1.SomethingHappend);
+            Notify notify2 = new Notify(listener2.SomethingHappend);
         }
     }
 }
