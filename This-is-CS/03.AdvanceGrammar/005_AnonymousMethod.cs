@@ -17,8 +17,18 @@ namespace _0003._AdvanceGrammar
 
             for (i = 0; i < DataSet.Length -1; i++)
             {
-
+                for (j = 0; j < DataSet.Length -1; j++)
+                {
+                    if (Comparer(DataSet[j], DataSet[j + 1]) > 0)
+                    {
+                        temp = DataSet[j + 1];
+                        DataSet[j + 1] = DataSet[j];
+                        DataSet[j] = temp;
+                    }
+                }
             }
         }
+
+
     }
 }
