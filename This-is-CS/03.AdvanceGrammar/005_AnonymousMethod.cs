@@ -29,6 +29,17 @@ namespace _0003._AdvanceGrammar
             }
         }
 
+        static void Main(string[] args)
+        {
+            int[] array = { 3, 7, 4, 2, 10 };
+
+            Console.WriteLine("Sorting ascending...");
+            BubbleSort(array, delegate(int a, int b)) // 익명 메소드
+                {
+
+            }
+        }
+
 
     }
 }
