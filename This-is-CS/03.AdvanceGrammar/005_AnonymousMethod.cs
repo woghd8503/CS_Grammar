@@ -36,6 +36,7 @@ namespace _0003._AdvanceGrammar
             Console.WriteLine("Sorting ascending...");
             BubbleSort(array, delegate(int a, int b)) // 익명 메소드
                 {
+                 if(array > b)
 
             }
         }
