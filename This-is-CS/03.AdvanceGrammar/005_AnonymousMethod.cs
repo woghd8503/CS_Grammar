@@ -34,11 +34,17 @@ namespace _0003._AdvanceGrammar
             int[] array = { 3, 7, 4, 2, 10 };
 
             Console.WriteLine("Sorting ascending...");
-            BubbleSort(array, delegate(int a, int b)) // 익명 메소드
+            BubbleSort(array, delegate (int a, int b) // 익명 메소드
                 {
-                 if(array > b)
-
-            }
+                    if (a > b)
+                        return 1;
+                    else if (a == b)
+                        return 0;
+                    else
+                        return -1;
+                });
+            for (int i = 0; i < array.Length; i++)
+                Console.Write($"{array[i]} ");
         }
 
 
