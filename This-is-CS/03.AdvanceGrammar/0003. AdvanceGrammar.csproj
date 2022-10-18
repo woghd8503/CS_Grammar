@@ -13,6 +13,7 @@
     <Compile Remove="002_UsingCallback.cs" />
     <Compile Remove="003_GenericDelegate.cs" />
     <Compile Remove="004_DelegateChains.cs" />
+    <Compile Remove="005_AnonymousMethod.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +21,7 @@
     <None Include="002_UsingCallback.cs" />
     <None Include="003_GenericDelegate.cs" />
     <None Include="004_DelegateChains.cs" />
+    <None Include="005_AnonymousMethod.cs" />
   </ItemGroup>
 
 </Project>
