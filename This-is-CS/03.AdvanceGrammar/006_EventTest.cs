@@ -35,7 +35,10 @@ namespace _0003._AdvanceGrammar
             MyNotifier notifier = new MyNotifier();
             notifier.SomethingHappened += new EventHandler(MyHandler);
 
-            for
+            for(int i =1; i < 30; i++)
+            {
+                notifier.DoSomthing(i);
+            }
         }
     }
 }
