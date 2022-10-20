@@ -14,6 +14,7 @@
     <Compile Remove="003_GenericDelegate.cs" />
     <Compile Remove="004_DelegateChains.cs" />
     <Compile Remove="005_AnonymousMethod.cs" />
+    <Compile Remove="006_EventTest.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +23,7 @@
     <None Include="003_GenericDelegate.cs" />
     <None Include="004_DelegateChains.cs" />
     <None Include="005_AnonymousMethod.cs" />
+    <None Include="006_EventTest.cs" />
   </ItemGroup>
 
 </Project>
