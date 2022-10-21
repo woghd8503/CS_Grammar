@@ -17,7 +17,22 @@ namespace _0003._AdvanceGrammar
 
             Expression leftExp = Expression.Multiply(const1, const2); // 1 * 2
 
+            Expression param1 =
+                Expression.Parameter(typeof(int)); // x를 위한 변수
+            Expression param2 =
+                Expression.Parameter(typeof(int)); // y를 위한 변수
 
+            Expression rightExp = Expression.Subtract(param1, param2); // x - y
+
+            Expression exp = Expression.Add(leftExp, rightExp);
+
+            Expression<Func<int, int, int>> expression =
+                Expression<Func<int, int, int>>.Lambda<Func<int, int, int>>(
+                    exp, new ParameterExpression[]
+                    {
+                        (ParameterExpression)param1,
+                        (ParameterExpression)param2
+                    });
         }
     }
 }
