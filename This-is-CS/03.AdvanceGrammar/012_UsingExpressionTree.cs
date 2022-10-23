@@ -31,8 +31,12 @@ namespace _0003._AdvanceGrammar
                     exp, new ParameterExpression[]
                     {
                         (ParameterExpression)param1,
-                        (ParameterExpression)param2
-                    });
+                        (ParameterExpression)param2});
+
+           Func<int, int, int> func = expression.Compile();
+
+            // x = 7, y = 8
+            Console.WriteLine($"1*2+({7}-{8}) = {func(7, 8)}");
         }
     }
 }
