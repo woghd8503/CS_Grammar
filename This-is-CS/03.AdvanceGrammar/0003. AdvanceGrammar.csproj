@@ -17,6 +17,7 @@
     <Compile Remove="006_EventTest.cs" />
     <Compile Remove="007_Test.cs" />
     <Compile Remove="008_SimpleLambda.cs" />
+    <Compile Remove="009_StatementLambda.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,6 +29,7 @@
     <None Include="006_EventTest.cs" />
     <None Include="007_Test.cs" />
     <None Include="008_SimpleLambda.cs" />
+    <None Include="009_StatementLambda.cs" />
   </ItemGroup>
 
 </Project>
