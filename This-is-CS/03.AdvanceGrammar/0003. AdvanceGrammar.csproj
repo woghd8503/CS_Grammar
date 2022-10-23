@@ -19,6 +19,8 @@
     <Compile Remove="008_SimpleLambda.cs" />
     <Compile Remove="009_StatementLambda.cs" />
     <Compile Remove="010_FuncTest.cs" />
+    <Compile Remove="011_ActionTest.cs" />
+    <Compile Remove="012_UsingExpressionTree.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +34,8 @@
     <None Include="008_SimpleLambda.cs" />
     <None Include="009_StatementLambda.cs" />
     <None Include="010_FuncTest.cs" />
+    <None Include="011_ActionTest.cs" />
+    <None Include="012_UsingExpressionTree.cs" />
   </ItemGroup>
 
 </Project>
