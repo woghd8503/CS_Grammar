@@ -21,6 +21,7 @@
     <Compile Remove="010_FuncTest.cs" />
     <Compile Remove="011_ActionTest.cs" />
     <Compile Remove="012_UsingExpressionTree.cs" />
+    <Compile Remove="013_ExpressionTreeViaLambda.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,6 +37,7 @@
     <None Include="010_FuncTest.cs" />
     <None Include="011_ActionTest.cs" />
     <None Include="012_UsingExpressionTree.cs" />
+    <None Include="013_ExpressionTreeViaLambda.cs" />
   </ItemGroup>
 
 </Project>
