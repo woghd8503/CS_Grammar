@@ -16,7 +16,7 @@ namespace _0003._AdvanceGrammar
             Func<int, int, int> func = expression.Compile();
 
             // x = 7, y = 8
-            Console.WriteLine($"1*2+{})
+            Console.WriteLine($"1*2+{7}-{8}) = {func(7, 8)}");
         }
     }
 }
