@@ -38,6 +38,16 @@ namespace _0003._AdvanceGrammar
 
     class MainApp
     {
+        static void Main(string[] args)
+        {
+            FriendList obj = new FriendList();
+            obj.Add("Eeny");
+            obj.Add("Meeny");
+            obj.Add("Miny");
+            obj.Remove("Eney");
+            obj.PrintAll();
 
+            Console.WriteLine($"{obj.Capacity}");
+        }
     }
 }
