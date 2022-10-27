@@ -20,5 +20,14 @@ namespace _0003._AdvanceGrammar
 
         public FriendList() => Console.WriteLine("FriendList()");
         ~FriendList() => Console.WriteLine("~FriendList()");
+
+        // public int Capacity => list.Capacity; // 읽기 전용
+        public int Capacity // 속성
+        {
+            get => list.Capacity;
+            set => list.Capacity = value;
+        }
+
+        // public string this[int index] => list[index]; // 읽기 전용
     }
 }
