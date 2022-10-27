@@ -29,5 +29,15 @@ namespace _0003._AdvanceGrammar
         }
 
         // public string this[int index] => list[index]; // 읽기 전용
+        public string this[int index]
+        {
+            get => list[index];
+            set => list[index] = value;
+        }
+    }
+
+    class MainApp
+    {
+
     }
 }
