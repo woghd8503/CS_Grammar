@@ -48,6 +48,12 @@ namespace _0003._AdvanceGrammar
             obj.PrintAll();
 
             Console.WriteLine($"{obj.Capacity}");
+            obj.Capacity = 10;
+            Console.WriteLine($"{obj.Capacity}");
+
+            Console.WriteLine($"{obj[0]}");
+            obj[0] = "Moe";
+            obj.PrintAll();
         }
     }
 }
