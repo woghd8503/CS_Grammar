@@ -19,8 +19,6 @@ namespace _0003._AdvanceGrammar
 
             foreach (int n in result)
                 Console.WriteLine($"짝수 : {n}");
-
-
         }
     }
 }
