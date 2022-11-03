@@ -25,6 +25,7 @@
     <Compile Remove="014_ExpressionBodiedMember.cs" />
     <Compile Remove="015_Test.cs" />
     <Compile Remove="016_From.cs" />
+    <Compile Remove="017_SimpleLinq.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,6 +45,7 @@
     <None Include="014_ExpressionBodiedMember.cs" />
     <None Include="015_Test.cs" />
     <None Include="016_From.cs" />
+    <None Include="017_SimpleLinq.cs" />
   </ItemGroup>
 
 </Project>
