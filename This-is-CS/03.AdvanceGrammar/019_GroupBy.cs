@@ -15,7 +15,11 @@ namespace _0003._AdvanceGrammar
     {
         static void Main(string[] args)
         {
-            new Profile() { }
+            Profile[] arrProfile =
+            {
+            new Profile() {name="정우성", Height=186},
+            new Profile() {name="김태희", Height=158},
+            }
         }
     }
 }
