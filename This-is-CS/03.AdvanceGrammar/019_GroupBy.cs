@@ -23,8 +23,20 @@ namespace _0003._AdvanceGrammar
             new Profile() {name="하하", Height=171},
             };
 
-            var listProfile = from pofile in arrProfile
-                              orderby pro
+            var listProfile = from profile in arrProfile
+                              orderby profile.Height
+                              group profile by profile.Height < 175 into g
+                              select new { Groupkey = g.Key, Profiles = g };
+
+            foreach (var Group in listProfile)
+            {
+                Console.WriteLine();
+                
+                foreach (var profile in Group.Profiles)
+                {
+                    Console.WriteLine($">>> {profile.name}, {profile.Height}");
+                }
+            }
         }
     }
 }
