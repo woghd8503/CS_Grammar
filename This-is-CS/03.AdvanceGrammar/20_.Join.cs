@@ -44,9 +44,6 @@ namespace _0003._AdvanceGrammar
                 from pofile in arrProfile
                 join product in 
 
-            var listProfile =
-                from profile in arrProfile
-                join product in arrProduct on 
         }
     }
 }
