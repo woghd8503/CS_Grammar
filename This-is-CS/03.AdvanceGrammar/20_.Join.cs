@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -61,7 +62,21 @@ namespace _0003._AdvanceGrammar
                 from profile in arrProfile
                 join product in arrProduct on profile.Name equals product.
                 Star into ps
+                from product in ps.DefaultIfEmpty(new Product() { Title = "그런거 없음" })
+                select new
+                {
+                    Name = profile.Name,
+                    Work = product.Title,
+                    Height = profile.Height
+                };
 
+            Console.WriteLine();
+            Console.WriteLine("--- 외부 조인 결과 ---");
+            foreach (var profile in listProfile)
+            {
+                Console.WriteLine("이름:{0}, 작품:{1}, 키:{2}cm",
+                    profile.Name, profile.Work, profile.Height);
+            }
         }
     }
 }
