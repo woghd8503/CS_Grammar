@@ -14,8 +14,8 @@ namespace _0003._AdvanceGrammar
 
     class Product
     {
-        public string Tile { get; set; }
-        public string Start { get; set; }
+        public string Title { get; set; }
+        public string Star { get; set; }
     }
 
     class MainApp
@@ -41,8 +41,26 @@ namespace _0003._AdvanceGrammar
             };
 
             var listProfile =
-                from pofile in arrProfile
-                join product in 
+                from profile in arrProfile
+                join product in arrProduct on profile.Name equals product.Star
+                select new
+                {
+                    Name = profile.Name,
+                    Work = product.Title,
+                    Height = profile.Height
+                };
+
+            Console.WriteLine("--내부 조인 결과 ---");
+            foreach (var profile in listProfile)
+            {
+                Console.WriteLine("이름:{0}, 작품:{1}, 키:{2}cm", 
+                    profile.Name, profile.Work, profile.Height);
+            }
+
+            listProfile =
+                from profile in arrProfile
+                join product in arrProduct on profile.Name equals product.
+                Star into ps
 
         }
     }
