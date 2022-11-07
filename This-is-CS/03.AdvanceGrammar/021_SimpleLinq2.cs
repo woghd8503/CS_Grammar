@@ -11,7 +11,14 @@ namespace _0003._AdvanceGrammar
         public string Name { get; set; }
         public int Height { get; set; }
     }
-    internal class _021_SimpleLinq2
+    class MainApp
     {
+        static void Main(string[] args)
+        {
+            Profile[] arrProfile =
+            {
+                new Profile(){ }
+            }
+        }
     }
 }
