@@ -29,6 +29,7 @@
     <Compile Remove="018_FromFrom.cs" />
     <Compile Remove="019_GroupBy.cs" />
     <Compile Remove="020_.Join.cs" />
+    <Compile Remove="021_SimpleLinq2.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -52,6 +53,7 @@
     <None Include="018_FromFrom.cs" />
     <None Include="019_GroupBy.cs" />
     <None Include="020_.Join.cs" />
+    <None Include="021_SimpleLinq2.cs" />
   </ItemGroup>
 
 </Project>

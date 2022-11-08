@@ -13,6 +13,12 @@ namespace _0003._AdvanceGrammar
     }
     internal class _022_MinMaxAvg
     {
-
+        static void Main(string[] args)
+        {
+            Profile[] arrProfile =
+            {
+                new Profile(){Name="정우성", Height=186},
+            }
+        }
     }
 }
