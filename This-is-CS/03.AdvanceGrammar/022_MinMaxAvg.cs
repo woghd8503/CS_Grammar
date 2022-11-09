@@ -18,6 +18,8 @@ namespace _0003._AdvanceGrammar
             Profile[] arrProfile =
             {
                 new Profile(){Name="정우성", Height=186},
+                new Profile(){Name="김태희", Height=158},
+
             }
         }
     }
