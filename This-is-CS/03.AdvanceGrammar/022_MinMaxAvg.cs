@@ -26,6 +26,7 @@ namespace _0003._AdvanceGrammar
 
             var heightStat = from profile in arrProfile
                              group profile by profile.Height.Height
+
         }
     }
 }
