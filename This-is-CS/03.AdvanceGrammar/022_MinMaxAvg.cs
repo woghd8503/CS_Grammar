@@ -22,11 +22,19 @@ namespace _0003._AdvanceGrammar
                 new Profile(){Name="고현정", Height=172},
                 new Profile(){Name="이문세", Height=178},
                 new Profile(){Name="하하", Height=171},
-            };#
+            };
 
 
             var heightStat = from profile in arrProfile
-                             group profile by profile.Height.Height
+                             group profile by profile.Height < 175 into g
+                             select new
+                             {
+                                 Group   = g.Key == true ? "175미만" : "175이상",
+                                 Count   = g.Count(),
+                                 Max     = g.Max(profile => profile.Height),
+                                 Min     = g.Min(profile => profile.Height),
+                                 Average = g.Average(profile => profile.Height)
+                             };
 
         }
     }
