@@ -35,7 +35,13 @@ namespace _0003._AdvanceGrammar
                                  Min     = g.Min(profile => profile.Height),
                                  Average = g.Average(profile => profile.Height)
                              };
-
+            foreach(var stat in heightStat)
+            {
+                Console.Write("{0} - Count:{1}, Max:{2}, ",
+                    stat.Group, stat.Count, stat.Max);
+                Console.WriteLine("Min:{0}, Average:{1}",
+                    stat.Min, stat.Average);
+            }
         }
     }
 }
