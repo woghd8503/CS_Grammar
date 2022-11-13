@@ -30,6 +30,7 @@
     <Compile Remove="019_GroupBy.cs" />
     <Compile Remove="020_.Join.cs" />
     <Compile Remove="021_SimpleLinq2.cs" />
+    <Compile Remove="022_MinMaxAvg.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +55,7 @@
     <None Include="019_GroupBy.cs" />
     <None Include="020_.Join.cs" />
     <None Include="021_SimpleLinq2.cs" />
+    <None Include="022_MinMaxAvg.cs" />
   </ItemGroup>
 
 </Project>
