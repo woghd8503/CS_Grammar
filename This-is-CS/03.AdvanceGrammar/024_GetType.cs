@@ -10,7 +10,7 @@ namespace _0003._AdvanceGrammar
     {
         static void PrintInterfaces(Type type)
         {
-            Console.WriteLine(
+            Console.WriteLine(dd
         }
     }
     internal class _024_GetType
