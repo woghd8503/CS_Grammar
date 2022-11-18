@@ -42,6 +42,7 @@ namespace _0003._AdvanceGrammar
                 Console.WriteLine("Min:{0}, Average:{1}",
                     stat.Min, stat.Average);
 
+
             }
 
         }
