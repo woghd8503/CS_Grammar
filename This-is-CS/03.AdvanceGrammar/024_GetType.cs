@@ -24,7 +24,6 @@ namespace _0003._AdvanceGrammar
         {
             Console.WriteLine("---------- Fields ----------");
 
-<<<<<<< HEAD
             FieldInfo[] fields = type.GetFields(
                 BindingFlags.NonPublic |
                 BindingFlags.Public |
@@ -34,12 +33,13 @@ namespace _0003._AdvanceGrammar
             foreach(FieldInfo field in fields)
             {
                 String accessLevel = "protected";
+                if (field.IsPublic) accessLevel = "public";
+                else if (field.IsPrivate) accessLevel = "private";
+
+                Console.WriteLine("Access:{0}, Type:{1}, Name:{2}", accessLevel, field.FieldType.Name, field.Name);
             }
 
-                )
-=======
-            FieldInfo[] fields = type.GetFields()
->>>>>>> f78bd50f139acbd6788782f0991ab337dbe46ba2
+            Console.WriteLine();
         }
     }
     internal class _024_GetType
