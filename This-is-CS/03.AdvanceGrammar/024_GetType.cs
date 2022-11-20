@@ -24,6 +24,7 @@ namespace _0003._AdvanceGrammar
         {
             Console.WriteLine("---------- Fields ----------");
 
+<<<<<<< HEAD
             FieldInfo[] fields = type.GetFields(
                 BindingFlags.NonPublic |
                 BindingFlags.Public |
@@ -36,6 +37,9 @@ namespace _0003._AdvanceGrammar
             }
 
                 )
+=======
+            FieldInfo[] fields = type.GetFields()
+>>>>>>> f78bd50f139acbd6788782f0991ab337dbe46ba2
         }
     }
     internal class _024_GetType
