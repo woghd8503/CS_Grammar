@@ -41,10 +41,7 @@ namespace _0003._AdvanceGrammar
                     stat.Group, stat.Count, stat.Max);
                 Console.WriteLine("Min:{0}, Average:{1}",
                     stat.Min, stat.Average);
-
-
             }
-
         }
     }
 }
