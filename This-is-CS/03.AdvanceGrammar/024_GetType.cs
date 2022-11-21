@@ -48,6 +48,17 @@ namespace _0003._AdvanceGrammar
         Console.WriteLine("---------- Methods ----------");
 
         MethodInfo[] methods = type.GetMethods();
-        foreach ()
+        foreach (MethodInfo method in methods)
+        {
+            Console.Write("Type{0}, Name:{1}, Parameter:",
+                method.ReturnType.Name, method.Name);
+
+            ParameterInfo[] args = method.GetParameters();
+            for(int i = 0; i < args.Length; i++)
+            {
+                Console.Write();
+            }
+               
+        }
     }
 }
