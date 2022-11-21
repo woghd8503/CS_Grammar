@@ -56,9 +56,17 @@ namespace _0003._AdvanceGrammar
             ParameterInfo[] args = method.GetParameters();
             for(int i = 0; i < args.Length; i++)
             {
-                Console.Write();
+                Console.Write("{0}", args[i].ParameterType.Name);
+                if(i < args.Length - 1)
+                    Console.Write(", ");
             }
-               
+            Console.WriteLine();
         }
+        Console.WriteLine();
+    }
+
+    static void PrintProperties(Type type)
+    {
+
     }
 }
