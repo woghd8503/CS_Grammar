@@ -42,8 +42,12 @@ namespace _0003._AdvanceGrammar
             Console.WriteLine();
         }
     }
-    internal class _024_GetType
-    {
 
+    static void PrintMethods(Type type)
+    {
+        Console.WriteLine("---------- Methods ----------");
+
+        MethodInfo[] methods = type.GetMethods();
+        foreach ()
     }
 }
