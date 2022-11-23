@@ -69,6 +69,18 @@ namespace _0003._AdvanceGrammar
             Console.WriteLine("---------- Properties ----------");
 
             PropertyInfo[] properties = type.GetProperties();
+                foreach (PropertyInfo property in properties)
+                Console.WriteLine("Type:{0}, Name:{1}", property.PropertyType.Name, property.Name);
+
+            Console.WriteLine();
+        }
+
+        static void Main(string[] args)
+        {
+            int a = 0;
+            Type type = a.GetType();
+
+
         }
     }
 }
