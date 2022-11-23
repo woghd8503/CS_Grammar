@@ -66,7 +66,9 @@ namespace _0003._AdvanceGrammar
 
         static void PrintProperties(Type type)
         {
+            Console.WriteLine("---------- Properties ----------");
 
+            PropertyInfo[] properties = type.GetProperties();
         }
     }
 }
