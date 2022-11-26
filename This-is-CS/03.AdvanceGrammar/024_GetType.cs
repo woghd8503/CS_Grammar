@@ -80,7 +80,10 @@ namespace _0003._AdvanceGrammar
             int a = 0;
             Type type = a.GetType();
 
-
+            PrintInterfaces(type);
+            PrintFields(type);
+            PrintProperties(type);
+            PrintMethods(type);
         }
     }
 }
