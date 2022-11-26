@@ -32,6 +32,7 @@
     <Compile Remove="021_SimpleLinq2.cs" />
     <Compile Remove="022_MinMaxAvg.cs" />
     <Compile Remove="023_Test.cs" />
+    <Compile Remove="024_GetType.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -58,6 +59,7 @@
     <None Include="021_SimpleLinq2.cs" />
     <None Include="022_MinMaxAvg.cs" />
     <None Include="023_Test.cs" />
+    <None Include="024_GetType.cs" />
   </ItemGroup>
 
 </Project>
