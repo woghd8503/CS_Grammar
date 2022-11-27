@@ -33,6 +33,7 @@
     <Compile Remove="022_MinMaxAvg.cs" />
     <Compile Remove="023_Test.cs" />
     <Compile Remove="024_GetType.cs" />
+    <Compile Remove="025_DynamicInstance.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -60,6 +61,7 @@
     <None Include="022_MinMaxAvg.cs" />
     <None Include="023_Test.cs" />
     <None Include="024_GetType.cs" />
+    <None Include="025_DynamicInstance.cs" />
   </ItemGroup>
 
 </Project>
