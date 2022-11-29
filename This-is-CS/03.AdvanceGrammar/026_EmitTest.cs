@@ -18,7 +18,9 @@ namespace _0003._AdvanceGrammar
 
             ModuleBuilder newModule = newAssembly.DefineDynamicModule(
                 "Calculator");
-            TypeBuilder new
+            TypeBuilder newType = newModule.DefineType("Sum1To100");
+
+            MethodBuilder newMethod
         }
     }
 }
