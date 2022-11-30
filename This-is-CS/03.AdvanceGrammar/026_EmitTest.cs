@@ -20,7 +20,7 @@ namespace _0003._AdvanceGrammar
                 "Calculator");
             TypeBuilder newType = newModule.DefineType("Sum1To100");
 
-            MethodBuilder newMethod
+            MethodBuilder newMethod 
         }
     }
 }
