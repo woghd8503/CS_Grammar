@@ -20,7 +20,11 @@ namespace _0003._AdvanceGrammar
                 "Calculator");
             TypeBuilder newType = newModule.DefineType("Sum1To100");
 
-            MethodBuilder newMethod 
+            MethodBuilder newMethod = newType.DefineMethod(
+                "Calculate",
+                System.Reflection.MethodAttributes.Public,
+                typeof(int),   // 반환 형식
+                new Type[0]);  // 매개 변수
         }
     }
 }
