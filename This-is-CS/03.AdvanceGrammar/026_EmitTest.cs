@@ -15,12 +15,6 @@ namespace _0003._AdvanceGrammar
                 AssemblyBuilder.DefineDynamicAssembly(
                     new AssemblyName("CalculatorAssemby"),
                     AssemblyBuilderAccess.Run);
-
-
-
-
-
-
         }
     }
 }
