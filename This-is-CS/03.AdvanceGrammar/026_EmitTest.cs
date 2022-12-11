@@ -15,6 +15,10 @@ namespace _0003._AdvanceGrammar
                 AssemblyBuilder.DefineDynamicAssembly(
                     new AssemblyName("CalculatorAssemby"),
                     AssemblyBuilderAccess.Run);
+
+            ModuleBuilder newModule = newAssembly.DefineType("Sum1To100");
+
+            MethodBuilder 
         }
     }
 }
