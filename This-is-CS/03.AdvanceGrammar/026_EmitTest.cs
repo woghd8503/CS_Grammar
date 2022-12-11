@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,15 @@ namespace _0003._AdvanceGrammar
 
             ModuleBuilder newModule = newAssembly.DefineType("Sum1To100");
 
-            MethodBuilder 
+            MethodBuilder newType = newModule.DefineType(
+                "Calculate",
+                MethodAttributes.Public,
+                typeof(int),   // 반환 형식
+                new Type[0]);  //  매개변수
+
+            ILGenerator generator = newMethod.GetILGenerator();
+
+
         }
     }
 }
