@@ -35,7 +35,10 @@ namespace _0003._AdvanceGrammar
                 generator.Emit(OpCodes.Add);
             }
 
-            generator.Emit(OpCodes.Ldc)
+            generator.Emit(OpCodes.Ret);
+            newType.CreateType();
+
+            object sum1To200 = Activator.CreateInstance(newType);
         }
     }
 }
