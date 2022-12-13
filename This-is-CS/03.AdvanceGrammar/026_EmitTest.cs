@@ -27,9 +27,15 @@ namespace _0003._AdvanceGrammar
 
             ILGenerator generator = newMethod.GetILGenerator();
 
+            generator.Emit(OpCodes.Ldc_I4, 1);
 
+            for(int i = 2; i <= 100; i++)
+            {
+                generator.Emit(OpCodes.Ldc_I4, i);
+                generator.Emit(OpCodes.Add);
+            }
 
-
+            generator.Emit(OpCodes.Ldc)
         }
     }
 }
