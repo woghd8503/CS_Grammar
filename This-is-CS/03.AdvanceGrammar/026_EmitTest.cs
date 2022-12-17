@@ -12,15 +12,15 @@ namespace _0003._AdvanceGrammar
     {
         public static void Main()
         {
-            AssemblyBuilder assembly =
+            AssemblyBuilder newAssembly =
                 AssemblyBuilder.DefineDynamicAssembly(
                     new AssemblyName("CalculatorAssemby"),
                     AssemblyBuilderAccess.Run);
 
-            ModuleBuilder newModule = newAssembly.DefineType("Sum1To100");
+            ModuleBuilder newModule = newAssembly.DefineDynamicModule("Calculator");
 
-            MethodBuilder newType = newModule.DefineType(
-                "Calculate",
+            TypeBuilder newType = Module.DefineType("Sum1To100");
+
                 MethodAttributes.Public,
                 typeof(int),   // 반환 형식
                 new Type[0]);  //  매개변수
@@ -38,7 +38,12 @@ namespace _0003._AdvanceGrammar
             generator.Emit(OpCodes.Ret);
             newType.CreateType();
 
-            object sum1To200 = Activator.CreateInstance(newType);
+            object sum1To100 = Activator.CreateInstance(newType);
+
+            MethodInfo Calculate = sum1To100.GetType().
+                GetMethod("Calculate");
+            Console.WriteLine(Calculate.Invoke(sum1To100, null));
+
 
 
         }
