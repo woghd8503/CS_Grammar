@@ -19,8 +19,10 @@ namespace _0003._AdvanceGrammar
 
             ModuleBuilder newModule = newAssembly.DefineDynamicModule("Calculator");
 
-            TypeBuilder newType = Module.DefineType("Sum1To100");
+            TypeBuilder newType = newModule.DefineType("Sum1To100");
 
+            MethodBuilder newMethod = newType.DefineMethod(
+                "Calculate",
                 MethodAttributes.Public,
                 typeof(int),   // 반환 형식
                 new Type[0]);  //  매개변수
@@ -43,9 +45,6 @@ namespace _0003._AdvanceGrammar
             MethodInfo Calculate = sum1To100.GetType().
                 GetMethod("Calculate");
             Console.WriteLine(Calculate.Invoke(sum1To100, null));
-
-
-
         }
     }
 }
