@@ -35,6 +35,7 @@
     <Compile Remove="024_GetType.cs" />
     <Compile Remove="025_DynamicInstance.cs" />
     <Compile Remove="026_EmitTest.cs" />
+    <Compile Remove="027_BasicAttribute.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -64,6 +65,7 @@
     <None Include="024_GetType.cs" />
     <None Include="025_DynamicInstance.cs" />
     <None Include="026_EmitTest.cs" />
+    <None Include="027_BasicAttribute.cs" />
   </ItemGroup>
 
 </Project>
