@@ -45,7 +45,15 @@ namespace _01.BasicGrammar
             Type type = typeof(MyClass);
             Attribute[] attributes = Attribute.GetCustomAttributes(type);
 
-            Console.WriteLine();
+            Console.WriteLine("MyClass change history...");
+
+            foreach(Attribute a in attributes)
+            {
+                History h = a as Histroy;
+                if(h != null)
+                    Console.WriteLine("Ver:{0}, Programmer:{1}, Changes:{2}", 
+                        h.version, h.GetProgrammer(), h.changes);
+            }
         }
     }
 }
