@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace _01.BasicGrammar
 {
     [AttributeUsage(System.AttributeTargets.Class, AllowMultiple = true)]
-    class Histroy : System.Attribute
+    class History : System.Attribute
     {
         private string programmer;
         public double version;
         public string changes;
 
-        public Histroy(string programmer)
+        public History(string programmer)
         {
             this.programmer = programmer;
             version = 1.0;
@@ -26,9 +26,9 @@ namespace _01.BasicGrammar
         }
     }
 
-    [Histroy("Sean", 
+    [History("Sean", 
         version = 0.1, changes = "2017-11-01 Created class stub")]
-    [Histroy("Bob",
+    [History("Bob",
         version = 0.2, changes = "2020-12-03 Added Func() Method")]
     class MyClass
     {
@@ -49,7 +49,7 @@ namespace _01.BasicGrammar
 
             foreach(Attribute a in attributes)
             {
-                History h = a as Histroy;
+                History h = a as History;
                 if(h != null)
                     Console.WriteLine("Ver:{0}, Programmer:{1}, Changes:{2}", 
                         h.version, h.GetProgrammer(), h.changes);
