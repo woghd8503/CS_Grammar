@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace _0003._AdvanceGrammar
 {
-    internal class _031_DuckTyping
+    class Duck
     {
+        public void Walk()
+        { Console.WriteLine(this.GetType() + ".Walk"); }
+
+        public void Swim()
+        { Console.WriteLine(this.GetType() + ".Swim"); }
+
+        public void Quack()
+        { Console.WriteLine(this.GetType() + ".Quack"); }
+
+        class Mallard : Duck 
+        { }
+
+        class Robot
+        {
+
+        }
     }
 }
