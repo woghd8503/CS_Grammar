@@ -26,5 +26,26 @@ namespace _01.BasicGrammar
         }
     }
 
-    [Histroy]
+    [Histroy("Sean", 
+        version = 0.1, changes = "2017-11-01 Created class stub")]
+    [Histroy("Bob",
+        version = 0.2, changes = "2020-12-03 Added Func() Method")]
+    class MyClass
+    {
+        public void Func()
+        {
+            Console.WriteLine("Func()");
+        }
+    }
+
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            Type type = typeof(MyClass);
+            Attribute[] attributes = Attribute.GetCustomAttributes(type);
+
+            Console.WriteLine();
+        }
+    }
 }
