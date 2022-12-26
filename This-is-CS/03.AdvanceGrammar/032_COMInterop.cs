@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace _0003._AdvanceGrammar
 {
-    internal class _032_COMInterop
+    class MainApp
     {
+        public static void OldWay(string[,] data, string savePath)
+        {
+
+            {
+
+            }
+        }
     }
 }
