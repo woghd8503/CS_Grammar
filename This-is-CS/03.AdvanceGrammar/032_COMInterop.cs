@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excel = Microsoft.
 
 namespace _0003._AdvanceGrammar
 {
@@ -10,7 +11,7 @@ namespace _0003._AdvanceGrammar
     {
         public static void OldWay(string[,] data, string savePath)
         {
-
+            Excel.Application excelApp = new Excel.Application();
             {
 
             }
