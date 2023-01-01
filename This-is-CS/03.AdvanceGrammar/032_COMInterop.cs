@@ -15,13 +15,15 @@ namespace _0003._AdvanceGrammar
 
             excelApp.Workbooks.Add(Type.Missing);
 
+            Excel.Worksheet worksheet = (Excel.Worksheet)excelApp.ActiveSheet;
 
-
-
-            Excel.Application excelApp = new Excel.Application();
+            for(int i = 0; i < data.GetLength(0); i++)
             {
-
+                ((Excel.Range)worksheet.Cells[i + 1, 1]).Value2 = data[i, 0];
+                ((Excel.Range)worksheet.Cells[i + 1, 2]).Value2 = data[i, 1];
             }
+
+            worksheet.SaveAs2
         }
     }
 }
