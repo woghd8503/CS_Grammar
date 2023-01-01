@@ -43,3 +43,5 @@ D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\CS_Grammar\This-is-CS\03.AdvanceGramma
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\CS_Grammar\This-is-CS\03.AdvanceGrammar\bin\Debug\net6.0\0003. AdvanceGrammar.pdb
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.genruntimeconfig.cache
 D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\ref\0003. AdvanceGrammar.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\01.Coding_study\CS_ThisIsCS\CS_Grammar\CS_Grammar\This-is-CS\03.AdvanceGrammar\obj\Debug\net6.0\0003. AdvanceGrammar.csproj.ResolveComReference.cache
