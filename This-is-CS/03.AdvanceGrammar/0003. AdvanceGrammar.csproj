@@ -39,6 +39,7 @@
     <Compile Remove="028_CallerInfo.cs" />
     <Compile Remove="029_HistroyAttribute.cs" />
     <Compile Remove="031_DuckTyping.cs" />
+    <Compile Remove="032_COMInterop.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -85,6 +86,7 @@
     <None Include="028_CallerInfo.cs" />
     <None Include="029_HistroyAttribute.cs" />
     <None Include="031_DuckTyping.cs" />
+    <None Include="032_COMInterop.cs" />
   </ItemGroup>
 
 </Project>
