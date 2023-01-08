@@ -89,4 +89,8 @@
     <None Include="032_COMInterop.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DynamicLanguageRuntime" Version="1.3.3" />
+  </ItemGroup>
+
 </Project>
