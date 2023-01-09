@@ -19,6 +19,22 @@ namespace _0003._AdvanceGrammar
                 ScriptScope scope = engine.CreateScope();
                 scope.SetVariable("n", "박상현");
                 scope.SetVariable("p", "010-123-4566");
+
+                ScriptSource source = engine.CreateScriptSourceFromString(
+                    @"
+class NameCard :
+name = ''
+phone = ''
+
+def __init__(self, name, phone) :
+    self.name = name
+    self.phone = phone
+
+def printNameCard(self) :
+    print self.name + ', ' + self.phone
+
+NameCard(n, p)
+");
             }
         }
         // 
