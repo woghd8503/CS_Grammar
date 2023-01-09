@@ -35,9 +35,11 @@ def printNameCard(self) :
 
 NameCard(n, p)
 ");
+                dynamic result = source.Execute(scope);
+                result.printNameCard();
+
+                Console.WriteLine("{0}, {1}", result.name, result.phone);
             }
         }
-        // 
-
     }
 }
