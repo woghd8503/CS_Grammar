@@ -40,6 +40,7 @@
     <Compile Remove="029_HistroyAttribute.cs" />
     <Compile Remove="031_DuckTyping.cs" />
     <Compile Remove="032_COMInterop.cs" />
+    <Compile Remove="033_WithPyton.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -87,6 +88,7 @@
     <None Include="029_HistroyAttribute.cs" />
     <None Include="031_DuckTyping.cs" />
     <None Include="032_COMInterop.cs" />
+    <None Include="033_WithPyton.cs" />
   </ItemGroup>
 
   <ItemGroup>
