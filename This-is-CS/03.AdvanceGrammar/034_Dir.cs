@@ -30,7 +30,12 @@ namespace _0003._AdvanceGrammar
                 Console.WriteLine($"{d.Name} : {d.Attributes}");
 
             Console.WriteLine("- Files :");
-            var files = (from file in Dir)
+            var files = (from file in Directory.GetFiles(directory))
+                let info = new FileInfo(file)
+                select new
+                {
+
+                }
         }
 
     }
