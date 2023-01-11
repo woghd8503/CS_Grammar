@@ -34,8 +34,11 @@ namespace _0003._AdvanceGrammar
                 let info = new FileInfo(file)
                 select new
                 {
+                    Name = info.Name,
+                    Attributes = info.Attributes
+                }).ToList();
 
-                }
+            foreach(var )
         }
 
     }
