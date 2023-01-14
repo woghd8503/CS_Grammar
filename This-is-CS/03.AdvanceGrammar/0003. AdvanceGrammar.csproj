@@ -41,6 +41,7 @@
     <Compile Remove="031_DuckTyping.cs" />
     <Compile Remove="032_COMInterop.cs" />
     <Compile Remove="033_WithPyton.cs" />
+    <Compile Remove="034_Dir.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -89,6 +90,7 @@
     <None Include="031_DuckTyping.cs" />
     <None Include="032_COMInterop.cs" />
     <None Include="033_WithPyton.cs" />
+    <None Include="034_Dir.cs" />
   </ItemGroup>
 
   <ItemGroup>
