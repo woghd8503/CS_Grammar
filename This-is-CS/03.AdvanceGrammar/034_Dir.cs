@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace _0003._AdvanceGrammar
 {
@@ -30,18 +31,18 @@ namespace _0003._AdvanceGrammar
                 Console.WriteLine($"{d.Name} : {d.Attributes}");
 
             Console.WriteLine("- Files :");
-            var files = (from file in Directory.GetFiles(directory))
+            var files = (from file in Directory.GetFiles(directory)
                 let info = new FileInfo(file)
                 select new
                 {
                     Name = info.Name,
+                    FileSize = info.Length,
                     Attributes = info.Attributes
                 }).ToList();
 
-            foreach(var )
-
-
+            foreach (var f in files)
+                Console.WriteLine(
+                    $"{f.Name} : {f.FileSize}, {f.Attributes}");
         }
-
     }
 }
