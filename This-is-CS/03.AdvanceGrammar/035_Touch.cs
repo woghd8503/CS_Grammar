@@ -53,7 +53,6 @@ namespace _0003._AdvanceGrammar
                     OnWrongPathType(path);
                     return;
                 }
-
                 Console.WriteLine($"Created {path} {type}");
             }
         }
