@@ -11,7 +11,12 @@ namespace _0003._AdvanceGrammar
         static void Main(string[] args)
         {
             long someValue = 0x123456789ABCDEF0;
-            Console.WriteLine("{0,-1} : 0X{1:}");
+            Console.WriteLine("{0,-1} : 0X{1:X16}", "Original Data", someValue);
+
+            Stream outStream = new FileStream("a.dat", FileMode.Create);
+            byte[] wBytes = BitConverter.GetBytes(someValue);
+
+            Console.Write("{0,-13} : ", "Byte array");
         }
     }
 }
