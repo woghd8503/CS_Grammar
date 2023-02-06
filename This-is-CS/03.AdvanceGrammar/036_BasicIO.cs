@@ -17,6 +17,10 @@ namespace _0003._AdvanceGrammar
             byte[] wBytes = BitConverter.GetBytes(someValue);
 
             Console.Write("{0,-13} : ", "Byte array");
+
+            foreach (byte b in wBytes)
+                Console.Write("{0, -13}");
+                    
         }
     }
 }
