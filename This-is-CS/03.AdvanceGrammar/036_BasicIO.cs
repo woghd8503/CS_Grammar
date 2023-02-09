@@ -20,7 +20,6 @@ namespace _0003._AdvanceGrammar
 
             foreach (byte b in wBytes)
                 Console.Write("{0, -13}");
-                    
         }
     }
 }
