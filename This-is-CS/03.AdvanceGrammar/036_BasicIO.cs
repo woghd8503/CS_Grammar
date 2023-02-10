@@ -19,7 +19,7 @@ namespace _0003._AdvanceGrammar
             Console.Write("{0,-13} : ", "Byte array");
 
             foreach (byte b in wBytes)
-                Console.Write("{0:X2}", "b");
+                Console.Write("{0:X2}", b);
             Console.WriteLine();
 
             outStream.Write(wBytes, 0, wBytes.Length);
@@ -36,7 +36,6 @@ namespace _0003._AdvanceGrammar
 
             Console.WriteLine("{0,-13} : 0x{1:X16} ", "Read Data", readValue);
             inStream.Close();
-            
         }
     }
 }
