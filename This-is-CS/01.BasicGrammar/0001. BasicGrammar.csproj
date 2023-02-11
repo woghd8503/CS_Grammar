@@ -103,6 +103,7 @@
     <None Include="070_OptionalParameter.cs" />
     <None Include="069_NamedParameter.cs" />
     <None Include="068_UsingParams.cs" />
+    <Compile Include="037_SeqNRand.cs" />
     <Compile Include="067_Overloading.cs" />
     <None Include="066_UsingOut.cs" />
     <None Include="065_ RefReturn.cs" />
