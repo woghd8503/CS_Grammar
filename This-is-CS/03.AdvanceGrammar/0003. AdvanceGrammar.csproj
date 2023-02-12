@@ -45,6 +45,7 @@
     <Compile Remove="035_Touch.cs" />
     <Compile Remove="036_BasicIO.cs" />
     <Compile Remove="037_SeqNRand.cs" />
+    <Compile Remove="038_UsingDeclaration.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -97,6 +98,7 @@
     <None Include="035_Touch.cs" />
     <None Include="036_BasicIO.cs" />
     <None Include="037_SeqNRand.cs" />
+    <None Include="038_UsingDeclaration.cs" />
   </ItemGroup>
 
   <ItemGroup>
