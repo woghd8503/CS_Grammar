@@ -43,6 +43,7 @@
     <Compile Remove="033_WithPyton.cs" />
     <Compile Remove="034_Dir.cs" />
     <Compile Remove="035_Touch.cs" />
+    <Compile Remove="036_BasicIO.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -93,6 +94,7 @@
     <None Include="033_WithPyton.cs" />
     <None Include="034_Dir.cs" />
     <None Include="035_Touch.cs" />
+    <None Include="036_BasicIO.cs" />
   </ItemGroup>
 
   <ItemGroup>
