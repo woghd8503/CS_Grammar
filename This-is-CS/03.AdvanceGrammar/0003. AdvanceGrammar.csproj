@@ -46,6 +46,7 @@
     <Compile Remove="036_BasicIO.cs" />
     <Compile Remove="037_SeqNRand.cs" />
     <Compile Remove="038_UsingDeclaration.cs" />
+    <Compile Remove="039_BinaryFile.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -99,6 +100,7 @@
     <None Include="036_BasicIO.cs" />
     <None Include="037_SeqNRand.cs" />
     <None Include="038_UsingDeclaration.cs" />
+    <None Include="039_BinaryFile.cs" />
   </ItemGroup>
 
   <ItemGroup>
