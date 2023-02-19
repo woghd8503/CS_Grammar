@@ -16,6 +16,21 @@ namespace _0003._AdvanceGrammar
             {
                 sw.WriteLine(int.MaxValue);
                 sw.WriteLine("Good morning!");
+                sw.WriteLine(uint.MaxValue);
+                sw.WriteLine("안녕하세요!");
+                sw.WriteLine(double.MaxValue);
+            }
+
+            using (StreamReader sr =
+                new StreamReader(
+                    new FileStream("a.txt", FileMode.Open)))
+            {
+                Console.WriteLine($"File size : {sr.BaseStream.Length} bytes");
+
+                while(sr.EndOfStream == false)
+                {
+                    Console.WriteLine(sr.ReadLine());
+                }
             }
         }
     }
