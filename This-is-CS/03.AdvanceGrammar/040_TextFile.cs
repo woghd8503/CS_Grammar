@@ -15,6 +15,7 @@ namespace _0003._AdvanceGrammar
                     new FileStream("a.txt", FileMode.Create)))
             {
                 sw.WriteLine(int.MaxValue);
+                sw.WriteLine("Good morning!");
             }
         }
     }
