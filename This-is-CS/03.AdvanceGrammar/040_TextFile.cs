@@ -32,7 +32,6 @@ namespace _0003._AdvanceGrammar
                     Console.WriteLine(sr.ReadLine());
                 }
             }
-
         }
     }
 }
