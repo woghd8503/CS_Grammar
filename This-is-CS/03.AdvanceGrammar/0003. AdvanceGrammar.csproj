@@ -47,6 +47,7 @@
     <Compile Remove="037_SeqNRand.cs" />
     <Compile Remove="038_UsingDeclaration.cs" />
     <Compile Remove="039_BinaryFile.cs" />
+    <Compile Remove="040_TextFile.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -101,6 +102,7 @@
     <None Include="037_SeqNRand.cs" />
     <None Include="038_UsingDeclaration.cs" />
     <None Include="039_BinaryFile.cs" />
+    <None Include="040_TextFile.cs" />
   </ItemGroup>
 
   <ItemGroup>
