@@ -11,5 +11,6 @@ namespace _0003._AdvanceGrammar
     internal class _042_SerializingCollection
     {
         [Serializable]
+
     }
 }
