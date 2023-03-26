@@ -42,6 +42,7 @@ namespace _0003._AdvanceGrammar
                 }
 
                 using Stream rs = new FileStream("a.dat", FileMode.Open);
+
             }
         }
 
