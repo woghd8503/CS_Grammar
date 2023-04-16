@@ -42,9 +42,17 @@ namespace _0003._AdvanceGrammar
                 }
 
                 using Stream rs = new FileStream("a.dat", FileMode.Open);
+                BinaryFormatter deserializer = new BinaryFormatter();
 
+                List<NameCard> list2;
+                list2 = (List<NameCard>deserializer.Deserialize(rs));
+
+                foreach(NameCard nc in list2)
+                {
+                    Console.WriteLine(
+                        $"Names: {nc.Name}, phone: {nc.Phone}, Age: {nc.Age}");
+                }
             }
         }
-
     }
 }
