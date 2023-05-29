@@ -51,6 +51,7 @@ namespace _0003._AdvanceGrammar
                 {
                     Console.WriteLine(
                         $"Names: {nc.Name}, phone: {nc.Phone}, Age: {nc.Age}");
+                
                 }
             }
         }
